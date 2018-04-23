@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33199838589966638}
   - component: {fileID: 23275946632743218}
   m_Layer: 0
-  m_Name: Desk_Divider
+  m_Name: TEMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
