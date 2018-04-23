@@ -1132,9 +1132,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InitialForce: 0
   m_Origin: {fileID: 1188177183}
-  m_Projectile: {fileID: 54387115083401966, guid: 8e4dd11ee00e7ce4db1d5209578c8203,
+  m_Projectile: {fileID: 54530688341152960, guid: f3a47c2866b095b43a2bdc25d077c43c,
     type: 2}
-  m_OriginalTimeForReload: 0
+  m_OriginalTimeForReload: 0.1
 --- !u!1 &1234492271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,9 +1415,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Origin: {fileID: 1505488904}
-  m_Projectile: {fileID: 54939204040716320, guid: 9455d3159459b784094a6f2d48ca7787,
+  m_Projectile: {fileID: 54387115083401966, guid: 8e4dd11ee00e7ce4db1d5209578c8203,
     type: 2}
-  m_OriginalTimeForReload: 1.5
+  m_OriginalTimeForReload: 0.1
   m_BulletSpeed: 50
   m_ShotCount: 13
   m_Spread: 0.01
