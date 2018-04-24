@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 m_Movement;
     private Rigidbody m_PlayerRigidBody;
     private int m_Floormask;
-    float m_CamRayLength = 100f;
+    private float m_CamRayLength = 1000f;
 
     private void Awake()
     {
