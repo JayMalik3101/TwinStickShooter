@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 198982483841384800}
   - component: {fileID: 199540117829649366}
   - component: {fileID: 54387115083401966}
+  - component: {fileID: 114902562474389576}
   m_Layer: 0
   m_Name: Heatbeam
   m_TagString: Untagged
@@ -57,6 +58,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114902562474389576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997096647034256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1a713a92447e6498bdb0b162392809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damage: 0
 --- !u!198 &198982483841384800
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -269,7 +282,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -560,7 +573,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 5
     enabled: 1
-    type: 10
+    type: 4
     angle: 0
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
