@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 273402987}
   - component: {fileID: 273402986}
   - component: {fileID: 273402989}
+  - component: {fileID: 273402990}
   m_Layer: 5
   m_Name: PlayerHealthCanvas (1)
   m_TagString: Untagged
@@ -387,6 +388,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec81c57ee89f17478089735873c16b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &273402990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 273402984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56be223fc95a3be459e34989f4c26982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Bar: {fileID: 1308390976}
 --- !u!1 &279316166
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +491,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b4a378ba0df2f4caf631e5f86c758a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Health: 40
+  m_MaxHealth: 1000
+  m_Health: 0
 --- !u!65 &279316171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -497,7 +511,7 @@ NavMeshAgent:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 279316166}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 1.0751067
   m_Speed: 3.5
@@ -729,7 +743,6 @@ GameObject:
   - component: {fileID: 701360725}
   - component: {fileID: 701360728}
   - component: {fileID: 701360727}
-  - component: {fileID: 701360726}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -757,20 +770,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &701360726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 701360724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56be223fc95a3be459e34989f4c26982, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Bar: {fileID: 1091255340}
-  m_HealthValue: 40
-  m_MaxHealth: 40
 --- !u!114 &701360727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1398,7 +1397,6 @@ GameObject:
   - component: {fileID: 1182583027}
   - component: {fileID: 1182583030}
   - component: {fileID: 1182583029}
-  - component: {fileID: 1182583028}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -1426,20 +1424,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1182583028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1182583026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56be223fc95a3be459e34989f4c26982, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Bar: {fileID: 1308390976}
-  m_HealthValue: 40
-  m_MaxHealth: 40
 --- !u!114 &1182583029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2266,6 +2250,7 @@ GameObject:
   - component: {fileID: 1830598987}
   - component: {fileID: 1830598986}
   - component: {fileID: 1830598985}
+  - component: {fileID: 1830598991}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2370,6 +2355,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830598991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1830598984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01820f4ea1ea7c24190b415a9026b2de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MaxHealth: 100
+  m_CurrentHealth: 0
 --- !u!1 &1981641069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,6 +2560,7 @@ GameObject:
   - component: {fileID: 2135883055}
   - component: {fileID: 2135883054}
   - component: {fileID: 2135883058}
+  - component: {fileID: 2135883059}
   m_Layer: 5
   m_Name: PlayerHealthCanvas
   m_TagString: Untagged
@@ -2656,3 +2655,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec81c57ee89f17478089735873c16b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2135883059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2135883053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56be223fc95a3be459e34989f4c26982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Bar: {fileID: 1091255340}
