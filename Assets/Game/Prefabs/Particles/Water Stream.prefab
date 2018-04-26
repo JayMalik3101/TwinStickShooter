@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 198173760737024674}
   - component: {fileID: 199827096807490026}
   - component: {fileID: 54415110612730406}
+  - component: {fileID: 114645477069950436}
+  - component: {fileID: 65609788012717996}
   m_Layer: 0
   m_Name: Water Stream
   m_TagString: Untagged
@@ -57,6 +59,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65609788012717996
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1771744744954158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114645477069950436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1771744744954158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1a713a92447e6498bdb0b162392809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damage: 5
 --- !u!198 &198173760737024674
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -269,7 +295,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -519,7 +545,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 3
+      scalar: 0
       minScalar: -0.8
       maxCurve:
         serializedVersion: 2
