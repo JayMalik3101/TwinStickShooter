@@ -44,6 +44,7 @@ ModelImporter:
     2300018: Right_Hand
     2300020: Torso
     2300022: Wheels
+    2300024: //RootNode
     3300000: Back_Wheel
     3300002: Front_Wheel
     3300004: Head
@@ -56,6 +57,7 @@ ModelImporter:
     3300018: Right_Hand
     3300020: Torso
     3300022: Wheels
+    3300024: //RootNode
     4300000: Head
     4300002: Left_Arm
     4300004: Left_Hand
@@ -68,6 +70,7 @@ ModelImporter:
     4300018: Back_Wheel
     4300020: Middle_Wheel
     4300022: Front_Wheel
+    4300024: Robot
   externalObjects: {}
   materials:
     importMaterials: 0
