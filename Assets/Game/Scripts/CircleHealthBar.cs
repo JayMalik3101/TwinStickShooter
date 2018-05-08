@@ -7,8 +7,8 @@ public class CircleHealthBar : MonoBehaviour {
     [SerializeField] private Image m_Bar;
     //public RectTransform m_Button; red knob 
 
-    private float m_HealthValue;
-    private float m_MaxHealth;
+  
+    private float m_CurrentHealthValue, m_MaxHealth;
 
     private bool m_IsEnemy;
 
@@ -28,18 +28,18 @@ public class CircleHealthBar : MonoBehaviour {
     }
 
     void Update () {
-        HealthChange(m_HealthValue);
+        HealthChange(m_CurrentHealthValue);
 	}
 
     private void HealthChange(float healthvalue)
     {
         if (m_IsEnemy == true)
         {
-            m_HealthValue = GetComponentInParent<EnemyHealth>().m_Health;
+            m_CurrentHealthValue = GetComponentInParent<EnemyHealth>().m_CurrentHealth;
         }
         if (m_IsEnemy == false)
         {
-            m_HealthValue = GetComponentInParent<PlayerStats>().m_CurrentHealth;
+            m_CurrentHealthValue = GetComponentInParent<PlayerStats>().m_CurrentHealth;
         }
 
         float amount = (healthvalue / m_MaxHealth);
