@@ -23,6 +23,7 @@ public class CircleHealthBar : MonoBehaviour {
         {
             m_IsEnemy = false;
             m_MaxHealth = GetComponentInParent<PlayerStats>().m_MaxHealth;
+            m_HealthValue = m_MaxHealth;
         }
     }
 

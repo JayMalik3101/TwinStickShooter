@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 54939204040716320}
   - component: {fileID: 23365628029948306}
   - component: {fileID: 114934030920144954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,6 +57,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 35bc210e2322620468886dda465087ad, type: 2}
   m_StaticBatchInfo:

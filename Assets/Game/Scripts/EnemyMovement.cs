@@ -5,18 +5,18 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyMovement : MonoBehaviour {
-    [SerializeField] Transform m_PostOne;
-    [SerializeField] Transform m_PostTwo;
-    [SerializeField] Transform m_PlayerLocation;
-    [SerializeField] Transform m_GuardLocation;
+    [SerializeField] private List<Transform> m_WayPoints;
+    [SerializeField] private Transform m_PlayerTransform;
     [SerializeField] [Range(5f, 30f)] private float m_RayLength;
+
+    private Transform m_GuardTransform;
+    /*
     private Ray ray;
     private RaycastHit hit;
     private Vector3 m_Direction;
     private NavMeshAgent m_NavMesh;
     private int m_Location;
     private string m_TargetName;
-    //[SerializeField] GameObject m_PostThree;
 
     private int m_GoTo = 0;
     // Use this for initialization
@@ -64,15 +64,16 @@ public class EnemyMovement : MonoBehaviour {
         
         
 
-        if (m_GuardLocation.position.x >= m_PostOne.position.x -3 && m_GuardLocation.position.x <= m_PostOne.position.x +3 && m_GuardLocation.position.z >= m_PostOne.position.z - 3 && m_GuardLocation.position.z <= m_PostOne.position.z + 3)
+        if (m_GuardLocation.position.x >= m_PostOne.position.x -10 && m_GuardLocation.position.x <= m_PostOne.position.x + 10 && m_GuardLocation.position.z >= m_PostOne.position.z - 10 && m_GuardLocation.position.z <= m_PostOne.position.z + 10)
         {
             m_Location = 2;
         }
-        if (m_GuardLocation.position.x >= m_PostTwo.position.x - 3 && m_GuardLocation.position.x <= m_PostTwo.position.x +3 && m_GuardLocation.position.z >= m_PostTwo.position.z - 3 && m_GuardLocation.position.z <= m_PostTwo.position.z + 3)
+        if (m_GuardLocation.position.x >= m_PostTwo.position.x - 10 && m_GuardLocation.position.x <= m_PostTwo.position.x + 10 && m_GuardLocation.position.z >= m_PostTwo.position.z - 10 && m_GuardLocation.position.z <= m_PostTwo.position.z + 10)
         {
             m_Location = 1;
         }
         
         
     }
+    */
 }
