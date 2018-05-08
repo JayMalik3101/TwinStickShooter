@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
     public float m_MaxHealth = 40;
-    public float m_CurrentHealth;
+    public float m_Health;
 
     private void Start()
     {
-        m_CurrentHealth = m_MaxHealth;
+        m_Health = m_MaxHealth;
     }
     public void TakeDamage(float Damage)
     {
-        m_CurrentHealth = m_CurrentHealth - Damage;
-        if (m_CurrentHealth <= 0)
+        m_Health = m_Health - Damage;
+        if (m_Health <= 0)
         {
             DestroyObject(this.gameObject);
         }

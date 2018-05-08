@@ -478,7 +478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b4a378ba0df2f4caf631e5f86c758a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxHealth: 40
   m_Health: 40
 --- !u!65 &279316171
 BoxCollider:
@@ -756,7 +755,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 860, y: 860}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701360726
 MonoBehaviour:
@@ -770,8 +769,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Bar: {fileID: 1091255340}
-  m_HealthValue: 6.74
-  m_MaxHealth: 100
+  m_HealthValue: 35.6
+  m_MaxHealth: 40
 --- !u!114 &701360727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,8 +1438,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Bar: {fileID: 1308390976}
-  m_HealthValue: 0
-  m_MaxHealth: 0
+  m_HealthValue: 40
+  m_MaxHealth: 40
 --- !u!114 &1182583029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2565,7 +2564,7 @@ GameObject:
   - component: {fileID: 2135883058}
   m_Layer: 5
   m_Name: PlayerHealthCanvas
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
