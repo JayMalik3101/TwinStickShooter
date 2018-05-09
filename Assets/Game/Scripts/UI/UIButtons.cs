@@ -10,4 +10,9 @@ public class UIButtons : MonoBehaviour
         Application.Quit();
         Debug.Log("I want to die)");
     }
+    public void IwanttobeBIG()
+    {
+        Screen.fullScreen = true;
+        Debug.Log("BIG TIME");
+    }
 }
