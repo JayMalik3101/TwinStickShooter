@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1944,8 +1944,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1447317908}
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 1447317902}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2756,7 +2756,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 1c69f213effac0e47bcefc77810d066c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 35bc210e2322620468886dda465087ad, type: 2}
+      objectReference: {fileID: 2100000, guid: bcefb1f1a098deb4a80625a3b348f304, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c69f213effac0e47bcefc77810d066c, type: 3}
   m_IsPrefabParent: 0
