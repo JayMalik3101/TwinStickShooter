@@ -1,28 +1,18 @@
 fileFormatVersion: 2
-guid: 5fe5a5090cab6314dbf4e60ce80beed0
+guid: d879fca5901046148a9ce7771b7f4a52
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cabinet
-    100004: Desk
-    100006: Divider
-    400000: //RootNode
-    400002: Cabinet
-    400004: Desk
-    400006: Divider
+    100000: I_Wall_L_Shape
+    100002: //RootNode
+    400000: I_Wall_L_Shape
+    400002: //RootNode
     2100000: lambert2
-    2300000: //RootNode
-    2300002: Cabinet
-    2300004: Desk
-    2300006: Divider
-    3300000: //RootNode
-    3300002: Cabinet
-    3300004: Desk
-    3300006: Divider
-    4300000: Divider
-    4300002: Desk
-    4300004: Cabinet
+    2300000: I_Wall_L_Shape
+    2300002: //RootNode
+    3300000: I_Wall_L_Shape
+    3300002: //RootNode
+    4300000: I_Wall_L_Shape
   externalObjects: {}
   materials:
     importMaterials: 0
