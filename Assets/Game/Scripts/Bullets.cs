@@ -12,14 +12,8 @@ public class Bullets : MonoBehaviour {
         {
             other.GetComponent<EnemyHealth>().TakeDamage(m_Damage);
         }
-        DestroyObject(this.gameObject);
+        Destroy (gameObject);
     }
 
-    private void Start()
-    {
-        if (PlayerStats.m_PoisonBullets == true)
-        {
-            gameObject.GetComponent<Renderer>().material.color = Color.green;
-        }
-    }
+
 }

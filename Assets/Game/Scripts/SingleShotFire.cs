@@ -21,6 +21,7 @@ public class SingleShotFire : MonoBehaviour {
         if (Input.GetMouseButton(0) && m_TimeForReload <= 0)
         {
             Rigidbody newProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
+            newProjectile.GetComponent<Renderer>().material.color = GetComponentInParent<PlayerStats>().m_PoisonBullets ? Color.green : Color.white; 
             newProjectile.AddForce(this.transform.forward * m_InitialForce, ForceMode.Impulse);
             m_TimeForReload = m_OriginalTimeForReload;
         }

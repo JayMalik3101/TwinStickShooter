@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour {
-    public static bool m_PoisonBullets = false;
+    public bool m_PoisonBullets = false;
 
     public float m_MaxHealth = 100;
     public float m_CurrentHealth;

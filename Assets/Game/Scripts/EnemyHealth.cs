@@ -15,7 +15,7 @@ public class EnemyHealth : MonoBehaviour {
         m_Health = m_Health - Damage;
         if (m_Health <= 0)
         {
-            DestroyObject(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }
