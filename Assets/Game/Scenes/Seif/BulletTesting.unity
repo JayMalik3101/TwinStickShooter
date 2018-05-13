@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 273402986}
   - component: {fileID: 273402989}
   - component: {fileID: 273402990}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: PlayerHealthCanvas (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 279316170}
   - component: {fileID: 279316173}
   - component: {fileID: 279316172}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Green_Robot
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -997,7 +997,7 @@ GameObject:
   - component: {fileID: 856473001}
   - component: {fileID: 856473003}
   - component: {fileID: 856473002}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1401,7 +1401,7 @@ GameObject:
   - component: {fileID: 1182583027}
   - component: {fileID: 1182583030}
   - component: {fileID: 1182583029}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Healthbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1676,7 @@ GameObject:
   - component: {fileID: 1308390975}
   - component: {fileID: 1308390977}
   - component: {fileID: 1308390976}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2009,7 +2009,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1694220141}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Button-Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
