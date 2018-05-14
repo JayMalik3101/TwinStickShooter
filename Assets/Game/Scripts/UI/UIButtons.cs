@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIButtons : MonoBehaviour
 {
@@ -14,5 +15,9 @@ public class UIButtons : MonoBehaviour
     {
         Screen.fullScreen = true;
         Debug.Log("BIG TIME");
+    }
+    public void SceneSwitching(int DesiredScene)
+    {
+        SceneManager.LoadScene(DesiredScene);
     }
 }

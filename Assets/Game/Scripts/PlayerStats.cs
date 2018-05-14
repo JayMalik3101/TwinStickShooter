@@ -7,6 +7,8 @@ public class PlayerStats : MonoBehaviour {
 
     public float m_MaxHealth = 100;
     public float m_CurrentHealth;
+    public int m_CurrentKeyCards;
+    public bool m_ArmourActive = false;
 
     private float m_DamageModifier;
     private float m_ReloadModifier;
@@ -30,8 +32,16 @@ public class PlayerStats : MonoBehaviour {
     }
 
     public void TakeDamge(float Damage)
-    {
-        m_CurrentHealth = m_CurrentHealth - Damage;
+    {   if(m_ArmourActive == false)
+        {
+            m_CurrentHealth = m_CurrentHealth - Damage;
+        }
+        if(Damage > 0 && m_ArmourActive == true)
+        {
+            m_ArmourActive = false;
+        }
+        
+        
         if (m_CurrentHealth <= 0)
         {   
             m_DeathMenu.SetActive(true);
