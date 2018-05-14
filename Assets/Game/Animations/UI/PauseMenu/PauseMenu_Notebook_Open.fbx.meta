@@ -1,17 +1,26 @@
 fileFormatVersion: 2
-guid: 9ca298d8f1566ea40acc525fdae642d6
+guid: 4c2735cec05f91a4fabce3bca7a60026
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: lambert2
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: E_Wall_L_Shape
+    100000: Noteblock
+    100002: //RootNode
+    100004: pCube2
+    400000: Noteblock
+    400002: //RootNode
+    400004: pCube2
+    2100000: lambert1
+    2300000: Noteblock
+    2300002: pCube2
+    3300000: Noteblock
+    3300002: pCube2
+    4300000: pCube2
+    4300002: Noteblock
+    7400000: Take 001
+    9500000: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -65,7 +74,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -84,7 +93,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

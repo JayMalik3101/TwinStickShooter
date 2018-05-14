@@ -1,17 +1,24 @@
 fileFormatVersion: 2
-guid: 6f0551309ef08a348babe31e7c987e26
+guid: 81e7ab0844c37c64daf17b9ab948416a
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: lambert2
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Corner_Elevator
+    100000: Noteblock
+    100002: //RootNode
+    100004: pCube2
+    400000: Noteblock
+    400002: //RootNode
+    400004: pCube2
+    2100000: lambert1
+    2300000: Noteblock
+    2300002: pCube2
+    3300000: Noteblock
+    3300002: pCube2
+    4300000: pCube2
+    4300002: Noteblock
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
