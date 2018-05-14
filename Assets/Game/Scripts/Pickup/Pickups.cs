@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pickups : MonoBehaviour {
-    // use this as base for inheritence for all pickups
-    // put item bobbing and rotating when in worldspace here. Put pickup on e here.
+    [SerializeField] float m_BobbingMinimum;
+    [SerializeField] float m_BobbingMaximum;
     private Transform m_ItemTransform;
     private float changeNumber = 0.1f;
     private void Start()
@@ -26,14 +26,14 @@ public class Pickups : MonoBehaviour {
     private void ItemBobbing()
     {
         
-        if(m_ItemTransform.position.y >= 1) {
+        if(m_ItemTransform.position.y >= m_BobbingMaximum) {
             changeNumber *= -1;
-            m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, 0.99f, m_ItemTransform.position.z));
+            m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, m_BobbingMaximum - 0.01f, m_ItemTransform.position.z));
         }
-        else if(m_ItemTransform.position.y <= 0.431)
+        else if(m_ItemTransform.position.y <= m_BobbingMinimum)
         {
             changeNumber *= -1;
-            m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, 0.44f, m_ItemTransform.position.z));
+            m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, m_BobbingMinimum + 0.01f, m_ItemTransform.position.z));
         }
 
         m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, m_ItemTransform.position.y + changeNumber * Time.deltaTime, m_ItemTransform.position.z));
