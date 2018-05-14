@@ -17,10 +17,10 @@ TagManager:
   - 
   - Floor
   - Pickups
-  - Bullets
+  - PlayerBullets
+  - EnemyBullets
+  - Player
   - Enemies
-  - 
-  - 
   - 
   - 
   - 

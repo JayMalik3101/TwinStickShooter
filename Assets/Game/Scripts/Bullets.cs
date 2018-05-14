@@ -12,6 +12,10 @@ public class Bullets : MonoBehaviour {
         {
             other.GetComponent<EnemyHealth>().TakeDamage(m_Damage);
         }
+        else if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerStats>().TakeDamge(m_Damage);
+        }
         Destroy (gameObject);
     }
 

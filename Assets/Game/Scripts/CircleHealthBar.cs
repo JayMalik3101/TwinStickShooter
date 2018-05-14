@@ -43,7 +43,10 @@ public class CircleHealthBar : MonoBehaviour {
         }
 
         float amount = (healthvalue / m_MaxHealth);
-        
+        if(amount > 1)
+        {
+            amount = 1;
+        }
         m_Bar.fillAmount = amount / 2f;
     }
 }

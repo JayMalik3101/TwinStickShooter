@@ -12,10 +12,31 @@ public class PlayerStats : MonoBehaviour {
     private float m_ReloadModifier;
     private float m_SpeedModifier;
 
+    GameObject m_DeathMenu;
     private void Start()
     {
         m_CurrentHealth = m_MaxHealth;
+        m_DeathMenu = GameObject.Find("DeathMenu");
+        m_DeathMenu.SetActive(false);
     }
 
+    private void Update()
+    {
+        TakeDamge(0);
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            m_CurrentHealth = 9999999999;
+        }
+    }
 
+    public void TakeDamge(float Damage)
+    {
+        m_CurrentHealth = m_CurrentHealth - Damage;
+        if (m_CurrentHealth <= 0)
+        {   
+            m_DeathMenu.SetActive(true);
+
+            Destroy(gameObject);
+        }
+    }
 }
