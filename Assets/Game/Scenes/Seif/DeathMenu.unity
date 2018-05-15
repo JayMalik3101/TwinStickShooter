@@ -177,6 +177,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1628367484
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,12 +250,16 @@ Transform:
 =======
 --- !u!1001 &576971995
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
+=======
+--- !u!1001 &576971995
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
@@ -269,16 +274,23 @@ Prefab:
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
         type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -288,10 +300,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -301,10 +317,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -314,10 +334,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -327,10 +351,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -340,10 +368,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -353,10 +385,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -366,10 +402,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -379,10 +419,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -392,10 +436,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -405,10 +453,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -418,10 +470,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -431,10 +487,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -444,10 +504,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -457,10 +521,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -470,10 +538,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
@@ -483,10 +555,14 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 224106037643535186, guid: 0a554aa47ab8eac4d88a219096486943,
 =======
     - target: {fileID: 224366851683140526, guid: 9fb18dd218645884b8da5e339e1f9cd7,
 >>>>>>> master
+=======
+    - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
+>>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
 =======
     - target: {fileID: 224210426873604506, guid: 0a554aa47ab8eac4d88a219096486943,
 >>>>>>> parent of b2c6fe4... MainScene scenes death menu still doesnt work
