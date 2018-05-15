@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 114107446763387610}
   - component: {fileID: 114057624194401540}
   m_Layer: 5
-  m_Name: DeathMenu 1
+  m_Name: DeathMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
