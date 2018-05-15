@@ -32,7 +32,8 @@ public class PlayerStats : MonoBehaviour {
     }
 
     public void TakeDamge(float Damage)
-    {   if(m_ArmourActive == false)
+    {
+        if (m_ArmourActive == false)
         {
             m_CurrentHealth = m_CurrentHealth - Damage;
         }
