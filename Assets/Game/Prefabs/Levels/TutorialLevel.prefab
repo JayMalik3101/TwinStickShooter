@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4870122654096576}
   - component: {fileID: 33813503092756178}
   - component: {fileID: 23219403825252824}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4720636904566362}
   - component: {fileID: 33758866094082866}
   - component: {fileID: 23285577550287412}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4572630658381556}
   - component: {fileID: 33854218413318360}
   - component: {fileID: 23008683465206016}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 4668519998461838}
   - component: {fileID: 33232292945463742}
   - component: {fileID: 23956219219043150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 4911706833327702}
   - component: {fileID: 33470837851476196}
   - component: {fileID: 23256211193820274}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 4918216477449760}
   - component: {fileID: 33801445536410014}
   - component: {fileID: 23131493781613096}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 4850038043101172}
   - component: {fileID: 33620955181482802}
   - component: {fileID: 23438509755759778}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 4668733818316170}
   - component: {fileID: 33823286911830126}
   - component: {fileID: 23948160754282702}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 4085201391872444}
   - component: {fileID: 33138769662986074}
   - component: {fileID: 23788269946291794}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 4618427600895360}
   - component: {fileID: 33029503909495786}
   - component: {fileID: 23146562423853910}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 4723161372051882}
   - component: {fileID: 33141279861064162}
   - component: {fileID: 23417946606028296}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 4227361669235224}
   - component: {fileID: 33169719265588738}
   - component: {fileID: 23602301925265202}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 4471425730810400}
   - component: {fileID: 33965847679565886}
   - component: {fileID: 23941284075603258}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 4477167989299234}
   - component: {fileID: 33795228285926812}
   - component: {fileID: 23008979648670448}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 4182867429628278}
   - component: {fileID: 33472850366877396}
   - component: {fileID: 23447966446859738}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 4241447749344328}
   - component: {fileID: 33569625767906858}
   - component: {fileID: 23565714583433560}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 4914673772876818}
   - component: {fileID: 33907085711171150}
   - component: {fileID: 23239307589542696}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 4078097165524480}
   - component: {fileID: 33981361940429284}
   - component: {fileID: 23470900819009916}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 4987706862980054}
   - component: {fileID: 33277944600679820}
   - component: {fileID: 23277277034380020}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 4424350339842668}
   - component: {fileID: 33690949662116046}
   - component: {fileID: 23262835115869896}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 4175156436727932}
   - component: {fileID: 33325973621483832}
   - component: {fileID: 23579470872957764}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 4246960946168242}
   - component: {fileID: 33582160559108134}
   - component: {fileID: 23419504470047472}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 4963397814509068}
   - component: {fileID: 33932416773887238}
   - component: {fileID: 23237675570741162}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 4994867965305884}
   - component: {fileID: 33007564570981258}
   - component: {fileID: 23598832728273416}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Large_Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 4582912438473800}
   - component: {fileID: 33901552817197444}
   - component: {fileID: 23378697064492296}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 4443421462707704}
   - component: {fileID: 33760268606818964}
   - component: {fileID: 23940186238727926}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 4135324777724242}
   - component: {fileID: 33963789776705046}
   - component: {fileID: 23209766003042108}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 4102272576268652}
   - component: {fileID: 33282341752382522}
   - component: {fileID: 23845402182167178}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cactus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 4288405290594100}
   - component: {fileID: 33574352533467544}
   - component: {fileID: 23280467209144542}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -888,7 +888,7 @@ GameObject:
   - component: {fileID: 4016819780773240}
   - component: {fileID: 33136399574520376}
   - component: {fileID: 23870818894012676}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +905,7 @@ GameObject:
   - component: {fileID: 4703446850938728}
   - component: {fileID: 33801953221478502}
   - component: {fileID: 23121656482639040}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 4744105456791752}
   - component: {fileID: 33993949321558990}
   - component: {fileID: 23966231559777384}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 4946702929836992}
   - component: {fileID: 33961895433335660}
   - component: {fileID: 23842257735551666}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 4345284268029432}
   - component: {fileID: 33034972479849082}
   - component: {fileID: 23554354009598218}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 4053012476842728}
   - component: {fileID: 33460882290771766}
   - component: {fileID: 23568796528540956}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   - component: {fileID: 4921483910976398}
   - component: {fileID: 33451396354060510}
   - component: {fileID: 23760082209439144}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 4777685104850964}
   - component: {fileID: 33907712504878564}
   - component: {fileID: 23639880300035710}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_Cabinet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 4842761178469312}
   - component: {fileID: 33387394745133708}
   - component: {fileID: 23083657188914430}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 4151562909306384}
   - component: {fileID: 33554008042119304}
   - component: {fileID: 23590871128519316}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1313,7 +1313,7 @@ GameObject:
   - component: {fileID: 4493915957318760}
   - component: {fileID: 33898285804892002}
   - component: {fileID: 23747466386972300}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,7 +1330,7 @@ GameObject:
   - component: {fileID: 4279398423663602}
   - component: {fileID: 33819255282456706}
   - component: {fileID: 23059518262032460}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 4070893477784236}
   - component: {fileID: 33740832014456276}
   - component: {fileID: 23811348138609812}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1415,7 +1415,7 @@ GameObject:
   - component: {fileID: 4944954424529324}
   - component: {fileID: 33412874046193436}
   - component: {fileID: 23245122293467810}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Closed (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 4331123685169796}
   - component: {fileID: 33565472186787462}
   - component: {fileID: 23043860571965068}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 4819567114182896}
   - component: {fileID: 33909939602247424}
   - component: {fileID: 23728112592358098}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1483,7 +1483,7 @@ GameObject:
   - component: {fileID: 4001821150118256}
   - component: {fileID: 33189107959286140}
   - component: {fileID: 23182125806631738}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 4815107059487524}
   - component: {fileID: 33822372728821342}
   - component: {fileID: 23888195638383778}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 4372871148540762}
   - component: {fileID: 33261889480982218}
   - component: {fileID: 23618874401867620}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1583,7 +1583,7 @@ GameObject:
   - component: {fileID: 4729035915004946}
   - component: {fileID: 33740376510790012}
   - component: {fileID: 23561701448554212}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 4097959713519592}
   - component: {fileID: 33077156224344894}
   - component: {fileID: 23721900146444544}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1669,7 +1669,7 @@ GameObject:
   - component: {fileID: 4089152616030352}
   - component: {fileID: 33045834808214326}
   - component: {fileID: 23203312460752148}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1686,7 @@ GameObject:
   - component: {fileID: 4493075755762480}
   - component: {fileID: 33351575366511984}
   - component: {fileID: 23484325352985206}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1703,7 +1703,7 @@ GameObject:
   - component: {fileID: 4271687286177364}
   - component: {fileID: 33335756348090590}
   - component: {fileID: 23593397372023420}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer_Case
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1720,7 @@ GameObject:
   - component: {fileID: 4843378114139422}
   - component: {fileID: 33974657994320724}
   - component: {fileID: 23490732802119564}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1788,7 +1788,7 @@ GameObject:
   - component: {fileID: 4884685728635880}
   - component: {fileID: 33119797979693004}
   - component: {fileID: 23221252726451402}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1805,7 @@ GameObject:
   - component: {fileID: 4760227942471852}
   - component: {fileID: 33702771200587882}
   - component: {fileID: 23335980600112748}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 4928590210914936}
   - component: {fileID: 33549561743056278}
   - component: {fileID: 23160498530208280}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Blue (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1839,7 +1839,7 @@ GameObject:
   - component: {fileID: 4697360842057920}
   - component: {fileID: 33276088535132236}
   - component: {fileID: 23497188151009430}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 4889429340298222}
   - component: {fileID: 33546714510958186}
   - component: {fileID: 23299046210614768}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 4427707729707470}
   - component: {fileID: 33384123748568710}
   - component: {fileID: 23710684418776578}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1924,26 +1924,8 @@ GameObject:
   - component: {fileID: 4519919625631454}
   - component: {fileID: 33957799073826290}
   - component: {fileID: 23808566843033056}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1150956725624574
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4846117198874150}
-  - component: {fileID: 33765636205035000}
-  - component: {fileID: 23635693006381242}
-  - component: {fileID: 135629204437747434}
-  m_Layer: 0
-  m_Name: ArmourPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1959,7 +1941,7 @@ GameObject:
   - component: {fileID: 4751621958629224}
   - component: {fileID: 33438755938965396}
   - component: {fileID: 23840916449205734}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1976,7 +1958,7 @@ GameObject:
   - component: {fileID: 4239818215279248}
   - component: {fileID: 33419409962655392}
   - component: {fileID: 23743693618731866}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1993,7 +1975,7 @@ GameObject:
   - component: {fileID: 4164311082120260}
   - component: {fileID: 33916675497097094}
   - component: {fileID: 23379417149359280}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +1992,7 @@ GameObject:
   - component: {fileID: 4052913135932356}
   - component: {fileID: 33597360674304428}
   - component: {fileID: 23526697549343554}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2027,7 +2009,7 @@ GameObject:
   - component: {fileID: 4964344253485146}
   - component: {fileID: 33801906332149388}
   - component: {fileID: 23731815340503646}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2061,7 +2043,7 @@ GameObject:
   - component: {fileID: 4602888198478438}
   - component: {fileID: 33994584777911552}
   - component: {fileID: 23137266648869410}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2078,7 +2060,7 @@ GameObject:
   - component: {fileID: 4545605674854642}
   - component: {fileID: 33519182339691304}
   - component: {fileID: 23758990849041400}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2112,7 +2094,7 @@ GameObject:
   - component: {fileID: 4752594763761142}
   - component: {fileID: 33953134525086682}
   - component: {fileID: 23314888543578636}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2197,7 +2179,7 @@ GameObject:
   - component: {fileID: 4391450716669842}
   - component: {fileID: 33847385215342358}
   - component: {fileID: 23025445959203656}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,25 +2196,8 @@ GameObject:
   - component: {fileID: 4396273068535852}
   - component: {fileID: 33448448657881098}
   - component: {fileID: 23378841051055262}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1172980683681126
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4471723374512304}
-  - component: {fileID: 198266136920719388}
-  - component: {fileID: 199790514596596508}
-  m_Layer: 0
-  m_Name: Shine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2282,7 +2247,7 @@ GameObject:
   - component: {fileID: 4831872483420242}
   - component: {fileID: 33442012402049786}
   - component: {fileID: 23556046796348880}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2350,7 +2315,7 @@ GameObject:
   - component: {fileID: 4651441118711384}
   - component: {fileID: 33750635685996054}
   - component: {fileID: 23408972882218552}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_Cabinet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2367,7 +2332,7 @@ GameObject:
   - component: {fileID: 4787093097472832}
   - component: {fileID: 33734757179478426}
   - component: {fileID: 23358288372075848}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2384,7 +2349,7 @@ GameObject:
   - component: {fileID: 4341360383346164}
   - component: {fileID: 33455934311233942}
   - component: {fileID: 23123623142613196}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,7 +2366,7 @@ GameObject:
   - component: {fileID: 4480272287872814}
   - component: {fileID: 33431684470994676}
   - component: {fileID: 23624330115073914}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2418,7 +2383,7 @@ GameObject:
   - component: {fileID: 4659987566997560}
   - component: {fileID: 33935442557542374}
   - component: {fileID: 23843307357964186}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2435,7 +2400,7 @@ GameObject:
   - component: {fileID: 4765116520777362}
   - component: {fileID: 33852594029562234}
   - component: {fileID: 23024669450134056}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2434,7 @@ GameObject:
   - component: {fileID: 4861679298459828}
   - component: {fileID: 33237212131117158}
   - component: {fileID: 23312837144011634}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2486,7 +2451,7 @@ GameObject:
   - component: {fileID: 4550486569237360}
   - component: {fileID: 33271032093427822}
   - component: {fileID: 23938692392876650}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2520,7 +2485,7 @@ GameObject:
   - component: {fileID: 4992279040884378}
   - component: {fileID: 33897231989448014}
   - component: {fileID: 23480566151116806}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2605,7 +2570,7 @@ GameObject:
   - component: {fileID: 4917951774497810}
   - component: {fileID: 33633141672002536}
   - component: {fileID: 23118351365075328}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2622,7 +2587,7 @@ GameObject:
   - component: {fileID: 4466223218155406}
   - component: {fileID: 33195864132283642}
   - component: {fileID: 23218896757565968}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2639,7 +2604,7 @@ GameObject:
   - component: {fileID: 4315336018500448}
   - component: {fileID: 33443211019451440}
   - component: {fileID: 23203142379094682}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2690,7 +2655,7 @@ GameObject:
   - component: {fileID: 4474933428996826}
   - component: {fileID: 33361496816743726}
   - component: {fileID: 23364993315172522}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2825,7 +2790,7 @@ GameObject:
   - component: {fileID: 4062989520541340}
   - component: {fileID: 33696839844447222}
   - component: {fileID: 23195509905610082}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2842,7 +2807,7 @@ GameObject:
   - component: {fileID: 4550322825413256}
   - component: {fileID: 33043456796493030}
   - component: {fileID: 23043832293888312}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2859,7 +2824,7 @@ GameObject:
   - component: {fileID: 4597030289731094}
   - component: {fileID: 33508761308644982}
   - component: {fileID: 23881744041563048}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2910,7 +2875,7 @@ GameObject:
   - component: {fileID: 4976539851862924}
   - component: {fileID: 33650193694855262}
   - component: {fileID: 23285042563831262}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2944,8 +2909,25 @@ GameObject:
   - component: {fileID: 4341935563649866}
   - component: {fileID: 33512500100790272}
   - component: {fileID: 23746948505063520}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1254449347467040
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4721739169368340}
+  - component: {fileID: 33628227340754070}
+  - component: {fileID: 23973112272194864}
+  m_Layer: 2
+  m_Name: Keycard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2961,7 +2943,7 @@ GameObject:
   - component: {fileID: 4427887797574298}
   - component: {fileID: 33971581308850546}
   - component: {fileID: 23461051830437238}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Large_Cabinet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2995,7 +2977,7 @@ GameObject:
   - component: {fileID: 4769908903641132}
   - component: {fileID: 33606445314120118}
   - component: {fileID: 23757076672140588}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3012,7 +2994,7 @@ GameObject:
   - component: {fileID: 4090704398091840}
   - component: {fileID: 33416387546901098}
   - component: {fileID: 23250911730364150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3063,7 +3045,7 @@ GameObject:
   - component: {fileID: 4593324494757358}
   - component: {fileID: 33452057968793976}
   - component: {fileID: 23377019923945942}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3080,7 +3062,7 @@ GameObject:
   - component: {fileID: 4579252990858194}
   - component: {fileID: 33063887943628466}
   - component: {fileID: 23477078259480472}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3114,7 +3096,7 @@ GameObject:
   - component: {fileID: 4871638351793584}
   - component: {fileID: 33824575054126310}
   - component: {fileID: 23698984790875926}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3131,7 +3113,7 @@ GameObject:
   - component: {fileID: 4862423119878428}
   - component: {fileID: 33869562539881302}
   - component: {fileID: 23198987658140122}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3165,7 +3147,7 @@ GameObject:
   - component: {fileID: 4868115228361052}
   - component: {fileID: 33745445458986114}
   - component: {fileID: 23351194941558290}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3182,7 +3164,7 @@ GameObject:
   - component: {fileID: 4358557171610198}
   - component: {fileID: 33618370967086392}
   - component: {fileID: 23716968840366794}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3233,7 +3215,7 @@ GameObject:
   - component: {fileID: 4408118345123912}
   - component: {fileID: 33118526279715970}
   - component: {fileID: 23307012310739372}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Open (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3250,7 +3232,7 @@ GameObject:
   - component: {fileID: 4066092735965254}
   - component: {fileID: 33203321403555542}
   - component: {fileID: 23498691529777922}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3267,7 +3249,7 @@ GameObject:
   - component: {fileID: 4544853883756938}
   - component: {fileID: 33338672725356892}
   - component: {fileID: 23376242802388924}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3318,7 +3300,7 @@ GameObject:
   - component: {fileID: 4593806684068116}
   - component: {fileID: 33680545028392838}
   - component: {fileID: 23922018452835732}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3352,7 +3334,7 @@ GameObject:
   - component: {fileID: 4166855570671452}
   - component: {fileID: 33818062304757340}
   - component: {fileID: 23406340158787536}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3386,7 +3368,7 @@ GameObject:
   - component: {fileID: 4228040002388610}
   - component: {fileID: 33253003479579572}
   - component: {fileID: 23620483817718858}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3454,7 +3436,7 @@ GameObject:
   - component: {fileID: 4687314154658092}
   - component: {fileID: 33244211365921178}
   - component: {fileID: 23540485886348546}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3590,7 +3572,7 @@ GameObject:
   - component: {fileID: 4833915350222690}
   - component: {fileID: 33565832443927638}
   - component: {fileID: 23270516372508856}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3607,7 +3589,7 @@ GameObject:
   - component: {fileID: 4180899998997820}
   - component: {fileID: 33426051910611908}
   - component: {fileID: 23360078496692538}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3641,7 +3623,7 @@ GameObject:
   - component: {fileID: 4852070549357722}
   - component: {fileID: 33847657576610828}
   - component: {fileID: 23979005338492488}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3658,7 +3640,7 @@ GameObject:
   - component: {fileID: 4428464168753684}
   - component: {fileID: 33498164793963314}
   - component: {fileID: 23741976606658846}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3692,7 +3674,7 @@ GameObject:
   - component: {fileID: 4047944135412156}
   - component: {fileID: 33679415773531694}
   - component: {fileID: 23543138346249104}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3709,7 +3691,7 @@ GameObject:
   - component: {fileID: 4895988409479390}
   - component: {fileID: 33962279689394892}
   - component: {fileID: 23025361441705034}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Printer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3777,7 +3759,7 @@ GameObject:
   - component: {fileID: 4800036685305288}
   - component: {fileID: 33535482276516322}
   - component: {fileID: 23425702005740914}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3811,7 +3793,7 @@ GameObject:
   - component: {fileID: 4424243537888622}
   - component: {fileID: 33004303076904594}
   - component: {fileID: 23439801430806478}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3946,7 +3928,7 @@ GameObject:
   - component: {fileID: 4028402113654076}
   - component: {fileID: 33678913009580210}
   - component: {fileID: 23291629671323090}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3963,7 +3945,7 @@ GameObject:
   - component: {fileID: 4973214657268190}
   - component: {fileID: 33898898963133304}
   - component: {fileID: 23466959153234036}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4031,7 +4013,7 @@ GameObject:
   - component: {fileID: 4460239379500878}
   - component: {fileID: 33231103226262198}
   - component: {fileID: 23163968855272230}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4065,7 +4047,7 @@ GameObject:
   - component: {fileID: 4310868886379926}
   - component: {fileID: 33076664932945672}
   - component: {fileID: 23225929085256314}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4082,7 +4064,7 @@ GameObject:
   - component: {fileID: 4417686110842518}
   - component: {fileID: 33651212108643646}
   - component: {fileID: 23019909073250578}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Closed (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4150,7 +4132,7 @@ GameObject:
   - component: {fileID: 4865470369650966}
   - component: {fileID: 33270606799143806}
   - component: {fileID: 23807599209782346}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4184,7 +4166,7 @@ GameObject:
   - component: {fileID: 4030697366553566}
   - component: {fileID: 33525675465758794}
   - component: {fileID: 23733514631708194}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4201,7 +4183,7 @@ GameObject:
   - component: {fileID: 4521482129834844}
   - component: {fileID: 33363220503967152}
   - component: {fileID: 23977177863073520}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4269,7 +4251,7 @@ GameObject:
   - component: {fileID: 4786218116914614}
   - component: {fileID: 33897828420573060}
   - component: {fileID: 23079396497235938}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4303,7 +4285,7 @@ GameObject:
   - component: {fileID: 4047142734200232}
   - component: {fileID: 33145374415676040}
   - component: {fileID: 23142971924003186}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4320,7 +4302,7 @@ GameObject:
   - component: {fileID: 4609918262305454}
   - component: {fileID: 33683871752955106}
   - component: {fileID: 23895729077369352}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4354,7 +4336,7 @@ GameObject:
   - component: {fileID: 4779077695481486}
   - component: {fileID: 33157933797594668}
   - component: {fileID: 23665439882448098}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4371,7 +4353,7 @@ GameObject:
   - component: {fileID: 4359067316834534}
   - component: {fileID: 33354549718534156}
   - component: {fileID: 23759214873453150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4388,7 +4370,7 @@ GameObject:
   - component: {fileID: 4896964647246386}
   - component: {fileID: 33738026588496572}
   - component: {fileID: 23506111443366116}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4405,7 +4387,7 @@ GameObject:
   - component: {fileID: 4294460542317214}
   - component: {fileID: 33568365086350624}
   - component: {fileID: 23478050488642804}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4439,7 +4421,7 @@ GameObject:
   - component: {fileID: 4750019683092546}
   - component: {fileID: 33663004574011668}
   - component: {fileID: 23258392987357870}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4473,7 +4455,7 @@ GameObject:
   - component: {fileID: 4412118050317406}
   - component: {fileID: 33378387900943798}
   - component: {fileID: 23332598994608992}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4490,7 +4472,7 @@ GameObject:
   - component: {fileID: 4163477235118604}
   - component: {fileID: 33962589657060722}
   - component: {fileID: 23649844211764892}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4575,7 +4557,7 @@ GameObject:
   - component: {fileID: 4242740701936754}
   - component: {fileID: 33328555362205922}
   - component: {fileID: 23495254100337732}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4660,7 +4642,7 @@ GameObject:
   - component: {fileID: 4928237371337172}
   - component: {fileID: 33614852090082758}
   - component: {fileID: 23109729779475850}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4677,7 +4659,7 @@ GameObject:
   - component: {fileID: 4446675822846046}
   - component: {fileID: 33421573856002664}
   - component: {fileID: 23909180037914326}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4694,7 +4676,7 @@ GameObject:
   - component: {fileID: 4978885452741644}
   - component: {fileID: 33908064330605912}
   - component: {fileID: 23754874443406220}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4711,7 +4693,7 @@ GameObject:
   - component: {fileID: 4299963786042464}
   - component: {fileID: 33856302891104964}
   - component: {fileID: 23180101920703514}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4779,7 +4761,7 @@ GameObject:
   - component: {fileID: 4868064686461360}
   - component: {fileID: 33697144288450062}
   - component: {fileID: 23578071318481962}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4796,7 +4778,7 @@ GameObject:
   - component: {fileID: 4728207390689164}
   - component: {fileID: 33634488302838976}
   - component: {fileID: 23277981478782168}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4847,7 +4829,7 @@ GameObject:
   - component: {fileID: 4950849893466366}
   - component: {fileID: 33896758483548476}
   - component: {fileID: 23364859304556278}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4898,7 +4880,7 @@ GameObject:
   - component: {fileID: 4668142923189026}
   - component: {fileID: 33186313686872694}
   - component: {fileID: 23405048812303992}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4932,7 +4914,7 @@ GameObject:
   - component: {fileID: 4871504531008676}
   - component: {fileID: 33185661369931160}
   - component: {fileID: 23984329235929518}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4949,7 +4931,7 @@ GameObject:
   - component: {fileID: 4102552061879542}
   - component: {fileID: 33972376332963602}
   - component: {fileID: 23375498121200314}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4966,7 +4948,7 @@ GameObject:
   - component: {fileID: 4038984718969406}
   - component: {fileID: 33516305923803780}
   - component: {fileID: 23059182818834604}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5017,7 +4999,7 @@ GameObject:
   - component: {fileID: 4160959771005944}
   - component: {fileID: 33709314484385700}
   - component: {fileID: 23146125700070170}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5051,7 +5033,7 @@ GameObject:
   - component: {fileID: 4402553382130142}
   - component: {fileID: 33952234137414610}
   - component: {fileID: 23745437050980768}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5085,7 +5067,7 @@ GameObject:
   - component: {fileID: 4030306099846698}
   - component: {fileID: 33281921496003214}
   - component: {fileID: 23961456701247104}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5102,7 +5084,7 @@ GameObject:
   - component: {fileID: 4244361312168772}
   - component: {fileID: 33463993675271610}
   - component: {fileID: 23946565451621294}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5119,7 +5101,7 @@ GameObject:
   - component: {fileID: 4368403588856626}
   - component: {fileID: 33961862249346762}
   - component: {fileID: 23496628976482930}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5136,7 +5118,7 @@ GameObject:
   - component: {fileID: 4973008050478772}
   - component: {fileID: 33051629555077092}
   - component: {fileID: 23703242245650294}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5153,7 +5135,7 @@ GameObject:
   - component: {fileID: 4140106906883030}
   - component: {fileID: 33705761427685182}
   - component: {fileID: 23153767199490790}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5204,7 +5186,7 @@ GameObject:
   - component: {fileID: 4047338705453980}
   - component: {fileID: 33813513611770908}
   - component: {fileID: 23543070347623998}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5238,7 +5220,7 @@ GameObject:
   - component: {fileID: 4875445109194566}
   - component: {fileID: 33989582748056014}
   - component: {fileID: 23968177021671080}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5255,7 +5237,7 @@ GameObject:
   - component: {fileID: 4214609247447022}
   - component: {fileID: 33061863639228434}
   - component: {fileID: 23961304568682918}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Large_Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5272,7 +5254,7 @@ GameObject:
   - component: {fileID: 4334757026088364}
   - component: {fileID: 33970999483622728}
   - component: {fileID: 23814110436823572}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5289,7 +5271,7 @@ GameObject:
   - component: {fileID: 4311104483536454}
   - component: {fileID: 33626123042895660}
   - component: {fileID: 23779545664354490}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5306,7 +5288,7 @@ GameObject:
   - component: {fileID: 4147623865342728}
   - component: {fileID: 33733543411458366}
   - component: {fileID: 23658309150483626}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5374,7 +5356,7 @@ GameObject:
   - component: {fileID: 4394661831952374}
   - component: {fileID: 33068899094978746}
   - component: {fileID: 23108603572666214}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5391,7 +5373,7 @@ GameObject:
   - component: {fileID: 4716838459369084}
   - component: {fileID: 33398568002436272}
   - component: {fileID: 23725976423085924}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5425,7 +5407,7 @@ GameObject:
   - component: {fileID: 4339134787987446}
   - component: {fileID: 33665900888351804}
   - component: {fileID: 23730707939524610}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5459,7 +5441,7 @@ GameObject:
   - component: {fileID: 4203780404941840}
   - component: {fileID: 33537579945692652}
   - component: {fileID: 23891724245975924}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5476,7 +5458,7 @@ GameObject:
   - component: {fileID: 4320139964987294}
   - component: {fileID: 33176541953270784}
   - component: {fileID: 23362118978119812}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5510,7 +5492,7 @@ GameObject:
   - component: {fileID: 4864898437354710}
   - component: {fileID: 33586811777146432}
   - component: {fileID: 23234934931440460}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5544,7 +5526,7 @@ GameObject:
   - component: {fileID: 4341664291927758}
   - component: {fileID: 33636682082016940}
   - component: {fileID: 23763871545009714}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5578,7 +5560,7 @@ GameObject:
   - component: {fileID: 4642514891757456}
   - component: {fileID: 33715626740141950}
   - component: {fileID: 23499425715535918}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5629,7 +5611,7 @@ GameObject:
   - component: {fileID: 4898990316581374}
   - component: {fileID: 33989548034406182}
   - component: {fileID: 23913479716641662}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5646,7 +5628,7 @@ GameObject:
   - component: {fileID: 4191300128175892}
   - component: {fileID: 33831507939869048}
   - component: {fileID: 23016612904871572}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5680,7 +5662,7 @@ GameObject:
   - component: {fileID: 4082004232636048}
   - component: {fileID: 33804858486297802}
   - component: {fileID: 23793856162691128}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5697,7 +5679,7 @@ GameObject:
   - component: {fileID: 4024173261566522}
   - component: {fileID: 33926479216480940}
   - component: {fileID: 23857910261895468}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5731,7 +5713,7 @@ GameObject:
   - component: {fileID: 4226167601200670}
   - component: {fileID: 33213120096541216}
   - component: {fileID: 23257066370735820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer_Mouse (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5782,7 +5764,7 @@ GameObject:
   - component: {fileID: 4027209713555660}
   - component: {fileID: 33340949477216920}
   - component: {fileID: 23600973883051210}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5799,7 +5781,7 @@ GameObject:
   - component: {fileID: 4962428294186592}
   - component: {fileID: 33469512057100050}
   - component: {fileID: 23083860192931236}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5833,7 +5815,7 @@ GameObject:
   - component: {fileID: 4478550754737288}
   - component: {fileID: 33820404413058540}
   - component: {fileID: 23804265053414144}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5850,7 +5832,7 @@ GameObject:
   - component: {fileID: 4034339266852598}
   - component: {fileID: 33140320130360802}
   - component: {fileID: 23349333693046256}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Printer (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5867,7 +5849,7 @@ GameObject:
   - component: {fileID: 4494355890657692}
   - component: {fileID: 33704999731214672}
   - component: {fileID: 23907704446472334}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5884,7 +5866,7 @@ GameObject:
   - component: {fileID: 4010626282261424}
   - component: {fileID: 33674519555370642}
   - component: {fileID: 23705326446510000}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5901,7 +5883,7 @@ GameObject:
   - component: {fileID: 4735149214576190}
   - component: {fileID: 33315086792191202}
   - component: {fileID: 23009908231604576}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5918,7 +5900,7 @@ GameObject:
   - component: {fileID: 4437288657062598}
   - component: {fileID: 33944721318079098}
   - component: {fileID: 23305241206979062}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5952,7 +5934,7 @@ GameObject:
   - component: {fileID: 4783936389656730}
   - component: {fileID: 33992170582400740}
   - component: {fileID: 23939195535574852}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Green (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5969,7 +5951,7 @@ GameObject:
   - component: {fileID: 4866790208696634}
   - component: {fileID: 33895756416230800}
   - component: {fileID: 23163826851356968}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6020,7 +6002,7 @@ GameObject:
   - component: {fileID: 4770249546163388}
   - component: {fileID: 33505272386144998}
   - component: {fileID: 23958703498134680}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6119,7 +6101,7 @@ GameObject:
   - component: {fileID: 4897957324673704}
   - component: {fileID: 33198200105541528}
   - component: {fileID: 23678566619356524}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6136,7 +6118,7 @@ GameObject:
   - component: {fileID: 4413730490106820}
   - component: {fileID: 33195039634374752}
   - component: {fileID: 23834882333472508}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6170,7 +6152,7 @@ GameObject:
   - component: {fileID: 4040343099512374}
   - component: {fileID: 33559833919387094}
   - component: {fileID: 23054403292057446}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6187,7 +6169,7 @@ GameObject:
   - component: {fileID: 4895615378396398}
   - component: {fileID: 33333027978054856}
   - component: {fileID: 23018913290582732}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6204,7 +6186,7 @@ GameObject:
   - component: {fileID: 4976900230325576}
   - component: {fileID: 33795912069858736}
   - component: {fileID: 23019799870417924}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6238,7 +6220,7 @@ GameObject:
   - component: {fileID: 4475098166187878}
   - component: {fileID: 33243330701086586}
   - component: {fileID: 23680228045615586}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6255,7 +6237,7 @@ GameObject:
   - component: {fileID: 4684080555104994}
   - component: {fileID: 33428044995529234}
   - component: {fileID: 23596708345487430}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6272,7 +6254,7 @@ GameObject:
   - component: {fileID: 4771276604867630}
   - component: {fileID: 33225296561369878}
   - component: {fileID: 23463262964584936}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6289,7 +6271,7 @@ GameObject:
   - component: {fileID: 4864023962464124}
   - component: {fileID: 33030250225901944}
   - component: {fileID: 23974261489746582}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6321,7 +6303,7 @@ GameObject:
   - component: {fileID: 4259073172802136}
   - component: {fileID: 33409953398505920}
   - component: {fileID: 23196942009583912}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6338,7 +6320,7 @@ GameObject:
   - component: {fileID: 4991658318250700}
   - component: {fileID: 33399352516414158}
   - component: {fileID: 23609330270273336}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6355,7 +6337,7 @@ GameObject:
   - component: {fileID: 4079425867342408}
   - component: {fileID: 33735580385587736}
   - component: {fileID: 23657672512897904}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6406,7 +6388,7 @@ GameObject:
   - component: {fileID: 4940693248689442}
   - component: {fileID: 33846928631589942}
   - component: {fileID: 23108529334362684}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6457,7 +6439,7 @@ GameObject:
   - component: {fileID: 4273650488409348}
   - component: {fileID: 33452880757885608}
   - component: {fileID: 23440767403871226}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Closed (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6474,7 +6456,7 @@ GameObject:
   - component: {fileID: 4541268338091836}
   - component: {fileID: 33121057784726110}
   - component: {fileID: 23226709913563902}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6491,7 +6473,7 @@ GameObject:
   - component: {fileID: 4915223102570038}
   - component: {fileID: 33409318960868430}
   - component: {fileID: 23725160548480672}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6542,7 +6524,7 @@ GameObject:
   - component: {fileID: 4445000830337130}
   - component: {fileID: 33357749422479734}
   - component: {fileID: 23191287495969544}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6576,7 +6558,7 @@ GameObject:
   - component: {fileID: 4515075578888020}
   - component: {fileID: 33904641002645162}
   - component: {fileID: 23231148582791852}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6610,7 +6592,7 @@ GameObject:
   - component: {fileID: 4585843242097868}
   - component: {fileID: 33036007968354020}
   - component: {fileID: 23565732235868844}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6627,7 +6609,7 @@ GameObject:
   - component: {fileID: 4076713077523864}
   - component: {fileID: 33737734282092824}
   - component: {fileID: 23474419558352954}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6644,7 +6626,7 @@ GameObject:
   - component: {fileID: 4990893922283904}
   - component: {fileID: 33578609589522992}
   - component: {fileID: 23341038322111604}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer_Case (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6661,7 +6643,7 @@ GameObject:
   - component: {fileID: 4143792613911628}
   - component: {fileID: 33788890102363170}
   - component: {fileID: 23007735879381762}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6678,7 +6660,7 @@ GameObject:
   - component: {fileID: 4275179220190402}
   - component: {fileID: 33261398190423416}
   - component: {fileID: 23057495470307196}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6712,7 +6694,7 @@ GameObject:
   - component: {fileID: 4832748405006220}
   - component: {fileID: 33190017407179016}
   - component: {fileID: 23911217026194676}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6763,7 +6745,7 @@ GameObject:
   - component: {fileID: 4985519147371230}
   - component: {fileID: 33413198781749228}
   - component: {fileID: 23674162820789722}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Closed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6780,7 +6762,7 @@ GameObject:
   - component: {fileID: 4216137557304370}
   - component: {fileID: 33133838311098254}
   - component: {fileID: 23078134987454126}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6814,7 +6796,7 @@ GameObject:
   - component: {fileID: 4130171348711180}
   - component: {fileID: 33273712615967652}
   - component: {fileID: 23665134246867198}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6831,7 +6813,7 @@ GameObject:
   - component: {fileID: 4510307601134762}
   - component: {fileID: 33178332005852954}
   - component: {fileID: 23927312493288102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6882,7 +6864,7 @@ GameObject:
   - component: {fileID: 4824290313086824}
   - component: {fileID: 33209228689139592}
   - component: {fileID: 23091557494853102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6899,7 +6881,7 @@ GameObject:
   - component: {fileID: 4115074176670868}
   - component: {fileID: 33513043712131506}
   - component: {fileID: 23109904667917832}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6950,7 +6932,7 @@ GameObject:
   - component: {fileID: 4194663753843416}
   - component: {fileID: 33172367567494782}
   - component: {fileID: 23940381942579992}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6967,7 +6949,7 @@ GameObject:
   - component: {fileID: 4014000109210164}
   - component: {fileID: 33826886328386624}
   - component: {fileID: 23369321125093892}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6984,7 +6966,7 @@ GameObject:
   - component: {fileID: 4647425628824410}
   - component: {fileID: 33963823344986740}
   - component: {fileID: 23742462202249872}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer_Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7001,7 +6983,7 @@ GameObject:
   - component: {fileID: 4710405257353700}
   - component: {fileID: 33521990906170316}
   - component: {fileID: 23302333554817152}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7018,7 +7000,7 @@ GameObject:
   - component: {fileID: 4833756663406398}
   - component: {fileID: 33495255713445942}
   - component: {fileID: 23402168668475572}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7052,7 +7034,7 @@ GameObject:
   - component: {fileID: 4964032611885850}
   - component: {fileID: 33990574182941794}
   - component: {fileID: 23053196549514210}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7069,7 +7051,7 @@ GameObject:
   - component: {fileID: 4313647078959900}
   - component: {fileID: 33049578149003150}
   - component: {fileID: 23804678561163876}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7084,7 +7066,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4170543929038382}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7118,7 +7100,7 @@ GameObject:
   - component: {fileID: 4153848788701616}
   - component: {fileID: 33427559939883248}
   - component: {fileID: 23521340251862908}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7152,7 +7134,7 @@ GameObject:
   - component: {fileID: 4394005204252124}
   - component: {fileID: 33547239516861252}
   - component: {fileID: 23908418039078370}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7186,7 +7168,7 @@ GameObject:
   - component: {fileID: 4475199088565456}
   - component: {fileID: 33305637288370954}
   - component: {fileID: 23346227255319424}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7203,7 +7185,7 @@ GameObject:
   - component: {fileID: 4915927068939068}
   - component: {fileID: 33018115647100642}
   - component: {fileID: 23403810828264482}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Notes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7220,7 +7202,7 @@ GameObject:
   - component: {fileID: 4282117363487904}
   - component: {fileID: 33059151380016714}
   - component: {fileID: 23518196978865386}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7237,7 +7219,7 @@ GameObject:
   - component: {fileID: 4280813342708724}
   - component: {fileID: 33649156967284452}
   - component: {fileID: 23161040381419928}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7271,7 +7253,7 @@ GameObject:
   - component: {fileID: 4812625800406856}
   - component: {fileID: 33988345337319028}
   - component: {fileID: 23592312721097480}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7288,7 +7270,7 @@ GameObject:
   - component: {fileID: 4499369385041650}
   - component: {fileID: 33259709444210872}
   - component: {fileID: 23088280258076222}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Half (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7305,7 +7287,7 @@ GameObject:
   - component: {fileID: 4003606385680252}
   - component: {fileID: 33997382712603000}
   - component: {fileID: 23667591665308138}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7356,7 +7338,7 @@ GameObject:
   - component: {fileID: 4067835877854226}
   - component: {fileID: 33129527306237194}
   - component: {fileID: 23723491968838548}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7373,7 +7355,7 @@ GameObject:
   - component: {fileID: 4209650750860520}
   - component: {fileID: 33608054055525128}
   - component: {fileID: 23803199653632514}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7407,7 +7389,7 @@ GameObject:
   - component: {fileID: 4270341687853894}
   - component: {fileID: 33545513156117140}
   - component: {fileID: 23604416519678902}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7441,7 +7423,7 @@ GameObject:
   - component: {fileID: 4932126892541144}
   - component: {fileID: 33329167896375838}
   - component: {fileID: 23923251614749408}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7458,7 +7440,7 @@ GameObject:
   - component: {fileID: 4350335706815004}
   - component: {fileID: 33709628713169486}
   - component: {fileID: 23506203947339358}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7492,7 +7474,7 @@ GameObject:
   - component: {fileID: 4124260707752068}
   - component: {fileID: 33135447818696864}
   - component: {fileID: 23404210951080960}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7509,7 +7491,7 @@ GameObject:
   - component: {fileID: 4969028412062578}
   - component: {fileID: 33035817850786174}
   - component: {fileID: 23082217035360798}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7526,7 +7508,7 @@ GameObject:
   - component: {fileID: 4764919781997508}
   - component: {fileID: 33445400272926048}
   - component: {fileID: 23026556907917102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Open (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7628,7 +7610,7 @@ GameObject:
   - component: {fileID: 4063133169918046}
   - component: {fileID: 33652111236840736}
   - component: {fileID: 23997388775739570}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7679,7 +7661,7 @@ GameObject:
   - component: {fileID: 4598846534591142}
   - component: {fileID: 33265757003483104}
   - component: {fileID: 23158743813176946}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7730,7 +7712,7 @@ GameObject:
   - component: {fileID: 4075475770090726}
   - component: {fileID: 33830072388581092}
   - component: {fileID: 23135450933591406}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Television
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7747,7 +7729,7 @@ GameObject:
   - component: {fileID: 4559526668952076}
   - component: {fileID: 33119862944430258}
   - component: {fileID: 23543260289222588}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7764,7 +7746,7 @@ GameObject:
   - component: {fileID: 4847824317411110}
   - component: {fileID: 33978208502806364}
   - component: {fileID: 23301529673833264}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7781,7 +7763,7 @@ GameObject:
   - component: {fileID: 4129757353643708}
   - component: {fileID: 33124806678555460}
   - component: {fileID: 23879106240219382}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7832,7 +7814,7 @@ GameObject:
   - component: {fileID: 4152104072641652}
   - component: {fileID: 33990164132320100}
   - component: {fileID: 23688843480836492}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7849,7 +7831,7 @@ GameObject:
   - component: {fileID: 4924451838892354}
   - component: {fileID: 33776812011186186}
   - component: {fileID: 23222284060405768}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7866,7 +7848,7 @@ GameObject:
   - component: {fileID: 4752126379869762}
   - component: {fileID: 33992407087153600}
   - component: {fileID: 23135886750142302}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7883,7 +7865,7 @@ GameObject:
   - component: {fileID: 4449997863361130}
   - component: {fileID: 33185691908081620}
   - component: {fileID: 23447597897350562}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer_Keyboard (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7934,7 +7916,7 @@ GameObject:
   - component: {fileID: 4478507519418292}
   - component: {fileID: 33961514200232228}
   - component: {fileID: 23027622968817648}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Large_Cabinet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7968,7 +7950,7 @@ GameObject:
   - component: {fileID: 4442213159239326}
   - component: {fileID: 33759695158952888}
   - component: {fileID: 23611458389826252}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7985,7 +7967,7 @@ GameObject:
   - component: {fileID: 4946261117282446}
   - component: {fileID: 33767606593123060}
   - component: {fileID: 23418025702359960}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8019,7 +8001,7 @@ GameObject:
   - component: {fileID: 4217946252125700}
   - component: {fileID: 33214307514542244}
   - component: {fileID: 23502868641462336}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8053,7 +8035,7 @@ GameObject:
   - component: {fileID: 4788388623339184}
   - component: {fileID: 33472071430170910}
   - component: {fileID: 23898104724516158}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8070,7 +8052,7 @@ GameObject:
   - component: {fileID: 4428383636338844}
   - component: {fileID: 33066522322681596}
   - component: {fileID: 23320246853163384}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8104,7 +8086,7 @@ GameObject:
   - component: {fileID: 4009969013285912}
   - component: {fileID: 33270189784860354}
   - component: {fileID: 23063669851824934}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8121,7 +8103,7 @@ GameObject:
   - component: {fileID: 4112632037115388}
   - component: {fileID: 33634420476670550}
   - component: {fileID: 23666776776004446}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8155,7 +8137,7 @@ GameObject:
   - component: {fileID: 4236070399298134}
   - component: {fileID: 33835329890669164}
   - component: {fileID: 23723703315144550}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer_Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8172,7 +8154,7 @@ GameObject:
   - component: {fileID: 4744671574848096}
   - component: {fileID: 33042589731455940}
   - component: {fileID: 23040488917281664}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8189,7 +8171,7 @@ GameObject:
   - component: {fileID: 4759257247515862}
   - component: {fileID: 33224133750640094}
   - component: {fileID: 23786970189200416}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8206,7 +8188,7 @@ GameObject:
   - component: {fileID: 4104651228364368}
   - component: {fileID: 33271525182911198}
   - component: {fileID: 23975005285594886}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8240,7 +8222,7 @@ GameObject:
   - component: {fileID: 4372781636011374}
   - component: {fileID: 33174790637258612}
   - component: {fileID: 23811169438458138}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8257,7 +8239,7 @@ GameObject:
   - component: {fileID: 4591077794671948}
   - component: {fileID: 33887979246190608}
   - component: {fileID: 23094275056479592}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8274,7 +8256,7 @@ GameObject:
   - component: {fileID: 4994034955367836}
   - component: {fileID: 33599419255183150}
   - component: {fileID: 23872861461356646}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8308,7 +8290,7 @@ GameObject:
   - component: {fileID: 4689087152404062}
   - component: {fileID: 33656415887078262}
   - component: {fileID: 23220942499059650}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8325,7 +8307,7 @@ GameObject:
   - component: {fileID: 4677803587003142}
   - component: {fileID: 33430310704891940}
   - component: {fileID: 23868505112241864}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Computer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8359,7 +8341,7 @@ GameObject:
   - component: {fileID: 4006820839098774}
   - component: {fileID: 33350864879220820}
   - component: {fileID: 23434017647413584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Large_Cabinet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8376,7 +8358,7 @@ GameObject:
   - component: {fileID: 4996679999904602}
   - component: {fileID: 33872874596150902}
   - component: {fileID: 23166144550780480}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8410,7 +8392,7 @@ GameObject:
   - component: {fileID: 4040686285211962}
   - component: {fileID: 33838574076110228}
   - component: {fileID: 23739754270521104}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8427,7 +8409,7 @@ GameObject:
   - component: {fileID: 4334443753745022}
   - component: {fileID: 33559221488508042}
   - component: {fileID: 23140099907853422}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8444,7 +8426,7 @@ GameObject:
   - component: {fileID: 4598146029988252}
   - component: {fileID: 33318052370706446}
   - component: {fileID: 23419295305764978}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8461,7 +8443,7 @@ GameObject:
   - component: {fileID: 4484870667691686}
   - component: {fileID: 33865602952316830}
   - component: {fileID: 23838671280952340}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8495,7 +8477,7 @@ GameObject:
   - component: {fileID: 4146058765344310}
   - component: {fileID: 33869386086513642}
   - component: {fileID: 23381927973057610}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8529,7 +8511,7 @@ GameObject:
   - component: {fileID: 4127841544465798}
   - component: {fileID: 33820131705061580}
   - component: {fileID: 23846361246267364}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8563,7 +8545,7 @@ GameObject:
   - component: {fileID: 4471326138425536}
   - component: {fileID: 33932143227940768}
   - component: {fileID: 23228786272866584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8580,7 +8562,7 @@ GameObject:
   - component: {fileID: 4552809366153716}
   - component: {fileID: 33158037086135766}
   - component: {fileID: 23454216277258192}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8614,7 +8596,7 @@ GameObject:
   - component: {fileID: 4441313221481174}
   - component: {fileID: 33426945017356038}
   - component: {fileID: 23772151503652280}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8631,7 +8613,7 @@ GameObject:
   - component: {fileID: 4951696169577572}
   - component: {fileID: 33368096992366340}
   - component: {fileID: 23864242838445844}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8648,7 +8630,7 @@ GameObject:
   - component: {fileID: 4246964245551884}
   - component: {fileID: 33499245487970094}
   - component: {fileID: 23914877579777448}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8682,7 +8664,7 @@ GameObject:
   - component: {fileID: 4457723011680570}
   - component: {fileID: 33972180618989696}
   - component: {fileID: 23983373658331380}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8716,7 +8698,7 @@ GameObject:
   - component: {fileID: 4669241964592284}
   - component: {fileID: 33200702239425676}
   - component: {fileID: 23884622678123264}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8733,7 +8715,7 @@ GameObject:
   - component: {fileID: 4049601222887020}
   - component: {fileID: 33339895923060866}
   - component: {fileID: 23494306230757734}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8767,7 +8749,7 @@ GameObject:
   - component: {fileID: 4561965920199850}
   - component: {fileID: 33060096371174744}
   - component: {fileID: 23624601485635748}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8784,7 +8766,7 @@ GameObject:
   - component: {fileID: 4452609353096560}
   - component: {fileID: 33346949013346096}
   - component: {fileID: 23816513777731238}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8801,7 +8783,7 @@ GameObject:
   - component: {fileID: 4311270761112452}
   - component: {fileID: 33028645480336062}
   - component: {fileID: 23097056849589364}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8852,7 +8834,7 @@ GameObject:
   - component: {fileID: 4605229000529470}
   - component: {fileID: 33359996779687548}
   - component: {fileID: 23404132334425174}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8886,7 +8868,7 @@ GameObject:
   - component: {fileID: 4023895413626836}
   - component: {fileID: 33639594069284338}
   - component: {fileID: 23071512914816414}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Closed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8903,7 +8885,7 @@ GameObject:
   - component: {fileID: 4993586690359852}
   - component: {fileID: 33378723857116366}
   - component: {fileID: 23798091002336864}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8954,7 +8936,7 @@ GameObject:
   - component: {fileID: 4068338192886524}
   - component: {fileID: 33419125187649690}
   - component: {fileID: 23249207782241482}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8971,7 +8953,7 @@ GameObject:
   - component: {fileID: 4421236500111660}
   - component: {fileID: 33019111962792744}
   - component: {fileID: 23466650782685866}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Printer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8988,7 +8970,7 @@ GameObject:
   - component: {fileID: 4425319029582678}
   - component: {fileID: 33145360636072298}
   - component: {fileID: 23366987973983794}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9022,7 +9004,7 @@ GameObject:
   - component: {fileID: 4110046747214838}
   - component: {fileID: 33840880347481900}
   - component: {fileID: 23460977474753618}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Red (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9056,7 +9038,7 @@ GameObject:
   - component: {fileID: 4962297948966734}
   - component: {fileID: 33057806730795800}
   - component: {fileID: 23875723602835242}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9090,7 +9072,7 @@ GameObject:
   - component: {fileID: 4392964489581310}
   - component: {fileID: 33119060461200538}
   - component: {fileID: 23031282999235418}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9107,7 +9089,7 @@ GameObject:
   - component: {fileID: 4736448299926694}
   - component: {fileID: 33700266659237946}
   - component: {fileID: 23533961168548760}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9124,7 +9106,7 @@ GameObject:
   - component: {fileID: 4886477207599984}
   - component: {fileID: 33765957407060242}
   - component: {fileID: 23218012801608014}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9192,7 +9174,7 @@ GameObject:
   - component: {fileID: 4963880875540442}
   - component: {fileID: 33355069845488976}
   - component: {fileID: 23830256595803404}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9209,7 +9191,7 @@ GameObject:
   - component: {fileID: 4383802632834722}
   - component: {fileID: 33460661227920322}
   - component: {fileID: 23004318808609236}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9277,7 +9259,7 @@ GameObject:
   - component: {fileID: 4827366693616854}
   - component: {fileID: 33230579142871000}
   - component: {fileID: 23775992791737052}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9311,7 +9293,7 @@ GameObject:
   - component: {fileID: 4182476381767066}
   - component: {fileID: 33331492694162256}
   - component: {fileID: 23274687575507142}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9328,7 +9310,7 @@ GameObject:
   - component: {fileID: 4478889404654150}
   - component: {fileID: 33287956320380578}
   - component: {fileID: 23969429838428742}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9379,7 +9361,7 @@ GameObject:
   - component: {fileID: 4807574585983682}
   - component: {fileID: 33310634977187916}
   - component: {fileID: 23105744686674530}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9413,7 +9395,7 @@ GameObject:
   - component: {fileID: 4391363140065032}
   - component: {fileID: 33156810055239238}
   - component: {fileID: 23397313942817084}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9430,7 +9412,7 @@ GameObject:
   - component: {fileID: 4769024692233304}
   - component: {fileID: 33360434553908412}
   - component: {fileID: 23964647593093360}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9464,7 +9446,7 @@ GameObject:
   - component: {fileID: 4658936946583940}
   - component: {fileID: 33305803776589066}
   - component: {fileID: 23840522419076796}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9481,7 +9463,7 @@ GameObject:
   - component: {fileID: 4853739769618828}
   - component: {fileID: 33235011281910166}
   - component: {fileID: 23932072082503248}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9498,7 +9480,7 @@ GameObject:
   - component: {fileID: 4241297217070234}
   - component: {fileID: 33713223633858522}
   - component: {fileID: 23071410602267726}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9532,7 +9514,7 @@ GameObject:
   - component: {fileID: 4304340930145304}
   - component: {fileID: 33664903198342810}
   - component: {fileID: 23422210395704052}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9549,7 +9531,7 @@ GameObject:
   - component: {fileID: 4254134478516168}
   - component: {fileID: 33927415205202760}
   - component: {fileID: 23226539975263530}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9583,7 +9565,7 @@ GameObject:
   - component: {fileID: 4305856684476696}
   - component: {fileID: 33816652519488338}
   - component: {fileID: 23878121854700916}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9600,7 +9582,7 @@ GameObject:
   - component: {fileID: 4316674993937556}
   - component: {fileID: 33345204647600550}
   - component: {fileID: 23017261158943948}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9617,7 +9599,7 @@ GameObject:
   - component: {fileID: 4385806777445208}
   - component: {fileID: 33777942710173508}
   - component: {fileID: 23195623303152328}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9634,7 +9616,7 @@ GameObject:
   - component: {fileID: 4302188673882654}
   - component: {fileID: 33866666002680066}
   - component: {fileID: 23122075108242228}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9651,7 +9633,7 @@ GameObject:
   - component: {fileID: 4032706536976266}
   - component: {fileID: 33920960247299490}
   - component: {fileID: 23810476560247292}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9668,7 +9650,7 @@ GameObject:
   - component: {fileID: 4126468171291464}
   - component: {fileID: 33194413530502060}
   - component: {fileID: 23733731116742154}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9685,7 +9667,7 @@ GameObject:
   - component: {fileID: 4242050810826574}
   - component: {fileID: 33415164465269410}
   - component: {fileID: 23913169077304690}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9753,7 +9735,7 @@ GameObject:
   - component: {fileID: 4564416255715684}
   - component: {fileID: 33440730698296762}
   - component: {fileID: 23973771303301512}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9770,7 +9752,7 @@ GameObject:
   - component: {fileID: 4125523222750120}
   - component: {fileID: 33504325121399960}
   - component: {fileID: 23181449715211058}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_Cabinet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9804,7 +9786,7 @@ GameObject:
   - component: {fileID: 4059560001482710}
   - component: {fileID: 33303473644065548}
   - component: {fileID: 23254823818877804}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9821,7 +9803,7 @@ GameObject:
   - component: {fileID: 4488190369985184}
   - component: {fileID: 33082864587552652}
   - component: {fileID: 23788598290659228}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9838,7 +9820,7 @@ GameObject:
   - component: {fileID: 4768039532259404}
   - component: {fileID: 33976098880612622}
   - component: {fileID: 23021833640802920}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9855,7 +9837,7 @@ GameObject:
   - component: {fileID: 4322623281019286}
   - component: {fileID: 33066124784589508}
   - component: {fileID: 23979826624579376}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9906,7 +9888,7 @@ GameObject:
   - component: {fileID: 4398588558943878}
   - component: {fileID: 33647177323408790}
   - component: {fileID: 23388665073354888}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9923,7 +9905,7 @@ GameObject:
   - component: {fileID: 4832413184295526}
   - component: {fileID: 33950263360393098}
   - component: {fileID: 23919706338775988}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9940,7 +9922,7 @@ GameObject:
   - component: {fileID: 4945060809726536}
   - component: {fileID: 33959003272162018}
   - component: {fileID: 23763734456793068}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9974,7 +9956,7 @@ GameObject:
   - component: {fileID: 4545022459756732}
   - component: {fileID: 33519328526149166}
   - component: {fileID: 23990386557814280}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10025,7 +10007,7 @@ GameObject:
   - component: {fileID: 4346580392366430}
   - component: {fileID: 33858251134287886}
   - component: {fileID: 23300544455410604}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10049,6 +10031,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1867195480008530
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4358544649452220}
+  - component: {fileID: 198583788726571214}
+  - component: {fileID: 199413919098871470}
+  m_Layer: 0
+  m_Name: Shine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1869214188982276
 GameObject:
   m_ObjectHideFlags: 1
@@ -10059,7 +10058,7 @@ GameObject:
   - component: {fileID: 4708090558241140}
   - component: {fileID: 33941160807153540}
   - component: {fileID: 23304276790443376}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10093,7 +10092,7 @@ GameObject:
   - component: {fileID: 4025032669296998}
   - component: {fileID: 33718798703158314}
   - component: {fileID: 23365791379208658}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10112,23 +10111,6 @@ GameObject:
   - component: {fileID: 23781538222315476}
   m_Layer: 0
   m_Name: E_Wall_Straight (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1873619518525920
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4113098874918832}
-  - component: {fileID: 33976439890951226}
-  - component: {fileID: 23112048660728768}
-  m_Layer: 0
-  m_Name: Keycard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10161,7 +10143,7 @@ GameObject:
   - component: {fileID: 4522427043987008}
   - component: {fileID: 33942607590744970}
   - component: {fileID: 23130931933023842}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Blue (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10178,7 +10160,7 @@ GameObject:
   - component: {fileID: 4503108450681900}
   - component: {fileID: 33268744859067522}
   - component: {fileID: 23733255952090948}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10212,7 +10194,7 @@ GameObject:
   - component: {fileID: 4110129573882898}
   - component: {fileID: 33652027398144398}
   - component: {fileID: 23576878167850028}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10229,7 +10211,7 @@ GameObject:
   - component: {fileID: 4834049516574198}
   - component: {fileID: 33675209899971742}
   - component: {fileID: 23425407751260040}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10263,7 +10245,7 @@ GameObject:
   - component: {fileID: 4532015803454612}
   - component: {fileID: 33655103330781588}
   - component: {fileID: 23568032578690306}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10297,7 +10279,7 @@ GameObject:
   - component: {fileID: 4140026283533804}
   - component: {fileID: 33732051537178054}
   - component: {fileID: 23087734901745380}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10314,7 +10296,7 @@ GameObject:
   - component: {fileID: 4051644228604454}
   - component: {fileID: 33137059275840820}
   - component: {fileID: 23527083775140848}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10348,7 +10330,7 @@ GameObject:
   - component: {fileID: 4339103819798814}
   - component: {fileID: 33369450032986906}
   - component: {fileID: 23451894323011606}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10416,7 +10398,7 @@ GameObject:
   - component: {fileID: 4559333028349356}
   - component: {fileID: 33053809931816212}
   - component: {fileID: 23996121847658744}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10450,7 +10432,7 @@ GameObject:
   - component: {fileID: 4456558426069562}
   - component: {fileID: 33643020456084974}
   - component: {fileID: 23518219234870572}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10467,7 +10449,7 @@ GameObject:
   - component: {fileID: 4860513649456412}
   - component: {fileID: 33658774082882046}
   - component: {fileID: 23231672901159772}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10501,7 +10483,7 @@ GameObject:
   - component: {fileID: 4407635795082424}
   - component: {fileID: 33064718325435188}
   - component: {fileID: 23938626770359916}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10518,7 +10500,7 @@ GameObject:
   - component: {fileID: 4059812755112004}
   - component: {fileID: 33805315511864496}
   - component: {fileID: 23920617081553554}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10535,7 +10517,7 @@ GameObject:
   - component: {fileID: 4667634702389480}
   - component: {fileID: 33892042212122232}
   - component: {fileID: 23041213356060356}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rack_Cabinet (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10586,7 +10568,7 @@ GameObject:
   - component: {fileID: 4394577964474926}
   - component: {fileID: 33576817070527462}
   - component: {fileID: 23650166636825626}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10620,7 +10602,7 @@ GameObject:
   - component: {fileID: 4040333445954946}
   - component: {fileID: 33091817539690956}
   - component: {fileID: 23498252841262888}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10637,7 +10619,7 @@ GameObject:
   - component: {fileID: 4180833508323760}
   - component: {fileID: 33733943265273660}
   - component: {fileID: 23903291596554236}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10655,7 +10637,7 @@ GameObject:
   - component: {fileID: 33440147741749050}
   - component: {fileID: 23370068270064886}
   - component: {fileID: 64516262085398920}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10672,7 +10654,7 @@ GameObject:
   - component: {fileID: 4250522754435144}
   - component: {fileID: 33477843274942816}
   - component: {fileID: 23279580116681830}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10689,7 +10671,7 @@ GameObject:
   - component: {fileID: 4471003449984150}
   - component: {fileID: 33143771292868048}
   - component: {fileID: 23593735613398722}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Red (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10723,7 +10705,7 @@ GameObject:
   - component: {fileID: 4934847059375480}
   - component: {fileID: 33771616069086486}
   - component: {fileID: 23625393851174488}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10757,7 +10739,7 @@ GameObject:
   - component: {fileID: 4994229042321674}
   - component: {fileID: 33273773671514046}
   - component: {fileID: 23955898188875360}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10791,7 +10773,7 @@ GameObject:
   - component: {fileID: 4594760975773684}
   - component: {fileID: 33929245217647320}
   - component: {fileID: 23390541541340752}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10808,7 +10790,7 @@ GameObject:
   - component: {fileID: 4124992830936980}
   - component: {fileID: 33610684218355128}
   - component: {fileID: 23563576105040758}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plant (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10842,7 +10824,7 @@ GameObject:
   - component: {fileID: 4929369335681004}
   - component: {fileID: 33669203734491318}
   - component: {fileID: 23920224593909566}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10859,7 +10841,7 @@ GameObject:
   - component: {fileID: 4421541480526650}
   - component: {fileID: 33986108077255928}
   - component: {fileID: 23427877021150456}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10893,7 +10875,7 @@ GameObject:
   - component: {fileID: 4297233128867768}
   - component: {fileID: 33241843119951774}
   - component: {fileID: 23488794281262546}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10910,7 +10892,7 @@ GameObject:
   - component: {fileID: 4803105922455034}
   - component: {fileID: 33428229661544256}
   - component: {fileID: 23807605147416640}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Beanbag_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10927,7 +10909,7 @@ GameObject:
   - component: {fileID: 4195479424328324}
   - component: {fileID: 33598187419900470}
   - component: {fileID: 23002178529607032}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10961,7 +10943,7 @@ GameObject:
   - component: {fileID: 4352308108982414}
   - component: {fileID: 33688146662483298}
   - component: {fileID: 23440961713750040}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Toilet (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10995,7 +10977,7 @@ GameObject:
   - component: {fileID: 4776564993161774}
   - component: {fileID: 33586970977808246}
   - component: {fileID: 23865310400812416}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Closed (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11012,7 +10994,7 @@ GameObject:
   - component: {fileID: 4336707047596484}
   - component: {fileID: 33114904331324104}
   - component: {fileID: 23979586801585700}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11029,7 +11011,7 @@ GameObject:
   - component: {fileID: 4746442430347416}
   - component: {fileID: 33889487657251884}
   - component: {fileID: 23572069845155156}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11131,7 +11113,7 @@ GameObject:
   - component: {fileID: 4578003645819964}
   - component: {fileID: 33929693243088412}
   - component: {fileID: 23126155460194980}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11148,7 +11130,7 @@ GameObject:
   - component: {fileID: 4412806295113498}
   - component: {fileID: 33508372789863730}
   - component: {fileID: 23780270462925820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11165,7 +11147,7 @@ GameObject:
   - component: {fileID: 4337595546744310}
   - component: {fileID: 33333934335648268}
   - component: {fileID: 23825794924288854}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11199,7 +11181,7 @@ GameObject:
   - component: {fileID: 4540443843832724}
   - component: {fileID: 33244621747395516}
   - component: {fileID: 23217800149701506}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11216,7 +11198,7 @@ GameObject:
   - component: {fileID: 4856906229172946}
   - component: {fileID: 33150376881094394}
   - component: {fileID: 23639480369688986}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11233,7 +11215,7 @@ GameObject:
   - component: {fileID: 4137579506540780}
   - component: {fileID: 33170862090813530}
   - component: {fileID: 23052314625238856}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Cabinet (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11250,7 +11232,7 @@ GameObject:
   - component: {fileID: 4307292393740908}
   - component: {fileID: 33057192051929924}
   - component: {fileID: 23236157197790928}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Dark (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11267,7 +11249,7 @@ GameObject:
   - component: {fileID: 4857146679757286}
   - component: {fileID: 33839940828966570}
   - component: {fileID: 23411750014770068}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11301,7 +11283,7 @@ GameObject:
   - component: {fileID: 4428150341364236}
   - component: {fileID: 33880215566170158}
   - component: {fileID: 23831712393142676}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monitor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11318,8 +11300,27 @@ GameObject:
   - component: {fileID: 4159301078848120}
   - component: {fileID: 33596235178911556}
   - component: {fileID: 23632800391963302}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table_Sink (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1983184949392668
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4405487559176628}
+  - component: {fileID: 33630086773703364}
+  - component: {fileID: 23485020631472470}
+  - component: {fileID: 65072731565171252}
+  - component: {fileID: 114977358323575422}
+  m_Layer: 0
+  m_Name: ArmourPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11335,7 +11336,7 @@ GameObject:
   - component: {fileID: 4354387314360622}
   - component: {fileID: 33855411091698626}
   - component: {fileID: 23917944990642134}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11352,7 +11353,7 @@ GameObject:
   - component: {fileID: 4104930343653346}
   - component: {fileID: 33342715738556012}
   - component: {fileID: 23716857417066038}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk_Divider (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11386,7 +11387,7 @@ GameObject:
   - component: {fileID: 4931713541228386}
   - component: {fileID: 33959107106109238}
   - component: {fileID: 23657418176223590}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Desk (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11420,7 +11421,7 @@ GameObject:
   - component: {fileID: 4319004666551498}
   - component: {fileID: 33209869213894000}
   - component: {fileID: 23618609910974338}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bathroom_Stall_Half
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11454,7 +11455,7 @@ GameObject:
   - component: {fileID: 4759056607080558}
   - component: {fileID: 33018340932782284}
   - component: {fileID: 23430371191216944}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Chair_Green (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12757,19 +12758,6 @@ Transform:
   m_Father: {fileID: 4170543929038382}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!4 &4113098874918832
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1873619518525920}
-  m_LocalRotation: {x: -0, y: -0.32357827, z: -0, w: 0.94620144}
-  m_LocalPosition: {x: 12.12, y: 0.654, z: 9.23}
-  m_LocalScale: {x: 13.252594, y: 0.47965565, z: 20.134033}
-  m_Children: []
-  m_Father: {fileID: 4170543929038382}
-  m_RootOrder: 147
-  m_LocalEulerAnglesHint: {x: 0, y: -37.759003, z: 0}
 --- !u!4 &4115074176670868
 Transform:
   m_ObjectHideFlags: 1
@@ -13486,7 +13474,7 @@ Transform:
   - {fileID: 4217946252125700}
   - {fileID: 4976539851862924}
   - {fileID: 4067835877854226}
-  - {fileID: 4113098874918832}
+  - {fileID: 4721739169368340}
   - {fileID: 4334757026088364}
   - {fileID: 4994867965305884}
   - {fileID: 4102272576268652}
@@ -15354,6 +15342,19 @@ Transform:
   m_Father: {fileID: 4050749829157114}
   m_RootOrder: 163
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4358544649452220
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867195480008530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405487559176628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4358557171610198
 Transform:
   m_ObjectHideFlags: 1
@@ -15808,6 +15809,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4050749829157114}
   m_RootOrder: 255
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4405487559176628
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983184949392668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.22, y: 0.405, z: 27.83}
+  m_LocalScale: {x: 0.72017276, y: 0.720173, z: 0.720173}
+  m_Children:
+  - {fileID: 4358544649452220}
+  m_Father: {fileID: 4872371239359040}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4405853030026712
 Transform:
@@ -16461,19 +16476,6 @@ Transform:
   m_Father: {fileID: 4170543929038382}
   m_RootOrder: 357
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!4 &4471723374512304
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1172980683681126}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4846117198874150}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4474933428996826
 Transform:
   m_ObjectHideFlags: 1
@@ -16537,7 +16539,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4872371239359040}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
 --- !u!4 &4477167989299234
 Transform:
@@ -16797,7 +16799,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4872371239359040}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -6.188, z: 0}
 --- !u!4 &4510307601134762
 Transform:
@@ -16836,7 +16838,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4872371239359040}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -6.188, z: 0}
 --- !u!4 &4513480202084818
 Transform:
@@ -18060,7 +18062,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4872371239359040}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4697360842057920
 Transform:
@@ -18138,7 +18140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4872371239359040}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -14.908001, z: 0}
 --- !u!4 &4708509982299530
 Transform:
@@ -18257,6 +18259,19 @@ Transform:
   m_Father: {fileID: 4170543929038382}
   m_RootOrder: 273
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4721739169368340
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254449347467040}
+  m_LocalRotation: {x: -0, y: -0.32357827, z: -0, w: 0.94620144}
+  m_LocalPosition: {x: 12.12, y: 0.654, z: 9.23}
+  m_LocalScale: {x: 13.252594, y: 0.47965565, z: 20.134033}
+  m_Children: []
+  m_Father: {fileID: 4170543929038382}
+  m_RootOrder: 147
+  m_LocalEulerAnglesHint: {x: 0, y: -37.759003, z: 0}
 --- !u!4 &4723161372051882
 Transform:
   m_ObjectHideFlags: 1
@@ -19275,20 +19290,6 @@ Transform:
   m_Father: {fileID: 4050749829157114}
   m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4846117198874150
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1150956725624574}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.15, y: 0.41, z: 27.86}
-  m_LocalScale: {x: 0.5183816, y: 0.5183815, z: 0.5183815}
-  m_Children:
-  - {fileID: 4471723374512304}
-  m_Father: {fileID: 4872371239359040}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4847198943457326
 Transform:
   m_ObjectHideFlags: 1
@@ -19637,12 +19638,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4405487559176628}
   - {fileID: 4476240059147102}
   - {fileID: 4697182881168718}
   - {fileID: 4708257857864692}
   - {fileID: 4512374575746448}
   - {fileID: 4509833833960472}
-  - {fileID: 4846117198874150}
   m_Father: {fileID: 4777292434239290}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23667,41 +23668,6 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1317154570732968}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23112048660728768
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1873619518525920}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -32271,6 +32237,41 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23485020631472470
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983184949392668}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 32bbba98deefd9f4b8c516fadfedf675, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!23 &23488794281262546
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -35682,41 +35683,6 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23635693006381242
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1150956725624574}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 32bbba98deefd9f4b8c516fadfedf675, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43366,6 +43332,41 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23973112272194864
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254449347467040}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!23 &23973771303301512
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -47020,6 +47021,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1170707530133042}
   m_Mesh: {fileID: 4300000, guid: 92045c875f25ba841a88bc2e62083e5c, type: 3}
+--- !u!33 &33628227340754070
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254449347467040}
+  m_Mesh: {fileID: 4300000, guid: 239707052e509f94fa0468d95a20dca3, type: 3}
+--- !u!33 &33630086773703364
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983184949392668}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33631934710786452
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -47657,13 +47672,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1856842262198854}
   m_Mesh: {fileID: 4300000, guid: 92045c875f25ba841a88bc2e62083e5c, type: 3}
---- !u!33 &33765636205035000
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1150956725624574}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33765957407060242
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -48707,13 +48715,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1851024825282106}
   m_Mesh: {fileID: 4300000, guid: 508147cbfdcac214fbf695435b6f653e, type: 3}
---- !u!33 &33976439890951226
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1873619518525920}
-  m_Mesh: {fileID: 4300000, guid: 239707052e509f94fa0468d95a20dca3, type: 3}
 --- !u!33 &33978208502806364
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -48882,6 +48883,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65072731565171252
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983184949392668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5874481, y: 1.0568495, z: 3.582334}
+  m_Center: {x: -0.16993628, y: 0.028424503, z: 0.25294837}
 --- !u!95 &95076381200380614
 Animator:
   serializedVersion: 3
@@ -48954,24 +48967,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!135 &135629204437747434
-SphereCollider:
+--- !u!114 &114977358323575422
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1150956725624574}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 1983184949392668}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!198 &198266136920719388
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eca642748a69bf46ae33a6e951ba5a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BobbingMinimum: 0.344
+  m_BobbingMaximum: 1
+--- !u!198 &198583788726571214
 ParticleSystem:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1172980683681126}
+  m_GameObject: {fileID: 1867195480008530}
   serializedVersion: 5
   lengthInSec: 5
   simulationSpeed: 1
@@ -53497,13 +53511,13 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &199790514596596508
+--- !u!199 &199413919098871470
 ParticleSystemRenderer:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1172980683681126}
+  m_GameObject: {fileID: 1867195480008530}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
