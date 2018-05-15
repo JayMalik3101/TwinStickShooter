@@ -406,7 +406,13 @@ MonoBehaviour:
   m_Origin: {fileID: 4479412913794180}
   m_Projectile: {fileID: 54939204040716320, guid: e1cfdb6264324804b9be809aa7fc12c6,
     type: 2}
-  m_OriginalTimeForReload: 0.25
+  m_OriginalFireRate: 0.3
+  m_OriginalReloadTime: 2
+  m_MagSize: 15
+  m_CurrentReloadTime: 0
+  m_FireRate: 0
+  m_CurrentMagSize: 0
+  m_CurrentlyReloading: 0
 --- !u!114 &114839672649788848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -422,4 +428,10 @@ MonoBehaviour:
   m_Origin: {fileID: 4595193540550404}
   m_Projectile: {fileID: 54939204040716320, guid: e1cfdb6264324804b9be809aa7fc12c6,
     type: 2}
-  m_OriginalTimeForReload: 0.25
+  m_OriginalFireRate: 0.3
+  m_OriginalReloadTime: 2
+  m_MagSize: 15
+  m_CurrentReloadTime: 0
+  m_FireRate: 0
+  m_CurrentMagSize: 0
+  m_CurrentlyReloading: 0

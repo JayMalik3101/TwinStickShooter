@@ -14,16 +14,27 @@ public class PlayerStats : MonoBehaviour {
     private float m_ReloadModifier;
     private float m_SpeedModifier;
 
-    GameObject m_DeathMenu;
+    [SerializeField] private GameObject m_Shield;
+    private GameObject m_DeathMenu;
     private void Start()
     {
+
         m_CurrentHealth = m_MaxHealth;
         m_DeathMenu = GameObject.Find("DeathMenu");
         m_DeathMenu.SetActive(false);
+        m_Shield.SetActive(false);
     }
 
     private void Update()
     {
+        if(m_ArmourActive == true)
+        {
+            m_Shield.SetActive(true);
+        }
+        else
+        {
+            m_Shield.SetActive(false);
+        }
         TakeDamge(0);
         if (Input.GetKeyDown(KeyCode.U))
         {

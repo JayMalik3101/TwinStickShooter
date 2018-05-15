@@ -300,4 +300,10 @@ MonoBehaviour:
   m_Origin: {fileID: 4628885358182236}
   m_Projectile: {fileID: 54939204040716320, guid: 4eb130177866a274db14bb3f9ae47c5c,
     type: 2}
-  m_OriginalTimeForReload: 0.1
+  m_OriginalFireRate: 0.13
+  m_OriginalReloadTime: 5
+  m_MagSize: 150
+  m_CurrentReloadTime: 0
+  m_FireRate: 0
+  m_CurrentMagSize: 0
+  m_CurrentlyReloading: 0
