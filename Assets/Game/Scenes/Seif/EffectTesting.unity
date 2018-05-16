@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1385,8 +1385,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1721326764}
-  m_LocalRotation: {x: -0.10659443, y: 0.017007401, z: -0.0017506606, w: -0.9941556}
-  m_LocalPosition: {x: 5.279791, y: 156.11444, z: -16.292625}
+  m_LocalRotation: {x: -0.24086078, y: -0.20995457, z: 0.053526625, w: -0.94606566}
+  m_LocalPosition: {x: -3.6054945, y: 157.2251, z: -9.773386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1420,6 +1420,28 @@ Transform:
   m_Father: {fileID: 315940445}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1803890668 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 1351b5c1674f20346b34b9e18f85a603, type: 3}
+  m_PrefabInternal: {fileID: 1181147798}
+--- !u!95 &1803890669
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1803890668}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88ddedc9737aac2448034bfc5abe8750, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1835612973 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4878369914551902, guid: e58a5ef309316dd4bb9dbb40faedb012,
