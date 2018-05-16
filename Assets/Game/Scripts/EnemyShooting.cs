@@ -29,7 +29,7 @@ public class EnemyShooting : MonoBehaviour {
             if (hit.transform.CompareTag("Player"))
             {
                 Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
-                enemyProjectile.AddForce(transform.forward * m_InitialForce, ForceMode.Impulse);
+                enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);
                 m_FireRate = m_OriginalFireRate;
             }
         }

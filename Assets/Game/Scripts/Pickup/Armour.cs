@@ -7,7 +7,7 @@ public class Armour : Pickups {
     public override void PickupEffect(Collider other)
     {
         if (other.GetComponent<PlayerStats>())
-            other.GetComponent<PlayerStats>().m_ArmourActive = true;
+            other.GetComponent<PlayerStats>().ArmorActive = true;
         base.PickupEffect(other);
     }
 }

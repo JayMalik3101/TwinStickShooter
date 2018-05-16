@@ -37,7 +37,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4319002065811886}
   - component: {fileID: 33120935072890148}
-  - component: {fileID: 65481675151696420}
   - component: {fileID: 23281455585599008}
   m_Layer: 0
   m_Name: Cube
@@ -55,7 +54,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4026981735198544}
   - component: {fileID: 33974464307611302}
-  - component: {fileID: 65115207143186694}
   - component: {fileID: 23101296036186416}
   m_Layer: 0
   m_Name: Cube (1)
@@ -261,30 +259,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1757608686890904}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65115207143186694
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1757608686890904}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65481675151696420
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1749339815745698}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114582690953370466
 MonoBehaviour:
   m_ObjectHideFlags: 1
