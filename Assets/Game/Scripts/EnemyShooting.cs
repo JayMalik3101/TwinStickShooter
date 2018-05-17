@@ -26,7 +26,7 @@ public class EnemyShooting : MonoBehaviour {
         m_FireRate -= Time.deltaTime;
         if (Physics.Raycast(m_Origin.position, m_Direction, out hit, m_ShotRange))
         {
-            if (hit.transform.CompareTag("Player"))
+            if (hit.transform.CompareTag("Player") && m_FireRate <= 0)
             {
                 Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
                 enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);
