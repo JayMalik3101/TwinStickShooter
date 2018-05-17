@@ -368,7 +368,7 @@ MonoBehaviour:
   m_OriginalFireRate: 0.3
   m_Projectile: {fileID: 54939204040716320, guid: fd24fd939eb5f1e4ab1460278adfe302,
     type: 2}
-  m_InitialForce: 90000
+  m_InitialForce: 900000
   m_PlayerTransform: {fileID: 0}
 --- !u!114 &114451234585698880
 MonoBehaviour:

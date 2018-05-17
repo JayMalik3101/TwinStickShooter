@@ -19,7 +19,8 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape) && m_DeathMenu == false)
+        
+        if (Input.GetKeyDown(KeyCode.Escape) && m_PlayerStats.m_CurrentHealth >0)
         {
             if(m_CurrentlyPauzed == false)
             {
