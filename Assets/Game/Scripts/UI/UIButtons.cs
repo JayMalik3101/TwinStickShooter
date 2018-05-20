@@ -9,15 +9,18 @@ public class UIButtons : MonoBehaviour
     public void Iwanttodie()
     {
         Application.Quit();
-        Debug.Log("I want to die)");
     }
     public void IwanttobeBIG()
     {
         Screen.fullScreen = true;
-        Debug.Log("BIG TIME");
     }
     public void SceneSwitching(int DesiredScene)
     {
         SceneManager.LoadScene(DesiredScene);
+    }
+    public void Unpauzing()
+    {
+        GameObject.Find("GameManager").GetComponent<GameManager>().m_CurrentlyPauzed = false;
+        GameObject.Find("GameManager").GetComponent<GameManager>().m_PauseMenu.SetActive(false);
     }
 }

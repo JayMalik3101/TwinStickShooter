@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     private GameObject m_DeathMenu;
-    private GameObject m_PauseMenu;
     private PlayerStats m_PlayerStats;
+    public GameObject m_PauseMenu;
 
-    private bool m_CurrentlyPauzed;
+    public bool m_CurrentlyPauzed;
 	void Start () {
         m_DeathMenu = GameObject.Find("DeathMenu");
         m_PauseMenu = GameObject.Find("PauseMenu");

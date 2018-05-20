@@ -60,7 +60,7 @@ public class EnemyMovement : MonoBehaviour {
             Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.green);
         }
         Physics.Raycast(m_GuardTransform.position, m_DirectionToWaypoint, out hit);
-        if (hit.distance <= 5)
+        if (hit.distance <= 5 )
         {
             m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);
             m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);

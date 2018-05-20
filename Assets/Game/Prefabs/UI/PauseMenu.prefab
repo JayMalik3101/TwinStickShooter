@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222502918849814172}
   - component: {fileID: 114224943706193770}
   - component: {fileID: 114608997939617626}
+  - component: {fileID: 114531975626279622}
   m_Layer: 5
   m_Name: Resume
   m_TagString: Untagged
@@ -221,6 +222,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114531975626279622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113789318146778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068f9adbfcf8af542be6ef66b7feb75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114533110251210510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -271,7 +283,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114224943706193770}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114531975626279622}
+        m_MethodName: Unpauzing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114619591959415740
