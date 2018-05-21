@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4309527433896876}
   - component: {fileID: 33225293780807916}
   - component: {fileID: 23136302793258118}
+  - component: {fileID: 65984546887768526}
   m_Layer: 0
   m_Name: ElevatorDoor_Right
   m_TagString: Untagged
@@ -54,6 +55,7 @@ GameObject:
   - component: {fileID: 4379510196542844}
   - component: {fileID: 33837724618644854}
   - component: {fileID: 23691535562245266}
+  - component: {fileID: 65189404404078858}
   m_Layer: 0
   m_Name: ElevatorDoor_Left
   m_TagString: Untagged
@@ -94,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803750878658180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -8, y: 0, z: 12.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4379510196542844}
@@ -186,6 +188,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1820957405292950}
   m_Mesh: {fileID: 4300000, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
+--- !u!65 &65189404404078858
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820957405292950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15129638, y: 1.6969931, z: 0.9505776}
+  m_Center: {x: 0, y: -0.00000008940697, z: -0.23764437}
+--- !u!65 &65984546887768526
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1298014689097192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15129638, y: 1.6969931, z: 0.9505776}
+  m_Center: {x: 0, y: 0.00000008940697, z: 0.23764437}
 --- !u!95 &95029811815088462
 Animator:
   serializedVersion: 3
