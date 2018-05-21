@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4835833299115974}
   - component: {fileID: 33444334323936484}
   - component: {fileID: 23209039436000996}
+  - component: {fileID: 65890023951934898}
   m_Layer: 0
   m_Name: E_Wall_Straight_Elevator
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353508538564618}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -8, y: 0, z: 0.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353508538564618}
   m_Mesh: {fileID: 4300000, guid: 4439db25d81a594429152823ed0c4d42, type: 3}
+--- !u!65 &65890023951934898
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353508538564618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 0.19999999}
+  m_Center: {x: 0, y: 1, z: 0}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4161494496788334}
   - component: {fileID: 33622284927781706}
   - component: {fileID: 23292673458287622}
+  - component: {fileID: 65112565247561838}
   m_Layer: 0
   m_Name: E_Wall_Straight_Window
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538294464190242}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -8, y: 0, z: 2.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538294464190242}
   m_Mesh: {fileID: 4300000, guid: d71ccf0eeea30e94e8676e386db98944, type: 3}
+--- !u!65 &65112565247561838
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538294464190242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 0.1982745}
+  m_Center: {x: 0, y: 1, z: 0.00086277723}

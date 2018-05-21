@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4011248641018490}
   - component: {fileID: 33716303901471244}
   - component: {fileID: 23906970304606522}
+  - component: {fileID: 65480396513071418}
+  - component: {fileID: 65855866390395966}
   m_Layer: 0
   m_Name: I_Wall_L_Shape_Elevator
   m_TagString: Untagged
@@ -34,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1974970236636156}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000028461216}
-  m_LocalPosition: {x: 2, y: 0, z: 38}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8, y: 0, z: 18.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23906970304606522
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,3 +85,27 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1974970236636156}
   m_Mesh: {fileID: 4300000, guid: 863992b5f2e67884dbb7fae29cfdd167, type: 3}
+--- !u!65 &65480396513071418
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974970236636156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19667912, y: 2, z: 1.1016788}
+  m_Center: {x: -0.003373623, y: 1, z: -0.44916058}
+--- !u!65 &65855866390395966
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974970236636156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0937862, y: 2, z: 0.19225597}
+  m_Center: {x: 0.45310688, y: 1, z: 0.006248951}
