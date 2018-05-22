@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 92045c875f25ba841a88bc2e62083e5c
+guid: 52e82bd32a92ce149afda4ee70af92f3
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,8 +8,8 @@ ModelImporter:
     2100000: lambert2
     2300000: //RootNode
     3300000: //RootNode
-    4300000: I_Wall_Straight1
-    4300002: E_Wall_Straight
+    4300000: Door
+    4300002: I_Door
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -66,7 +66,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
