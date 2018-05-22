@@ -21,14 +21,18 @@ GameObject:
   - component: {fileID: 4082275997978450}
   - component: {fileID: 33638213684418770}
   - component: {fileID: 23124969076266848}
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/E_Wall_T_Shape_Elevator_L.prefab
   - component: {fileID: 65596213416053810}
   - component: {fileID: 65724289506217338}
+=======
+  - component: {fileID: 64076192194992404}
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/E_Wall_T_Shape_Elevator_L.prefab
   m_Layer: 0
   m_Name: E_Wall_T_Shape_Elevator_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4082275997978450
 Transform:
@@ -36,8 +40,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1053963369923620}
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/E_Wall_T_Shape_Elevator_L.prefab
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8, y: 0, z: 7.23}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7, y: 0, z: -9}
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/E_Wall_T_Shape_Elevator_L.prefab
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,8 +94,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1053963369923620}
   m_Mesh: {fileID: 4300000, guid: 4ffedcfcc1b73d044bd54f840e0a196f, type: 3}
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/E_Wall_T_Shape_Elevator_L.prefab
 --- !u!65 &65596213416053810
 BoxCollider:
+=======
+--- !u!64 &64076192194992404
+MeshCollider:
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/E_Wall_T_Shape_Elevator_L.prefab
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -94,6 +108,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/E_Wall_T_Shape_Elevator_L.prefab
   serializedVersion: 2
   m_Size: {x: 0.18360913, y: 2, z: 2}
   m_Center: {x: -0.00819546, y: 1, z: 0}
@@ -109,3 +124,10 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 2, z: 0.20015144}
   m_Center: {x: 0.45, y: 1, z: -0.0026507378}
+=======
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 4ffedcfcc1b73d044bd54f840e0a196f, type: 3}
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/E_Wall_T_Shape_Elevator_L.prefab

@@ -21,13 +21,17 @@ GameObject:
   - component: {fileID: 4437258223283374}
   - component: {fileID: 33688294109501086}
   - component: {fileID: 23007269815247648}
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/I_Wall_Straight_Window.prefab
   - component: {fileID: 65195013746781864}
+=======
+  - component: {fileID: 64678682146799016}
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/I_Wall_Straight_Window.prefab
   m_Layer: 0
   m_Name: I_Wall_Straight_Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4437258223283374
 Transform:
@@ -36,7 +40,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1805720037992334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/I_Wall_Straight_Window.prefab
   m_LocalPosition: {x: -8, y: 0, z: 33.73}
+=======
+  m_LocalPosition: {x: -7, y: 0, z: 18}
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/I_Wall_Straight_Window.prefab
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,8 +92,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1805720037992334}
   m_Mesh: {fileID: 4300002, guid: 768c06309549e7e458b5e7671e2740c1, type: 3}
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/I_Wall_Straight_Window.prefab
 --- !u!65 &65195013746781864
 BoxCollider:
+=======
+--- !u!64 &64678682146799016
+MeshCollider:
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/I_Wall_Straight_Window.prefab
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -93,6 +106,14 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< Updated upstream:Assets/Game/Prefabs/Models/Walls/I_Wall_Straight_Window.prefab
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 0.22237778}
   m_Center: {x: 0, y: 1, z: 0.0009098053}
+=======
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300002, guid: 768c06309549e7e458b5e7671e2740c1, type: 3}
+>>>>>>> Stashed changes:Assets/Game/Prefabs/Models/Walls [OLD]/I_Wall_Straight_Window.prefab
