@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32048f085808f474798a405ec160ba91
+guid: b54cc43feb91ef943a98b7ea65863d5b
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: lambert2
     2300000: //RootNode
     3300000: //RootNode
-    4300000: I_Wall_T_Shape
+    4300000: I_Wall_T_Shape_Elevator_R
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -65,7 +65,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

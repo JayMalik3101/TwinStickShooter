@@ -1,14 +1,28 @@
 fileFormatVersion: 2
-guid: 765ba2cc3973c084bb17e5c07cc44b7d
+guid: 36d7a5ff4032cff4abaff2108f2aa219
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Base
+    100004: Frame
+    100006: Turret 1
     400000: //RootNode
-    2100000: lambert3
+    400002: Base
+    400004: Frame
+    400006: Turret 1
+    2100000: lambert1
     2300000: //RootNode
+    2300002: Base
+    2300004: Frame
+    2300006: Turret 1
     3300000: //RootNode
-    4300000: I_Wall_Straight_Elevator
+    3300002: Base
+    3300004: Frame
+    3300006: Turret 1
+    4300000: Turret
+    4300002: Frame
+    4300004: Base
   externalObjects: {}
   materials:
     importMaterials: 0
