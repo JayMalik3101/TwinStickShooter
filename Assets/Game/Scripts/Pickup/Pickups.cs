@@ -5,11 +5,15 @@ using UnityEngine;
 public class Pickups : MonoBehaviour {
     [SerializeField] float m_BobbingMinimum;
     [SerializeField] float m_BobbingMaximum;
+    [SerializeField] private bool m_IsShop;
+    [SerializeField] private float m_ItemCost;
+    private PlayerStats m_PlayerStats;
     private Transform m_ItemTransform;
     private float changeNumber = 0.1f;
     private void Start()
     {
         m_ItemTransform = GetComponent<Transform>();
+        m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
     }
     private void Update()
     {
@@ -48,8 +52,22 @@ public class Pickups : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
-            PickupEffect(other);
-            Destroy(gameObject);
+            if(m_IsShop == true && m_ItemCost < m_PlayerStats.m_Money)
+            {
+                m_PlayerStats.m_Money -= m_ItemCost;
+                PickupEffect(other);
+                Destroy(gameObject);
+            }
+            else if(m_IsShop == true && m_ItemCost > m_PlayerStats.m_Money){
+                // input not having enough money here
+            }
+            else
+            {
+                PickupEffect(other);
+                Destroy(gameObject);
+            }
+            
+            
         }
     }
 }

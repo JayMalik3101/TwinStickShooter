@@ -55,7 +55,6 @@ GameObject:
   - component: {fileID: 4011245066374222}
   - component: {fileID: 65162306149848600}
   - component: {fileID: 114810376490161094}
-  - component: {fileID: 114004211966489844}
   m_Layer: 9
   m_Name: Vial
   m_TagString: Untagged
@@ -87,7 +86,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1499685460888708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.77, y: 0.431, z: 1.73}
+  m_LocalPosition: {x: 15.28213, y: 0.02000001, z: -37.016323}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4794229746828134}
@@ -273,17 +272,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.5519195, y: 0.053260803, z: 3.8635798}
   m_Center: {x: 0.24980664, y: -0.37972283, z: -0.0060794353}
---- !u!114 &114004211966489844
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1499685460888708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4d8c11d9de2b3b408891ed7aa8c64cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114810376490161094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,3 +283,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 513b4dcc39c177443b6957e3897512f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_BobbingMinimum: 0
+  m_BobbingMaximum: 0

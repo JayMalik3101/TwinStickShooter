@@ -7,6 +7,7 @@ public class PlayerStats : MonoBehaviour
     public bool m_PoisonBullets = false;
 
     public float m_MaxHealth = 100;
+    public float m_Money;
     public float m_CurrentHealth;
     public int m_CurrentKeyCards;
     public bool m_ArmourActive = false;
