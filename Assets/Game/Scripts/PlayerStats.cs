@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerStats : MonoBehaviour
     public int m_CurrentKeyCards;
     public bool m_ArmourActive = false;
 
+    private Text m_MoneyCount;
     public bool ArmorActive
     {
         set
@@ -32,28 +34,21 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameObject m_Shield;
     private void Start()
     {
+        m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
         m_ShieldAnimator = m_Shield.GetComponent<Animator>();
         m_CurrentHealth = m_MaxHealth;
-
+        m_MoneyCount.text = m_Money.ToString();
         m_Shield.SetActive(true);
     }
 
     private void Update()
     {
-        if (m_ArmourActive == true)
-        {
-           // m_Shield.SetActive(true);
-            //m_ShieldAnimator.SetInteger("Parameter", 0);
-        }
-        else
-        {
-           // m_Shield.SetActive(false);
-        }
         TakeDamge(0);
         if (Input.GetKeyDown(KeyCode.U))
         {
             m_CurrentHealth = 9999999999;
         }
+        m_MoneyCount.text = m_Money.ToString();
     }
 
     public void TakeDamge(float Damage)

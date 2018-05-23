@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UIButtons : MonoBehaviour
 {
-
+    public int m_TimesPlayed;
     public void Iwanttodie()
     {
         Application.Quit();
