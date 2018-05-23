@@ -30,11 +30,11 @@ public class Pickups : MonoBehaviour {
     private void ItemBobbing()
     {
         
-        if(m_ItemTransform.position.y >= m_BobbingMaximum) {
+        if (m_ItemTransform.position.y >= m_BobbingMaximum) {
             changeNumber *= -1;
             m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, m_BobbingMaximum - 0.01f, m_ItemTransform.position.z));
         }
-        else if(m_ItemTransform.position.y <= m_BobbingMinimum)
+        else if (m_ItemTransform.position.y <= m_BobbingMinimum)
         {
             changeNumber *= -1;
             m_ItemTransform.position = (new Vector3(m_ItemTransform.position.x, m_BobbingMinimum + 0.01f, m_ItemTransform.position.z));
@@ -52,13 +52,13 @@ public class Pickups : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
-            if(m_IsShop == true && m_ItemCost < m_PlayerStats.m_Money)
+            if (m_IsShop == true && m_ItemCost < m_PlayerStats.m_Money)
             {
                 m_PlayerStats.m_Money -= m_ItemCost;
                 PickupEffect(other);
                 Destroy(gameObject);
             }
-            else if(m_IsShop == true && m_ItemCost > m_PlayerStats.m_Money){
+            else if (m_IsShop == true && m_ItemCost > m_PlayerStats.m_Money){
                 // input not having enough money here
             }
             else

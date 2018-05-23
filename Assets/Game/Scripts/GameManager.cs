@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
+    public int m_TimesPlayed;
     private GameObject m_DeathMenu;
     private PlayerStats m_PlayerStats;
     public GameObject m_PauseMenu;
 
     public bool m_CurrentlyPauzed;
-	void Start () {
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+    void Start () {
+        m_TimesPlayed += 1;
         m_DeathMenu = GameObject.Find("DeathMenu");
         m_PauseMenu = GameObject.Find("PauseMenu");
         m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
