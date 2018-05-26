@@ -5,6 +5,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StatManager : MonoBehaviour {
     public float m_TotalCashEarned;
@@ -26,11 +27,9 @@ public class StatManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        LoadStats();
         TimeStuff();
         Display();
         SaveStats();
-        Debug.Log(Application.persistentDataPath);
     }
 
     private void TimeStuff()
@@ -54,6 +53,19 @@ public class StatManager : MonoBehaviour {
         {
             m_TotalTimePlayedText.text = m_HoursPlayed + " Hours, " + m_MinutesPlayed + " Minutes, " + Mathf.Round(m_SecondsPlayed) + " Seconds.";
         }
+        if (m_TimesPlayedText != null)
+        {
+            m_TimesPlayedText.text = "You have played " + m_TimesPlayed + " times.";
+        }
+        if (m_TotalCashEarnedText != null)
+        {
+            m_TotalCashEarnedText.text = "You have earned " + m_TotalCashEarned + "$.";
+        }
+    }
+
+    public void PlayingNow()
+    {
+        m_TimesPlayed += 1;
     }
 
     public void LoadStats()
