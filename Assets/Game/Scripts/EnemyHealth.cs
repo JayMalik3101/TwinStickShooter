@@ -23,7 +23,10 @@ public class EnemyHealth : MonoBehaviour {
         {
             int cashDrop = Random.Range(m_MinCashDrop, m_MaxCashDrop);
             m_PlayerStats.m_Money += cashDrop;
-            m_StatManager.m_TotalCashEarned += cashDrop;
+            if (m_StatManager != null)
+            {
+                m_StatManager.m_TotalCashEarned += cashDrop;
+            }
             Destroy(gameObject);
         }
     }
