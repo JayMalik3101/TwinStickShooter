@@ -237,6 +237,14 @@ Prefab:
       propertyPath: m_Name
       value: I_Elevator_Door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
+    - target: {fileID: 2300002, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
   m_IsPrefabParent: 0
@@ -279,6 +287,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
+    - target: {fileID: 2300000, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a46543cb6c1eb443af284d83de38ca0, type: 3}
   m_IsPrefabParent: 0
