@@ -35,10 +35,10 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameObject m_Shield;
     private void Start()
     {
+        m_CurrentHealth = m_MaxHealth;
         m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
         m_KilledByText = GameObject.Find("KilledBy").GetComponent<Text>();
         m_ShieldAnimator = m_Shield.GetComponent<Animator>();
-        m_CurrentHealth = m_MaxHealth;
         m_MoneyCount.text = m_Money.ToString();
         m_Shield.SetActive(true);
     }
@@ -67,7 +67,10 @@ public class PlayerStats : MonoBehaviour
 
         if (m_CurrentHealth <= 0)
         {
-            m_KilledByText.text = "Killed by: " + Owner;
+            if(m_KilledByText != null)
+            {
+                m_KilledByText.text = "Killed by: " + Owner;
+            }
             Destroy(gameObject);
         }
     }
