@@ -13,12 +13,14 @@ public class EnemyShooting : MonoBehaviour {
     private RaycastHit hit;
     private Vector3 m_Direction;
     private float m_FireRate;
-
+    private string m_EnemyName;
 
     // Use this for initialization
     void Start () {
         m_Origin = GetComponent<Transform>();
-	}
+        m_EnemyName = transform.parent.name;
+        m_EnemyName = m_EnemyName.Replace(@"_", " ");
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,6 +32,7 @@ public class EnemyShooting : MonoBehaviour {
             {
                 Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
                 enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);
+                enemyProjectile.GetComponent<Bullets>().m_Owner = m_EnemyName;
                 m_FireRate = m_OriginalFireRate;
             }
         }

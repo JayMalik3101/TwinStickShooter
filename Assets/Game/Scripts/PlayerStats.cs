@@ -14,6 +14,7 @@ public class PlayerStats : MonoBehaviour
     public bool m_ArmourActive = false;
 
     private Text m_MoneyCount;
+    private Text m_KilledByText;
     public bool ArmorActive
     {
         set
@@ -35,6 +36,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
+        m_KilledByText = GameObject.Find("KilledBy").GetComponent<Text>();
         m_ShieldAnimator = m_Shield.GetComponent<Animator>();
         m_CurrentHealth = m_MaxHealth;
         m_MoneyCount.text = m_Money.ToString();
@@ -43,7 +45,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
-        TakeDamge(0);
+        TakeDamage(0, "Debugging");
         if (Input.GetKeyDown(KeyCode.U))
         {
             m_CurrentHealth = 9999999999;
@@ -51,7 +53,7 @@ public class PlayerStats : MonoBehaviour
         m_MoneyCount.text = m_Money.ToString();
     }
 
-    public void TakeDamge(float Damage)
+    public void TakeDamage(float Damage, string Owner)
     {
         if (m_ArmourActive == false)
         {
@@ -59,13 +61,13 @@ public class PlayerStats : MonoBehaviour
         }
         if (Damage > 0 && m_ArmourActive == true)
         {
-            //   m_ShieldAnimator.SetInteger("Parameter", 1);
             ArmorActive = false;
         }
 
 
         if (m_CurrentHealth <= 0)
         {
+            m_KilledByText.text = "Killed by: " + Owner;
             Destroy(gameObject);
         }
     }
