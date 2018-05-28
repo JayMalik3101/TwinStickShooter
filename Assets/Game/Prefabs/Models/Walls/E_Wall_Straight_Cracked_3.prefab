@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4307142624234208}
   - component: {fileID: 33213761880714630}
   - component: {fileID: 23984200253286270}
+  - component: {fileID: 65410812699389044}
   m_Layer: 0
   m_Name: E_Wall_Straight_Cracked_3
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1367652282076786}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12, y: 0, z: 3}
+  m_LocalPosition: {x: -22, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1367652282076786}
   m_Mesh: {fileID: 4300000, guid: c720a2ed8b5ae9248bee1944bc162230, type: 3}
+--- !u!65 &65410812699389044
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367652282076786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9952354, y: 2, z: 0.2709638}
+  m_Center: {x: 0.00002861023, y: 1, z: 0.03718537}
