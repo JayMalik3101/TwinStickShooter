@@ -542,7 +542,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1036145563995440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.76, y: 0.47, z: 0.271}
+  m_LocalPosition: {x: 0.13, y: -1.63, z: 0.23}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 224847881030256802}
@@ -1903,13 +1903,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01820f4ea1ea7c24190b415a9026b2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MoneyCount: {fileID: 0}
+  m_KilledByText: {fileID: 0}
+  m_ShieldAnimator: {fileID: 95523806592151868}
   m_PoisonBullets: 0
   m_MaxHealth: 100
   m_Money: 0
   m_CurrentHealth: 0
   m_CurrentKeyCards: 0
   m_ArmourActive: 0
-  m_Shield: {fileID: 1992233658467150}
+  m_MaxHealthModifier: 0
+  m_DamageModifier: 0
+  m_ReloadModifier: 0
+  m_SpeedModifier: 0
 --- !u!114 &114958218342340856
 MonoBehaviour:
   m_ObjectHideFlags: 1

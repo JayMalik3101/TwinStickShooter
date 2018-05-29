@@ -8,13 +8,13 @@ public class EnemyHealth : MonoBehaviour {
     public float m_MaxHealth = 40;
     public float m_Health;
     private PlayerStats m_PlayerStats;
-    private StatManager m_StatManager;
+    //private StatManager m_StatManager;
 
     private void Start()
     {
         m_Health = m_MaxHealth;
         m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
-        m_StatManager = GameObject.Find("StatManager").GetComponent<StatManager>();
+        //m_StatManager = GameObject.Find("StatManager").GetComponent<StatManager>();
     }
     public void TakeDamage(float Damage)
     {
@@ -23,10 +23,11 @@ public class EnemyHealth : MonoBehaviour {
         {
             int cashDrop = Random.Range(m_MinCashDrop, m_MaxCashDrop);
             m_PlayerStats.m_Money += cashDrop;
-            if (m_StatManager != null)
-            {
-                m_StatManager.m_Data.m_TotalCashEarned += cashDrop;
-            }
+           // if (StatManager != null)
+           // {
+                StatManager.m_Data.m_TotalCashEarned += cashDrop;
+                //m_StatManager.m_TotalCashEarned += cashDrop;
+            //}
             Destroy(gameObject);
         }
     }

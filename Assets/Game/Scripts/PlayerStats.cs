@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    [SerializeField] private Text m_MoneyCount;
+    [SerializeField] private Text m_KilledByText;
+    [SerializeField] private Animator m_ShieldAnimator;
     public bool m_PoisonBullets = false;
 
     public float m_MaxHealth = 100;
@@ -13,8 +16,7 @@ public class PlayerStats : MonoBehaviour
     public int m_CurrentKeyCards;
     public bool m_ArmourActive = false;
 
-    private Text m_MoneyCount;
-    private Text m_KilledByText;
+    
     public bool ArmorActive
     {
         set
@@ -27,17 +29,12 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public float m_MaxHealthModifier;
-    public float m_DamageModifier;
-    public float m_ReloadModifier;
-    public float m_SpeedModifier;
 
-    private Animator m_ShieldAnimator;
+    
     private void Start()
     {
-        m_CurrentHealth = m_MaxHealth += m_MaxHealthModifier;
+        m_CurrentHealth = m_MaxHealth += StatManager.m_Data.m_MaxHealthModifier;
         m_MoneyCount.text = m_Money.ToString();
-        m_ShieldAnimator = GameObject.Find("Shield").GetComponent<Animator>();
         m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
         m_KilledByText = GameObject.Find("KilledBy").GetComponent<Text>();
     }

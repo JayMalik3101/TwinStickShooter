@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 
 public class StatManager : MonoBehaviour {
-    public PlayerData m_Data;
+    public static PlayerData m_Data;
     private Text m_TotalTimePlayedText;
     private Text m_TotalCashEarnedText;
     private Text m_TimesPlayedText;
@@ -97,4 +97,9 @@ public class PlayerData
     public float m_HoursPlayed;
     public float m_MinutesPlayed;
     public float m_SecondsPlayed;
+    public float m_MaxHealthModifier;
+    public float m_DamageModifier;
+    public float m_ReloadModifier;
+    public float m_SpeedModifier;
+
 }

@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -16971,6 +16971,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 716685830}
   m_Mesh: {fileID: 4300000, guid: 508147cbfdcac214fbf695435b6f653e, type: 3}
+--- !u!114 &719069767 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114728594935164376, guid: fe1ace29187e2d04abe7481d30f3531f,
+    type: 2}
+  m_PrefabInternal: {fileID: 901316298}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &721190787
 GameObject:
   m_ObjectHideFlags: 0
@@ -27120,6 +27126,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1128609946 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114520490162753892, guid: 0514217750db1444c96036f88654d7fb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1095489373}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1128853587
 GameObject:
   m_ObjectHideFlags: 0
@@ -42356,9 +42368,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114834871237955838, guid: 7a115c4c2a22340449ac99996c5be317,
         type: 2}
-      propertyPath: m_CurrentHealth
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_MoneyCount
+      value: 
+      objectReference: {fileID: 719069767}
+    - target: {fileID: 114834871237955838, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_KilledByText
+      value: 
+      objectReference: {fileID: 1128609946}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a115c4c2a22340449ac99996c5be317, type: 2}
   m_IsPrefabParent: 0
