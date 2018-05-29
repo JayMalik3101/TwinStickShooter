@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour {
 
     private void MovePlayer(float h, float v)
     {
+        m_Speed *= StatManager.m_Data.m_SpeedModifier;
         m_Movement.Set(h, 0f, v);
         m_Movement = m_Movement.normalized * m_Speed * Time.deltaTime;
 

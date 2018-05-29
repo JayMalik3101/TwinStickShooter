@@ -18,6 +18,8 @@ public class EnemyHealth : MonoBehaviour {
     }
     public void TakeDamage(float Damage)
     {
+
+        Damage *= StatManager.m_Data.m_DamageModifier;
         m_Health = m_Health - Damage;
         if (m_Health <= 0)
         {

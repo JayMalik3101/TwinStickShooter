@@ -38,7 +38,7 @@ public class SingleShotFire : MonoBehaviour {
             if(m_CurrentReloadTime <= 0)
             {
                 m_CurrentMagSize = m_MagSize;
-                m_CurrentReloadTime = m_OriginalReloadTime;
+                m_CurrentReloadTime = m_OriginalReloadTime *= StatManager.m_Data.m_ReloadModifier;
                 m_CurrentlyReloading = false;
                 m_AmmoCount.text = m_CurrentMagSize + "/" + m_MagSize;
             }

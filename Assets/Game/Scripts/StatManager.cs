@@ -13,6 +13,9 @@ public class StatManager : MonoBehaviour {
     void Start () {
         DontDestroyOnLoad(this.gameObject);
         LoadStats();
+        if (m_Data.m_DamageModifier <= 1) m_Data.m_DamageModifier = 1;
+        if (m_Data.m_SpeedModifier <= 1) m_Data.m_SpeedModifier = 1;
+        if (m_Data.m_ReloadModifier >= 1) m_Data.m_ReloadModifier = 1;
     }
 	
 	// Update is called once per frame
