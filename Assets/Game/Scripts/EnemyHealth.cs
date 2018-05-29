@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour {
             m_PlayerStats.m_Money += cashDrop;
             if (m_StatManager != null)
             {
-                m_StatManager.m_TotalCashEarned += cashDrop;
+                m_StatManager.m_Data.m_TotalCashEarned += cashDrop;
             }
             Destroy(gameObject);
         }

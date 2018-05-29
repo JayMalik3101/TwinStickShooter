@@ -7,12 +7,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class StatManager : MonoBehaviour {
-    public float m_TotalCashEarned;
-    public float m_TimesPlayed;
-    private float m_HoursPlayed;
-    private float m_MinutesPlayed;
-    private float m_SecondsPlayed;
+    public PlayerData m_Data;
     private Text m_TotalTimePlayedText;
     private Text m_TotalCashEarnedText;
     private Text m_TimesPlayedText;
@@ -29,43 +26,43 @@ public class StatManager : MonoBehaviour {
 	void Update () {
         TimeStuff();
         Display();
-        SaveStats();
+        // save stats at set moments
     }
 
     private void TimeStuff()
     {
-        m_SecondsPlayed += Time.deltaTime;
+        m_Data.m_SecondsPlayed += Time.deltaTime;
 
-        if (m_SecondsPlayed >= 60)
+        if (m_Data.m_SecondsPlayed >= 60)
         {
-            m_MinutesPlayed += 1;
-            m_SecondsPlayed = 0;
+            m_Data.m_MinutesPlayed += 1;
+            m_Data.m_SecondsPlayed = 0;
         }
-        if (m_MinutesPlayed >= 60)
+        if (m_Data.m_MinutesPlayed >= 60)
         {
-            m_HoursPlayed += 1;
-            m_MinutesPlayed = 0;
+            m_Data.m_HoursPlayed += 1;
+            m_Data.m_MinutesPlayed = 0;
         }
     }
     public void Display()
     {
         if (m_TotalTimePlayedText != null)
         {
-            m_TotalTimePlayedText.text = m_HoursPlayed + " Hours, " + m_MinutesPlayed + " Minutes, " + Mathf.Round(m_SecondsPlayed) + " Seconds.";
+            m_TotalTimePlayedText.text = m_Data.m_HoursPlayed + " Hours, " + m_Data.m_MinutesPlayed + " Minutes, " + Mathf.Round(m_Data.m_SecondsPlayed) + " Seconds.";
         }
         if (m_TimesPlayedText != null)
         {
-            m_TimesPlayedText.text = "You have played " + m_TimesPlayed + " times.";
+            m_TimesPlayedText.text = "You have played " + m_Data.m_TimesPlayed + " times.";
         }
         if (m_TotalCashEarnedText != null)
         {
-            m_TotalCashEarnedText.text = "You have earned " + m_TotalCashEarned + "$.";
+            m_TotalCashEarnedText.text = "You have earned " + m_Data.m_TotalCashEarned + "$.";
         }
     }
 
     public void PlayingNow()
     {
-        m_TimesPlayed += 1;
+        m_Data.m_TimesPlayed += 1;
     }
 
     public void LoadStats()
@@ -76,11 +73,7 @@ public class StatManager : MonoBehaviour {
             FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
 
             PlayerData data = (PlayerData)bf.Deserialize(file);
-            m_HoursPlayed = data.m_HoursPlayed;
-            m_MinutesPlayed = data.m_MinutesPlayed;
-            m_SecondsPlayed = data.m_SecondsPlayed;
-            m_TotalCashEarned = data.m_TotalCashEarned;
-            m_TimesPlayed = data.m_TimesPlayed;
+            m_Data = data;
             file.Close();
         }
     }
@@ -91,17 +84,13 @@ public class StatManager : MonoBehaviour {
         FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat"/*, FileMode.Open*/);
 
         PlayerData data = new PlayerData();
-        data.m_HoursPlayed = m_HoursPlayed;
-        data.m_MinutesPlayed = m_MinutesPlayed;
-        data.m_SecondsPlayed = m_SecondsPlayed;
-        data.m_TotalCashEarned = m_TotalCashEarned;
-        data.m_TimesPlayed = m_TimesPlayed;
+        data = m_Data;
         bf.Serialize(file, data);
         file.Close();
     }
 }
 [Serializable]
-class PlayerData
+public class PlayerData
 {
     public float m_TotalCashEarned;
     public float m_TimesPlayed;

@@ -27,20 +27,19 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    private float m_DamageModifier;
-    private float m_ReloadModifier;
-    private float m_SpeedModifier;
+    public float m_MaxHealthModifier;
+    public float m_DamageModifier;
+    public float m_ReloadModifier;
+    public float m_SpeedModifier;
 
     private Animator m_ShieldAnimator;
-    [SerializeField] private GameObject m_Shield;
     private void Start()
     {
-        m_CurrentHealth = m_MaxHealth;
+        m_CurrentHealth = m_MaxHealth += m_MaxHealthModifier;
+        m_MoneyCount.text = m_Money.ToString();
+        m_ShieldAnimator = GameObject.Find("Shield").GetComponent<Animator>();
         m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
         m_KilledByText = GameObject.Find("KilledBy").GetComponent<Text>();
-        m_ShieldAnimator = m_Shield.GetComponent<Animator>();
-        m_MoneyCount.text = m_Money.ToString();
-        m_Shield.SetActive(true);
     }
 
     private void Update()
