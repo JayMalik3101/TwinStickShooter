@@ -29,8 +29,6 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-
-    
     private void Start()
     {
         m_CurrentHealth = m_MaxHealth += StatManager.m_Data.m_MaxHealthModifier;
@@ -67,6 +65,7 @@ public class PlayerStats : MonoBehaviour
             {
                 m_KilledByText.text = "Killed by: " + Owner;
             }
+            StatManager.SaveStats();
             Destroy(gameObject);
         }
     }

@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour {
         {
             if(m_CurrentlyPauzed == false)
             {
+                StatManager.SaveStats();
                 m_PauseMenu.SetActive(true);
                 m_CurrentlyPauzed = true;
             }

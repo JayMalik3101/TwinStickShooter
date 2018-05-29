@@ -10,23 +10,14 @@ using UnityEngine.SceneManagement;
 
 public class StatManager : MonoBehaviour {
     public static PlayerData m_Data;
-    private Text m_TotalTimePlayedText;
-    private Text m_TotalCashEarnedText;
-    private Text m_TimesPlayedText;
-    // Use this for initialization
     void Start () {
         DontDestroyOnLoad(this.gameObject);
         LoadStats();
-        m_TotalCashEarnedText = GameObject.Find("MoneyEarnedText").GetComponent<Text>();
-        m_TotalTimePlayedText = GameObject.Find("TimePlayedText").GetComponent<Text>();
-        m_TimesPlayedText = GameObject.Find("TimesPlayedText").GetComponent<Text>();
     }
 	
 	// Update is called once per frame
 	void Update () {
         TimeStuff();
-        Display();
-        // save stats at set moments
     }
 
     private void TimeStuff()
@@ -44,28 +35,8 @@ public class StatManager : MonoBehaviour {
             m_Data.m_MinutesPlayed = 0;
         }
     }
-    public void Display()
-    {
-        if (m_TotalTimePlayedText != null)
-        {
-            m_TotalTimePlayedText.text = m_Data.m_HoursPlayed + " Hours, " + m_Data.m_MinutesPlayed + " Minutes, " + Mathf.Round(m_Data.m_SecondsPlayed) + " Seconds.";
-        }
-        if (m_TimesPlayedText != null)
-        {
-            m_TimesPlayedText.text = "You have played " + m_Data.m_TimesPlayed + " times.";
-        }
-        if (m_TotalCashEarnedText != null)
-        {
-            m_TotalCashEarnedText.text = "You have earned " + m_Data.m_TotalCashEarned + "$.";
-        }
-    }
 
-    public void PlayingNow()
-    {
-        m_Data.m_TimesPlayed += 1;
-    }
-
-    public void LoadStats()
+    private void LoadStats()
     {
         if(File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
         {
@@ -78,7 +49,7 @@ public class StatManager : MonoBehaviour {
         }
     }
 
-    public void SaveStats()
+    public static void SaveStats()
     {
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat"/*, FileMode.Open*/);

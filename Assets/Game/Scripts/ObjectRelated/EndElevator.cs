@@ -14,6 +14,7 @@ public class EndElevator : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
+            StatManager.SaveStats();
             m_ElevatorAnimator.enabled = true;
         }
     }
