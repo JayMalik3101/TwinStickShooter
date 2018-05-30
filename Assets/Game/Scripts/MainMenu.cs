@@ -30,6 +30,7 @@ public class MainMenu : MonoBehaviour {
 
     public void PlayingNow()
     {
+        StatManager.SaveStats();
         StatManager.m_Data.m_TimesPlayed += 1;
     }
 }

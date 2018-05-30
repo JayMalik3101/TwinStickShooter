@@ -12,6 +12,7 @@ public class StatManager : MonoBehaviour {
     public static PlayerData m_Data;
     void Start () {
         DontDestroyOnLoad(this.gameObject);
+ 
         LoadStats();
         if (m_Data.m_DamageModifier <= 1) m_Data.m_DamageModifier = 1;
         if (m_Data.m_SpeedModifier <= 1) m_Data.m_SpeedModifier = 1;
@@ -45,7 +46,6 @@ public class StatManager : MonoBehaviour {
         {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
-
             PlayerData data = (PlayerData)bf.Deserialize(file);
             m_Data = data;
             file.Close();
