@@ -13,7 +13,6 @@ public class EnemyHealth : MonoBehaviour {
     private void Start()
     {
         m_Health = m_MaxHealth;
-        m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
         //m_StatManager = GameObject.Find("StatManager").GetComponent<StatManager>();
     }
     public void TakeDamage(float Damage)
@@ -24,7 +23,7 @@ public class EnemyHealth : MonoBehaviour {
         if (m_Health <= 0)
         {
             int cashDrop = Random.Range(m_MinCashDrop, m_MaxCashDrop);
-            m_PlayerStats.m_Money += cashDrop;
+            StatManager.m_Data.m_CurrentMoney += cashDrop;
             StatManager.m_Data.m_TotalCashEarned += cashDrop;
             StatManager.SaveStats();
             Destroy(gameObject);

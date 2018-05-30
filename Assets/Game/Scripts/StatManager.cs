@@ -75,5 +75,9 @@ public class PlayerData
     public float m_DamageModifier;
     public float m_ReloadModifier;
     public float m_SpeedModifier;
-
+    public float m_HealthLevel;
+    public float m_DamageLevel;
+    public float m_ReloadLevel;
+    public float m_SpeedLevel;
+    public float m_CurrentMoney;
 }

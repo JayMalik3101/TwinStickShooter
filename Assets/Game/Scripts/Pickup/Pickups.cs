@@ -52,13 +52,13 @@ public class Pickups : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
-            if (m_IsShop == true && m_ItemCost < m_PlayerStats.m_Money)
+            if (m_IsShop == true && m_ItemCost < StatManager.m_Data.m_CurrentMoney)
             {
-                m_PlayerStats.m_Money -= m_ItemCost;
+                StatManager.m_Data.m_CurrentMoney -= m_ItemCost;
                 PickupEffect(other);
                 Destroy(gameObject);
             }
-            else if (m_IsShop == true && m_ItemCost > m_PlayerStats.m_Money){
+            else if (m_IsShop == true && m_ItemCost > StatManager.m_Data.m_CurrentMoney){
                 // input not having enough money here
             }
             else
