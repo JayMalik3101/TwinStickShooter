@@ -11,7 +11,6 @@ public class PlayerStats : MonoBehaviour
     public bool m_PoisonBullets = false;
 
     public float m_MaxHealth = 100;
-    public float m_Money;
     public float m_CurrentHealth;
     public int m_CurrentKeyCards;
     public bool m_ArmourActive = false;
@@ -32,19 +31,24 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         m_CurrentHealth = m_MaxHealth += StatManager.m_Data.m_MaxHealthModifier;
-        m_MoneyCount.text = m_Money.ToString();
+        m_MoneyCount.text = StatManager.m_Data.m_CurrentMoney.ToString();
         m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
         m_KilledByText = GameObject.Find("KilledBy").GetComponent<Text>();
     }
 
     private void Update()
     {
+        Debug.Log(StatManager.m_Data.m_SpeedLevel);
         TakeDamage(0, "Debugging");
         if (Input.GetKeyDown(KeyCode.U))
         {
             m_CurrentHealth = 9999999999;
         }
-        m_MoneyCount.text = m_Money.ToString();
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            StatManager.m_Data.m_CurrentMoney = 9999999999;
+        }
+        m_MoneyCount.text = StatManager.m_Data.m_CurrentMoney.ToString();
     }
 
     public void TakeDamage(float Damage, string Owner)
