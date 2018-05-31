@@ -38,7 +38,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(StatManager.m_Data.m_SpeedLevel);
+        Debug.Log(StatManager.m_Data.m_SpeedModifier);
         TakeDamage(0, "Debugging");
         if (Input.GetKeyDown(KeyCode.U))
         {

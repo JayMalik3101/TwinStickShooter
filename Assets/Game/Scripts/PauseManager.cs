@@ -57,7 +57,7 @@ public class PauseManager : MonoBehaviour
 
     public void Resume()
     {
-        for (int r = 0; r < m_Rigidbodies.Count; r++)
+        for (int r = 0; r < m_Rigidbodies.Count; r++)     
         {
             // Fetch data
             RigidbodyData _data = m_RigidbodyData.Find(i => i.InstanceID == m_Rigidbodies[r].GetInstanceID());
