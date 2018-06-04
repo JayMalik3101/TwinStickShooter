@@ -11,7 +11,7 @@ public class MaxHealth : MonoBehaviour {
         {
             if (m_UpgradeCost <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_HealthLevel <= m_MaxLevel)
             {
-                StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost;
+                StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_HealthLevel;
                 UpgradeEffect(other);
             }
             else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney)

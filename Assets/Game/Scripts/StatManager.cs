@@ -43,20 +43,20 @@ public class StatManager : MonoBehaviour {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
             PlayerData data = (PlayerData)bf.Deserialize(file);
-            m_Data = data;
             file.Close();
+            m_Data = data;
         }
         else
         {
             SaveStats();
-            LoadStats();
+            //LoadStats();
         }
     }
 
     public static void SaveStats()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat"/*, FileMode.Open*/);
+        FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat");
 
         PlayerData data = new PlayerData();
         data = m_Data;
@@ -76,9 +76,11 @@ public class PlayerData
     public float m_DamageModifier;
     public float m_ReloadModifier;
     public float m_SpeedModifier;
+    public float m_LuckModifier;
     public float m_HealthLevel;
     public float m_DamageLevel;
     public float m_ReloadLevel;
+    public float m_LuckLevel;
     public float m_SpeedLevel;
     public float m_CurrentMoney;
 }

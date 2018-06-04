@@ -24,10 +24,11 @@ public class SingleShotFire : MonoBehaviour {
         m_FireRate = m_OriginalFireRate;
         m_AmmoCount.text = m_CurrentMagSize + "/" + m_MagSize;
     }
-    private void Update()
+
+    private void FixedUpdate()
     {
         m_Origin = transform;
-        m_FireRate -= Time.deltaTime;
+        m_FireRate -= Time.fixedDeltaTime;
         if (Input.GetKeyDown(KeyCode.R))
         {
             m_CurrentlyReloading = true;
