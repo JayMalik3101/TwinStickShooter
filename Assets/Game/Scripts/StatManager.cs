@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 
 public class StatManager : MonoBehaviour {
@@ -49,6 +45,11 @@ public class StatManager : MonoBehaviour {
             PlayerData data = (PlayerData)bf.Deserialize(file);
             m_Data = data;
             file.Close();
+        }
+        else
+        {
+            SaveStats();
+            LoadStats();
         }
     }
 
