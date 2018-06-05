@@ -1,14 +1,19 @@
 fileFormatVersion: 2
-guid: af7b602ac782c4b43b065727457a3911
+guid: a3222ef0385c9d442bda18e61c309cd4
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Wall_Straight
     400000: //RootNode
+    400002: Wall_Straight
     2100000: lambert2
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: I_Wall_Straight1
+    2300000: Wall_Straight
+    2300002: //RootNode
+    3300000: Wall_Straight
+    3300002: //RootNode
+    4300000: Wall_Straight
+    4300002: I_Wall_Straight
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -65,7 +70,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
