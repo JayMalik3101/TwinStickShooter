@@ -22,12 +22,13 @@ public class DoorFunctionality : MonoBehaviour
     void Start()
     {
         m_DoorAnimator = GetComponent<Animator>();
-        m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
+        
     }
     private void OnTriggerStay(Collider other)
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
+            m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
             if (m_IsLocked == true && m_PlayerStats.m_CurrentKeyCards > 0)
             {
                 m_PlayerStats.m_CurrentKeyCards -= 1;
