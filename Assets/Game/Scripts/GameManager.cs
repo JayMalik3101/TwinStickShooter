@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour {
         m_PauseMenu = GameObject.Find("PauseMenu");
         m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
 
+        m_PlayerStats.gameObject.SetActive(false);
         m_PauseMenu.SetActive(false);
         m_DeathMenu.SetActive(false);
     }

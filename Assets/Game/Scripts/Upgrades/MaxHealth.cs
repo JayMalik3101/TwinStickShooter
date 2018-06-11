@@ -9,12 +9,12 @@ public class MaxHealth : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
-            if (m_UpgradeCost <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_HealthLevel <= m_MaxLevel)
+            if (m_UpgradeCost * StatManager.m_Data.m_HealthLevel <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_HealthLevel <= m_MaxLevel)
             {
                 StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_HealthLevel;
                 UpgradeEffect(other);
             }
-            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney)
+            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney * StatManager.m_Data.m_HealthLevel)
             {
                 // input not having enough money here
             }
