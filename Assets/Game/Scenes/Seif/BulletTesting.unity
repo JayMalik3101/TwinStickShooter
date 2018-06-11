@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -536,6 +536,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b4a378ba0df2f4caf631e5f86c758a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MinCashDrop: 10
+  m_MaxCashDrop: 50
   m_MaxHealth: 1000
   m_Health: 0
 --- !u!65 &279316171
@@ -781,6 +783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BobbingMinimum: 0
   m_BobbingMaximum: 0
+  m_IsShop: 0
+  m_ItemCost: 0
 --- !u!114 &623626272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2469,12 +2473,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01820f4ea1ea7c24190b415a9026b2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MoneyCount: {fileID: 0}
+  m_KilledByText: {fileID: 0}
+  m_ShieldAnimator: {fileID: 0}
   m_PoisonBullets: 0
   m_MaxHealth: 100
   m_CurrentHealth: 0
   m_CurrentKeyCards: 0
   m_ArmourActive: 0
-  m_Shield: {fileID: 0}
 --- !u!4 &1838723034 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4479579055396854, guid: f0228dc626ae6b247935e99de469aec5,
