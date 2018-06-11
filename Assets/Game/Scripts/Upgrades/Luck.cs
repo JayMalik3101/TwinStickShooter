@@ -9,12 +9,12 @@ public class Luck : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
-            if (m_UpgradeCost <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_DamageLevel <= m_MaxLevel)
+            if (m_UpgradeCost * StatManager.m_Data.m_LuckLevel <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_DamageLevel <= m_MaxLevel)
             {
                 StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_LuckLevel;
                 UpgradeEffect(other);
             }
-            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney)
+            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney * StatManager.m_Data.m_LuckLevel)
             {
                 // input not having enough money here
             }

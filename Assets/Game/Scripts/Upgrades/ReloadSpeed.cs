@@ -9,12 +9,12 @@ public class ReloadSpeed : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) == true && other.CompareTag("Player"))
         {
-            if (m_UpgradeCost <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_ReloadLevel <= m_MaxLevel)
+            if (m_UpgradeCost * StatManager.m_Data.m_ReloadLevel <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_ReloadLevel <= m_MaxLevel)
             {
                 StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_ReloadLevel;
                 UpgradeEffect(other);
             }
-            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney)
+            else if (m_UpgradeCost * StatManager.m_Data.m_ReloadLevel > StatManager.m_Data.m_CurrentMoney)
             {
                 // input not having enough money here
             }

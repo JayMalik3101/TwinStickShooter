@@ -9,12 +9,12 @@ public class Speed : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.E) && other.CompareTag("Player"))
         {
-            if (m_UpgradeCost <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_SpeedLevel <= m_MaxLevel)
+            if (m_UpgradeCost * StatManager.m_Data.m_SpeedLevel <= StatManager.m_Data.m_CurrentMoney && StatManager.m_Data.m_SpeedLevel <= m_MaxLevel)
             {
                 StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_SpeedLevel;
                 UpgradeEffect(other);
             }
-            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney)
+            else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney * StatManager.m_Data.m_SpeedLevel)
             {
                 // input not having enough money here
             }
