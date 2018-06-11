@@ -4,10 +4,14 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: I_Elevator
     400000: //RootNode
+    400002: I_Elevator
     2100000: lambert1
     2300000: //RootNode
+    2300002: I_Elevator
     3300000: //RootNode
+    3300002: I_Elevator
     4300000: Elevator
     4300002: I_Elevator
   externalObjects: {}
