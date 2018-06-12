@@ -475,7 +475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b4a378ba0df2f4caf631e5f86c758a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxHealth: 1000
+  m_BotDeath: {fileID: 1555381651907024, guid: ff54ff5590d57904381fb7ed0dca6e70, type: 2}
+  m_MinCashDrop: 10
+  m_MaxCashDrop: 50
+  m_MaxHealth: 100
   m_Health: 0
 --- !u!195 &195078506077269632
 NavMeshAgent:
