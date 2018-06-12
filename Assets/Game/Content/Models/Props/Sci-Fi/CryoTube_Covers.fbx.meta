@@ -1,30 +1,27 @@
 fileFormatVersion: 2
-guid: 8147a2596a3f52948bcedad3aac18383
+guid: a9a185f79e66aba4ea02830aa4609d45
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: ElevatorDoor_Left
-    100004: ElevatorDoor_Right
-    400000: //RootNode
-    400002: ElevatorDoor_Left
-    400004: ElevatorDoor_Right
-    2100000: lambert2
-    2100002: lambert4
-    2300000: //RootNode
-    2300002: ElevatorDoor_Left
-    2300004: ElevatorDoor_Right
-    3300000: //RootNode
-    3300002: ElevatorDoor_Left
-    3300004: ElevatorDoor_Right
-    4300000: I_Elevator
-    4300002: ElevatorDoor_Left
-    4300004: ElevatorDoor_Right
-    7400000: Departure
-    9500000: //RootNode
+    100000: Bottom
+    100002: CoversTopAndBottom
+    100004: //RootNode
+    100006: Top
+    100008: transform1
+    100010: transform2
+    400000: Bottom
+    400002: CoversTopAndBottom
+    400004: //RootNode
+    400006: Top
+    400008: transform1
+    400010: transform2
+    2100000: lambert3
+    2300000: CoversTopAndBottom
+    3300000: CoversTopAndBottom
+    4300000: CoversTopAndBottom
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -49,35 +46,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Departure
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 60
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -125,7 +94,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
