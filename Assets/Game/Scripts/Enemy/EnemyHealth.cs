@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
+    [SerializeField] private GameObject m_BotDeath;
     [SerializeField] private int m_MinCashDrop = 10;
     [SerializeField] private int m_MaxCashDrop = 50;
     public float m_MaxHealth = 40;
     public float m_Health;
     private PlayerStats m_PlayerStats;
-    //private StatManager m_StatManager;
 
     private void Start()
     {
         m_Health = m_MaxHealth;
-        //m_StatManager = GameObject.Find("StatManager").GetComponent<StatManager>();
     }
     public void TakeDamage(float Damage)
     {
@@ -22,6 +21,7 @@ public class EnemyHealth : MonoBehaviour {
         m_Health = m_Health - Damage;
         if (m_Health <= 0)
         {
+            GameObject BotDeath = Instantiate(m_BotDeath, transform.position, new Quaternion(0,0,0,0));
             int cashDrop = Random.Range(m_MinCashDrop, m_MaxCashDrop);
             StatManager.m_Data.m_CurrentMoney += cashDrop;
             StatManager.m_Data.m_TotalCashEarned += cashDrop;
