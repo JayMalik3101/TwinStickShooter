@@ -16,11 +16,16 @@ public class GameManager : MonoBehaviour {
     }
     void Start () {
         m_TimesPlayed += 1;
+        GameObject MainMenu = GameObject.Find("MainMenu");
+
         m_DeathMenu = GameObject.Find("DeathMenu");
         m_PauseMenu = GameObject.Find("PauseMenu");
         m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
-
-        m_PlayerStats.gameObject.SetActive(false);
+        if(MainMenu != null)
+        {
+            m_PlayerStats.gameObject.SetActive(false);
+        }
+        
         m_PauseMenu.SetActive(false);
         m_DeathMenu.SetActive(false);
     }

@@ -5,11 +5,17 @@ using UnityEngine;
 
 
 public class StatManager : MonoBehaviour {
-    public static PlayerData m_Data;
-    void Start () {
+
+    public static PlayerData m_Data = new PlayerData();
+
+    private void Awake()
+    {
         DontDestroyOnLoad(this.gameObject);
- 
         LoadStats();
+    }
+
+    void Start () {
+ 
         if (m_Data.m_DamageModifier <= 1) m_Data.m_DamageModifier = 1;
         if (m_Data.m_SpeedModifier <= 1) m_Data.m_SpeedModifier = 1;
         if (m_Data.m_ReloadModifier >= 1) m_Data.m_ReloadModifier = 1;
@@ -17,6 +23,7 @@ public class StatManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        Debug.Log(m_Data.m_SecondsPlayed);
         TimeStuff();
     }
 
@@ -48,8 +55,7 @@ public class StatManager : MonoBehaviour {
         }
         else
         {
-            SaveStats();
-            //LoadStats();
+            ClearStats();
         }
     }
 
@@ -63,6 +69,27 @@ public class StatManager : MonoBehaviour {
         bf.Serialize(file, data);
         file.Close();
     }
+
+    public static void ClearStats()
+    {
+        m_Data.m_TotalCashEarned = 0;
+        m_Data.m_TimesPlayed = 0;
+        m_Data.m_HoursPlayed = 0;
+        m_Data.m_MinutesPlayed = 0;
+        m_Data.m_SecondsPlayed = 0;
+        m_Data.m_MaxHealthModifier = 0;
+        m_Data.m_DamageModifier = 0;
+        m_Data.m_ReloadModifier = 0;
+        m_Data.m_SpeedModifier = 0;
+        m_Data.m_LuckModifier = 0;
+        m_Data.m_HealthLevel = 0;
+        m_Data.m_DamageLevel = 0;
+        m_Data.m_ReloadLevel = 0;
+        m_Data.m_LuckLevel = 0;
+        m_Data.m_SpeedLevel = 0;
+        m_Data.m_CurrentMoney = 0;
+        SaveStats();
+}
 }
 [Serializable]
 public class PlayerData
