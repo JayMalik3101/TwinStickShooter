@@ -23,7 +23,6 @@ public class StatManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(m_Data.m_SecondsPlayed);
         TimeStuff();
     }
 

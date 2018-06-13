@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
@@ -19,6 +20,37 @@ public class PauseManager : MonoBehaviour
         m_Rigidbodies = new List<Rigidbody>();
         m_RigidbodyData = new List<RigidbodyData>();
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+                                                             
 
     public void Add(Rigidbody _rigidbody)
     {
