@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -491,6 +491,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 59858afaacd408946aa568df8ff581ad, type: 2}
+    - target: {fileID: 100000, guid: 3a191679801beb941a6411441f4946cf, type: 3}
+      propertyPath: m_Name
+      value: CryoTube
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a191679801beb941a6411441f4946cf, type: 3}
   m_IsPrefabParent: 0
@@ -16829,8 +16833,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1721326764}
-  m_LocalRotation: {x: 0.008229669, y: 0.9651845, z: -0.2596669, w: 0.030402906}
-  m_LocalPosition: {x: -78.55602, y: 159.63434, z: -39.978275}
+  m_LocalRotation: {x: -0.05387969, y: 0.89648366, z: -0.11387342, w: -0.4247906}
+  m_LocalPosition: {x: -66.25387, y: 150.04086, z: -46.578384}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
