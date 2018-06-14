@@ -7066,6 +7066,12 @@ Prefab:
       propertyPath: m_KilledByText
       value: 
       objectReference: {fileID: 380348067}
+    - target: {fileID: 114367345367164642, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54604248382920454, guid: 96821b4aeee141d408124c55b2ce50b3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a115c4c2a22340449ac99996c5be317, type: 2}
   m_IsPrefabParent: 0
