@@ -91,7 +91,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 112000002, guid: ae61c51b91be5ce47b819d92ae2f5c76,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -648,6 +648,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114330738024213130, guid: da454f2ce8869a4458d4b4af8ba3c18e,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54939204040716320, guid: 737a57cb9cd0b714d966de606278185e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da454f2ce8869a4458d4b4af8ba3c18e, type: 2}
   m_IsPrefabParent: 0
@@ -23651,6 +23657,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114330738024213130, guid: da454f2ce8869a4458d4b4af8ba3c18e,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54939204040716320, guid: 737a57cb9cd0b714d966de606278185e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da454f2ce8869a4458d4b4af8ba3c18e, type: 2}
   m_IsPrefabParent: 0
@@ -27492,6 +27504,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114330738024213130, guid: da454f2ce8869a4458d4b4af8ba3c18e,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54939204040716320, guid: 737a57cb9cd0b714d966de606278185e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da454f2ce8869a4458d4b4af8ba3c18e, type: 2}
   m_IsPrefabParent: 0
@@ -35255,6 +35273,11 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.startLifetime.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
       objectReference: {fileID: 0}
     - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
         type: 2}
@@ -46191,6 +46214,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114330738024213130, guid: da454f2ce8869a4458d4b4af8ba3c18e,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54939204040716320, guid: 737a57cb9cd0b714d966de606278185e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da454f2ce8869a4458d4b4af8ba3c18e, type: 2}
   m_IsPrefabParent: 0
@@ -48476,6 +48505,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114330738024213130, guid: da454f2ce8869a4458d4b4af8ba3c18e,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54939204040716320, guid: 737a57cb9cd0b714d966de606278185e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da454f2ce8869a4458d4b4af8ba3c18e, type: 2}
   m_IsPrefabParent: 0
