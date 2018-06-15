@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23652808984853512}
   - component: {fileID: 54604248382920454}
   - component: {fileID: 96726213334317630}
+  - component: {fileID: 114328211291917734}
   m_Layer: 0
   m_Name: BulletTest
   m_TagString: Untagged
@@ -191,3 +192,18 @@ TrailRenderer:
     generateLightingData: 1
   m_MinVertexDistance: 0.1
   m_Autodestruct: 1
+--- !u!114 &114328211291917734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1345344987438328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1a713a92447e6498bdb0b162392809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damage: 10
+  m_HitEffect: {fileID: 1290611917709218, guid: 86b81c754dd842949a1b69319d5658b2,
+    type: 2}
+  m_Owner: 
