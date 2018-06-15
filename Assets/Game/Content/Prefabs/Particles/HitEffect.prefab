@@ -54,6 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4576229179429128}
   - component: {fileID: 198829647112373120}
+  - component: {fileID: 114716822272618216}
   - component: {fileID: 199889166117688582}
   m_Layer: 0
   m_Name: HitEffect
@@ -165,6 +166,18 @@ Transform:
   m_Father: {fileID: 4576229179429128}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &114716822272618216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290611917709218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83bf99dbd5101f4bb060466429b36d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DestroyInThisTime: 3
 --- !u!198 &198314312507215460
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -175,7 +188,7 @@ ParticleSystem:
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -4772,7 +4785,7 @@ ParticleSystem:
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -9360,7 +9373,7 @@ ParticleSystem:
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -13957,7 +13970,7 @@ ParticleSystem:
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -18488,7 +18501,7 @@ ParticleSystem:
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0

@@ -105,6 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4642605943386118}
   - component: {fileID: 198012141403452324}
+  - component: {fileID: 114788890588856470}
   - component: {fileID: 199835254389884890}
   m_Layer: 0
   m_Name: BotDeathExplosion
@@ -320,6 +321,18 @@ Transform:
   m_Father: {fileID: 4642605943386118}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -180, y: 89.99999, z: -90}
+--- !u!114 &114788890588856470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555381651907024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83bf99dbd5101f4bb060466429b36d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DestroyInThisTime: 5
 --- !u!198 &198012141403452324
 ParticleSystem:
   m_ObjectHideFlags: 1
