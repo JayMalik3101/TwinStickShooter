@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222785278355967494}
   - component: {fileID: 114180634088001902}
   m_Layer: 0
-  m_Name: Image
+  m_Name: SpeedUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,14 +322,14 @@ RectTransform:
   m_GameObject: {fileID: 1441124410287818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.06320107, y: 0.063201085, z: 0.063201085}
+  m_LocalScale: {x: 0.11552613, y: 0.11552627, z: 0.11552627}
   m_Children: []
   m_Father: {fileID: 224225356603545850}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7, y: -74}
+  m_AnchoredPosition: {x: -54, y: -61}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224671377094190688

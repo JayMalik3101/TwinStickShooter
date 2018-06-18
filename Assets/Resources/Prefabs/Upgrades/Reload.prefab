@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222321857952877496}
   - component: {fileID: 114144237573301310}
   m_Layer: 0
-  m_Name: Image
+  m_Name: ReloadUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,14 +88,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1166305141984644}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -5.74, y: 1.7616783, z: 11.8}
   m_LocalScale: {x: 2.4421468, y: 2.4421456, z: 2.4421465}
   m_Children:
   - {fileID: 224114272968642052}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &23751343880681540
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -322,14 +322,14 @@ RectTransform:
   m_GameObject: {fileID: 1328568791149696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.06320107, y: 0.063201085, z: 0.063201085}
+  m_LocalScale: {x: 0.114554, y: 0.114553995, z: 0.114553995}
   m_Children: []
   m_Father: {fileID: 224598974359536106}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7, y: -74}
+  m_AnchoredPosition: {x: -55, y: -62.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224598974359536106

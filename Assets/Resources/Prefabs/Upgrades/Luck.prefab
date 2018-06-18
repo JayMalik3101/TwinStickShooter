@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 222349467882395182}
   - component: {fileID: 114032289561539204}
   m_Layer: 0
-  m_Name: Image
+  m_Name: LuckUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,14 +88,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1921270531100938}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -5.74, y: 1.7616783, z: 2.44}
   m_LocalScale: {x: 2.4421468, y: 2.4421456, z: 2.4421465}
   m_Children:
   - {fileID: 224615624656330706}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &23878508421232024
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -341,13 +341,13 @@ RectTransform:
   m_GameObject: {fileID: 1077087412756876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.06320107, y: 0.063201085, z: 0.063201085}
+  m_LocalScale: {x: 0.11410201, y: 0.11410202, z: 0.11410202}
   m_Children: []
   m_Father: {fileID: 224416196652944634}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7, y: -74}
+  m_AnchoredPosition: {x: -50.9, y: -59.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
