@@ -30,8 +30,6 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
-        m_CurrentHealth = m_MaxHealth += StatManager.m_Data.m_MaxHealthModifier;
-        m_MoneyCount.text = StatManager.m_Data.m_CurrentMoney.ToString();
         m_MoneyCount = GameObject.Find("MoneyCount").GetComponent<Text>();
         m_KilledByText = GameObject.Find("KilledBy").GetComponent<Text>();
     }

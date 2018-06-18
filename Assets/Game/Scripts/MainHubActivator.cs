@@ -12,6 +12,8 @@ public class MainHubActivator : MonoBehaviour {
     {
         m_Player.SetActive(true);
         m_PlayerCamera.SetActive(true);
+        UI.SetActive(true);
         m_MainMenuCamera.SetActive(false);
+        
     }
 }

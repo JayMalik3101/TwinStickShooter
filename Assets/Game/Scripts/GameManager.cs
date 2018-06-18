@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
     public int m_TimesPlayed;
     private GameObject m_DeathMenu;
     private PlayerStats m_PlayerStats;
+    private GameObject m_UIOverlay;
     public GameObject m_PauseMenu;
 
     public bool m_CurrentlyPauzed;
@@ -21,8 +22,10 @@ public class GameManager : MonoBehaviour {
         m_DeathMenu = GameObject.Find("DeathMenu");
         m_PauseMenu = GameObject.Find("PauseMenu");
         m_PlayerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
+        m_UIOverlay = GameObject.Find("UIOverlay");
         if(MainMenu != null)
         {
+            m_UIOverlay.SetActive(false);
             m_PlayerStats.gameObject.SetActive(false);
         }
         
