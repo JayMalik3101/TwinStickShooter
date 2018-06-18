@@ -12,7 +12,6 @@ public class EnemyMovement : MonoBehaviour {
     
 
     private Transform m_GuardTransform;
-
     private int m_CurrentWaypoint;
     private Ray ray;
     private RaycastHit hit;
@@ -20,10 +19,13 @@ public class EnemyMovement : MonoBehaviour {
     private Vector3 m_DirectionToWaypoint;
     private Vector3 m_WayPointDirection;
     private NavMeshAgent m_NavMesh;
+    private EnemyAnimations m_EnemyAnimations;
+
     // Use this for initialization
     void Start() {
         m_NavMesh = GetComponent<NavMeshAgent>();
         m_GuardTransform = GetComponent<Transform>();
+        m_EnemyAnimations = GetComponent<EnemyAnimations>();
         m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);
         m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);
     }
@@ -34,7 +36,7 @@ public class EnemyMovement : MonoBehaviour {
 	void Update () {
         m_DirectionToPlayer = (m_PlayerTransform.position - m_GuardTransform.position).normalized;
         m_DirectionToWaypoint = (m_WayPoints[m_CurrentWaypoint].position - m_GuardTransform.position).normalized;
-
+        m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
         if (Physics.Raycast(m_GuardTransform.position, m_DirectionToPlayer, out hit, m_SightRadius))
         {
             if (hit.transform.CompareTag("Player"))

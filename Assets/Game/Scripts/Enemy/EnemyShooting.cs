@@ -14,7 +14,7 @@ public class EnemyShooting : MonoBehaviour {
     private Vector3 m_Direction;
     private float m_FireRate;
     private string m_EnemyName;
-
+    [SerializeField] private EnemyAnimations m_EnemyAnimations;
     // Use this for initialization
     void Start () {
         m_Origin = GetComponent<Transform>();
