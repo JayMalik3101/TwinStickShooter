@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 78bf644a1ba6bd045b3750fd379ac102
+guid: 501ebfaae9c16c54ebdd6387aae57831
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -94,6 +94,7 @@ ModelImporter:
     4300018: Ankle
     4300020: Head
     4300022: LeftHand
+    7400000: Take 001
     9500000: //RootNode
     13700000: Ankle
     13700002: BackWheel
@@ -109,7 +110,7 @@ ModelImporter:
     13700022: RightHand
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
