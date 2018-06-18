@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 7c114e934de048b4093d5b9049dd691f
+guid: 0a822a4ce00ed7e4e8972e572dff404a
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: ColorAtlasFinal
+    2100000: lambert2
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Keycard
+    4300000: SM_ExteriorWindowWall_01
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
