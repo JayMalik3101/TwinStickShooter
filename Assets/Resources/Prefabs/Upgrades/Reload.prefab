@@ -163,6 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UpgradeCost: 100
   m_MaxLevel: 10
+  m_UpgradeText: {fileID: 114148529547133796}
 --- !u!114 &114144237573301310
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -88,14 +88,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671563667243080}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -5.74, y: 1.7616783, z: 20.99}
   m_LocalScale: {x: 2.4421468, y: 2.4421456, z: 2.4421465}
   m_Children:
   - {fileID: 224671377094190688}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &23292188929849200
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8dd225c43ae0e2d41ae6a8c90b098b05, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 312834fb53f9e064ea85a7ea073fff47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -262,6 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UpgradeCost: 100
   m_MaxLevel: 10
+  m_UpgradeText: {fileID: 114092015557164880}
 --- !u!222 &222520176618362484
 CanvasRenderer:
   m_ObjectHideFlags: 1

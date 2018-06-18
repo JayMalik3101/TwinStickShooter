@@ -24,7 +24,7 @@ public class MaxHealth : MonoBehaviour {
             {
                 // input not having enough money here
             }
-            LevelDisplay()
+            LevelDisplay();
         }
     }
     private void UpgradeEffect(Collider other)
