@@ -159,7 +159,19 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
+<<<<<<< HEAD
+      events:
+      - time: 1
+        functionName: DestroyObject
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: c5b4a378ba0df2f4caf631e5f86c758a,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+=======
       events: []
+>>>>>>> master
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
