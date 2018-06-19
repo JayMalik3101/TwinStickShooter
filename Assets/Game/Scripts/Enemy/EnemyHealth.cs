@@ -9,10 +9,11 @@ public class EnemyHealth : MonoBehaviour {
     public float m_MaxHealth = 40;
     public float m_Health;
     private PlayerStats m_PlayerStats;
-
+    private EnemyAnimations m_EnemyAnimations;
     private void Start()
     {
         m_Health = m_MaxHealth;
+        m_EnemyAnimations = GetComponent<EnemyAnimations>();
     }
     public void TakeDamage(float Damage)
     {
@@ -25,6 +26,7 @@ public class EnemyHealth : MonoBehaviour {
             int cashDrop = Random.Range(m_MinCashDrop, m_MaxCashDrop);
             StatManager.m_Data.m_CurrentMoney += cashDrop;
             StatManager.m_Data.m_TotalCashEarned += cashDrop;
+            m_EnemyAnimations.SetAnimation(AnimationState.Death);
             StatManager.SaveStats();
             Destroy(gameObject);
         }
