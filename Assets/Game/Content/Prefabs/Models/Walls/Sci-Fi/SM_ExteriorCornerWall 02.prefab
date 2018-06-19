@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33918955189160422}
   - component: {fileID: 23255858747652470}
   m_Layer: 0
-  m_Name: SM_InteriorCornerWall 02
+  m_Name: SM_ExteriorCornerWall 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
