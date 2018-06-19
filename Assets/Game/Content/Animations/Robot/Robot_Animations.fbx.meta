@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: dccd721e7b092834a8319699f9ff114b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ankle
+    100002: Ankle 1
+    100004: AnkleCTRL
+    100006: BackWheel
+    100008: Chest
+    100010: Chest 1
+    100012: FrontWheel
+    100014: Head
+    100016: Head_Bottom
+    100018: Head_Top
+    100020: Hip
+    100022: Hip 1
+    100024: ikHandle1
+    100026: Knee
+    100028: Knee 1
+    100030: L_Clavicle_J
+    100032: L_Elbow_J
+    100034: L_Forearm_J
+    100036: L_Shoulder_J
+    100038: L_Wrist_J
+    100040: L_WristEnd_J
+    100042: LeftArm
+    100044: LeftHand
+    100046: Master
+    100048: MiddleWheel
+    100050: Neck
+    100052: R_Clavicle_J
+    100054: R_Elbow_J
+    100056: R_Forearm_J
+    100058: R_Shoulder_J
+    100060: R_Wrist_J
+    100062: R_WristEnd_J
+    100064: RightArm
+    100066: RightHand
+    100068: //RootNode
+    100070: robot_idle_onehandedgun:Ankle
+    100072: robot_idle_onehandedgun:Ankle 1
+    100074: robot_idle_onehandedgun:AnkleCTRL
+    100076: robot_idle_onehandedgun:BackWheel
+    100078: robot_idle_onehandedgun:Chest
+    100080: robot_idle_onehandedgun:Chest 1
+    100082: robot_idle_onehandedgun:FrontWheel
+    100084: robot_idle_onehandedgun:Head
+    100086: robot_idle_onehandedgun:Head_Bottom
+    100088: robot_idle_onehandedgun:Head_Top
+    100090: robot_idle_onehandedgun:Hip
+    100092: robot_idle_onehandedgun:Hip 1
+    100094: robot_idle_onehandedgun:ikHandle1
+    100096: robot_idle_onehandedgun:Knee
+    100098: robot_idle_onehandedgun:Knee 1
+    100100: robot_idle_onehandedgun:L_Clavicle_J
+    100102: robot_idle_onehandedgun:L_Elbow_J
+    100104: robot_idle_onehandedgun:L_Forearm_J
+    100106: robot_idle_onehandedgun:L_Shoulder_J
+    100108: robot_idle_onehandedgun:L_Wrist_J
+    100110: robot_idle_onehandedgun:L_WristEnd_J
+    100112: robot_idle_onehandedgun:LeftArm
+    100114: robot_idle_onehandedgun:LeftHand
+    100116: robot_idle_onehandedgun:Master
+    100118: robot_idle_onehandedgun:MiddleWheel
+    100120: robot_idle_onehandedgun:Neck
+    100122: robot_idle_onehandedgun:R_Clavicle_J
+    100124: robot_idle_onehandedgun:R_Elbow_J
+    100126: robot_idle_onehandedgun:R_Forearm_J
+    100128: robot_idle_onehandedgun:R_Shoulder_J
+    100130: robot_idle_onehandedgun:R_Wrist_J
+    100132: robot_idle_onehandedgun:R_WristEnd_J
+    100134: robot_idle_onehandedgun:RightArm
+    100136: robot_idle_onehandedgun:RightHand
+    100138: robot_idle_onehandedgun:Robot_Model
+    100140: robot_idle_onehandedgun:Robot_Rig
+    100142: robot_idle_onehandedgun:Spine_1
+    100144: robot_idle_onehandedgun:Spine_2
+    100146: robot_idle_twohandedgun:Ankle
+    100148: robot_idle_twohandedgun:Ankle 1
+    100150: robot_idle_twohandedgun:AnkleCTRL
+    100152: robot_idle_twohandedgun:BackWheel
+    100154: robot_idle_twohandedgun:Chest
+    100156: robot_idle_twohandedgun:Chest 1
+    100158: robot_idle_twohandedgun:FrontWheel
+    100160: robot_idle_twohandedgun:Head
+    100162: robot_idle_twohandedgun:Head_Bottom
+    100164: robot_idle_twohandedgun:Head_Top
+    100166: robot_idle_twohandedgun:Hip
+    100168: robot_idle_twohandedgun:Hip 1
+    100170: robot_idle_twohandedgun:ikHandle1
+    100172: robot_idle_twohandedgun:Knee
+    100174: robot_idle_twohandedgun:Knee 1
+    100176: robot_idle_twohandedgun:L_Clavicle_J
+    100178: robot_idle_twohandedgun:L_Elbow_J
+    100180: robot_idle_twohandedgun:L_Forearm_J
+    100182: robot_idle_twohandedgun:L_Shoulder_J
+    100184: robot_idle_twohandedgun:L_Wrist_J
+    100186: robot_idle_twohandedgun:L_WristEnd_J
+    100188: robot_idle_twohandedgun:LeftArm
+    100190: robot_idle_twohandedgun:LeftHand
+    100192: robot_idle_twohandedgun:Master
+    100194: robot_idle_twohandedgun:MiddleWheel
+    100196: robot_idle_twohandedgun:Neck
+    100198: robot_idle_twohandedgun:R_Clavicle_J
+    100200: robot_idle_twohandedgun:R_Elbow_J
+    100202: robot_idle_twohandedgun:R_Forearm_J
+    100204: robot_idle_twohandedgun:R_Shoulder_J
+    100206: robot_idle_twohandedgun:R_Wrist_J
+    100208: robot_idle_twohandedgun:R_WristEnd_J
+    100210: robot_idle_twohandedgun:RightArm
+    100212: robot_idle_twohandedgun:RightHand
+    100214: robot_idle_twohandedgun:Robot_Model
+    100216: robot_idle_twohandedgun:Robot_Rig
+    100218: robot_idle_twohandedgun:Spine_1
+    100220: robot_idle_twohandedgun:Spine_2
+    100222: Robot_Model
+    100224: Robot_Rig
+    100226: robot_shoot_onehandedgun:Ankle
+    100228: robot_shoot_onehandedgun:Ankle 1
+    100230: robot_shoot_onehandedgun:AnkleCTRL
+    100232: robot_shoot_onehandedgun:BackWheel
+    100234: robot_shoot_onehandedgun:Chest
+    100236: robot_shoot_onehandedgun:Chest 1
+    100238: robot_shoot_onehandedgun:FrontWheel
+    100240: robot_shoot_onehandedgun:Head
+    100242: robot_shoot_onehandedgun:Head_Bottom
+    100244: robot_shoot_onehandedgun:Head_Top
+    100246: robot_shoot_onehandedgun:Hip
+    100248: robot_shoot_onehandedgun:Hip 1
+    100250: robot_shoot_onehandedgun:ikHandle1
+    100252: robot_shoot_onehandedgun:Knee
+    100254: robot_shoot_onehandedgun:Knee 1
+    100256: robot_shoot_onehandedgun:L_Clavicle_J
+    100258: robot_shoot_onehandedgun:L_Elbow_J
+    100260: robot_shoot_onehandedgun:L_Forearm_J
+    100262: robot_shoot_onehandedgun:L_Shoulder_J
+    100264: robot_shoot_onehandedgun:L_Wrist_J
+    100266: robot_shoot_onehandedgun:L_WristEnd_J
+    100268: robot_shoot_onehandedgun:LeftArm
+    100270: robot_shoot_onehandedgun:LeftHand
+    100272: robot_shoot_onehandedgun:Master
+    100274: robot_shoot_onehandedgun:MiddleWheel
+    100276: robot_shoot_onehandedgun:Neck
+    100278: robot_shoot_onehandedgun:R_Clavicle_J
+    100280: robot_shoot_onehandedgun:R_Elbow_J
+    100282: robot_shoot_onehandedgun:R_Forearm_J
+    100284: robot_shoot_onehandedgun:R_Shoulder_J
+    100286: robot_shoot_onehandedgun:R_Wrist_J
+    100288: robot_shoot_onehandedgun:R_WristEnd_J
+    100290: robot_shoot_onehandedgun:RightArm
+    100292: robot_shoot_onehandedgun:RightHand
+    100294: robot_shoot_onehandedgun:Robot_Model
+    100296: robot_shoot_onehandedgun:Robot_Rig
+    100298: robot_shoot_onehandedgun:Spine_1
+    100300: robot_shoot_onehandedgun:Spine_2
+    100302: robot_shoot_twohandedgun:Ankle
+    100304: robot_shoot_twohandedgun:Ankle 1
+    100306: robot_shoot_twohandedgun:AnkleCTRL
+    100308: robot_shoot_twohandedgun:BackWheel
+    100310: robot_shoot_twohandedgun:Chest
+    100312: robot_shoot_twohandedgun:Chest 1
+    100314: robot_shoot_twohandedgun:FrontWheel
+    100316: robot_shoot_twohandedgun:Head
+    100318: robot_shoot_twohandedgun:Head_Bottom
+    100320: robot_shoot_twohandedgun:Head_Top
+    100322: robot_shoot_twohandedgun:Hip
+    100324: robot_shoot_twohandedgun:Hip 1
+    100326: robot_shoot_twohandedgun:ikHandle1
+    100328: robot_shoot_twohandedgun:Knee
+    100330: robot_shoot_twohandedgun:Knee 1
+    100332: robot_shoot_twohandedgun:L_Clavicle_J
+    100334: robot_shoot_twohandedgun:L_Elbow_J
+    100336: robot_shoot_twohandedgun:L_Forearm_J
+    100338: robot_shoot_twohandedgun:L_Shoulder_J
+    100340: robot_shoot_twohandedgun:L_Wrist_J
+    100342: robot_shoot_twohandedgun:L_WristEnd_J
+    100344: robot_shoot_twohandedgun:LeftArm
+    100346: robot_shoot_twohandedgun:LeftHand
+    100348: robot_shoot_twohandedgun:Master
+    100350: robot_shoot_twohandedgun:MiddleWheel
+    100352: robot_shoot_twohandedgun:Neck
+    100354: robot_shoot_twohandedgun:R_Clavicle_J
+    100356: robot_shoot_twohandedgun:R_Elbow_J
+    100358: robot_shoot_twohandedgun:R_Forearm_J
+    100360: robot_shoot_twohandedgun:R_Shoulder_J
+    100362: robot_shoot_twohandedgun:R_Wrist_J
+    100364: robot_shoot_twohandedgun:R_WristEnd_J
+    100366: robot_shoot_twohandedgun:RightArm
+    100368: robot_shoot_twohandedgun:RightHand
+    100370: robot_shoot_twohandedgun:Robot_Model
+    100372: robot_shoot_twohandedgun:Robot_Rig
+    100374: robot_shoot_twohandedgun:Spine_1
+    100376: robot_shoot_twohandedgun:Spine_2
+    100378: Spine_1
+    100380: Spine_2
+    400000: Ankle
+    400002: Ankle 1
+    400004: AnkleCTRL
+    400006: BackWheel
+    400008: Chest
+    400010: Chest 1
+    400012: FrontWheel
+    400014: Head
+    400016: Head_Bottom
+    400018: Head_Top
+    400020: Hip
+    400022: Hip 1
+    400024: ikHandle1
+    400026: Knee
+    400028: Knee 1
+    400030: L_Clavicle_J
+    400032: L_Elbow_J
+    400034: L_Forearm_J
+    400036: L_Shoulder_J
+    400038: L_Wrist_J
+    400040: L_WristEnd_J
+    400042: LeftArm
+    400044: LeftHand
+    400046: Master
+    400048: MiddleWheel
+    400050: Neck
+    400052: R_Clavicle_J
+    400054: R_Elbow_J
+    400056: R_Forearm_J
+    400058: R_Shoulder_J
+    400060: R_Wrist_J
+    400062: R_WristEnd_J
+    400064: RightArm
+    400066: RightHand
+    400068: //RootNode
+    400070: robot_idle_onehandedgun:Ankle
+    400072: robot_idle_onehandedgun:Ankle 1
+    400074: robot_idle_onehandedgun:AnkleCTRL
+    400076: robot_idle_onehandedgun:BackWheel
+    400078: robot_idle_onehandedgun:Chest
+    400080: robot_idle_onehandedgun:Chest 1
+    400082: robot_idle_onehandedgun:FrontWheel
+    400084: robot_idle_onehandedgun:Head
+    400086: robot_idle_onehandedgun:Head_Bottom
+    400088: robot_idle_onehandedgun:Head_Top
+    400090: robot_idle_onehandedgun:Hip
+    400092: robot_idle_onehandedgun:Hip 1
+    400094: robot_idle_onehandedgun:ikHandle1
+    400096: robot_idle_onehandedgun:Knee
+    400098: robot_idle_onehandedgun:Knee 1
+    400100: robot_idle_onehandedgun:L_Clavicle_J
+    400102: robot_idle_onehandedgun:L_Elbow_J
+    400104: robot_idle_onehandedgun:L_Forearm_J
+    400106: robot_idle_onehandedgun:L_Shoulder_J
+    400108: robot_idle_onehandedgun:L_Wrist_J
+    400110: robot_idle_onehandedgun:L_WristEnd_J
+    400112: robot_idle_onehandedgun:LeftArm
+    400114: robot_idle_onehandedgun:LeftHand
+    400116: robot_idle_onehandedgun:Master
+    400118: robot_idle_onehandedgun:MiddleWheel
+    400120: robot_idle_onehandedgun:Neck
+    400122: robot_idle_onehandedgun:R_Clavicle_J
+    400124: robot_idle_onehandedgun:R_Elbow_J
+    400126: robot_idle_onehandedgun:R_Forearm_J
+    400128: robot_idle_onehandedgun:R_Shoulder_J
+    400130: robot_idle_onehandedgun:R_Wrist_J
+    400132: robot_idle_onehandedgun:R_WristEnd_J
+    400134: robot_idle_onehandedgun:RightArm
+    400136: robot_idle_onehandedgun:RightHand
+    400138: robot_idle_onehandedgun:Robot_Model
+    400140: robot_idle_onehandedgun:Robot_Rig
+    400142: robot_idle_onehandedgun:Spine_1
+    400144: robot_idle_onehandedgun:Spine_2
+    400146: robot_idle_twohandedgun:Ankle
+    400148: robot_idle_twohandedgun:Ankle 1
+    400150: robot_idle_twohandedgun:AnkleCTRL
+    400152: robot_idle_twohandedgun:BackWheel
+    400154: robot_idle_twohandedgun:Chest
+    400156: robot_idle_twohandedgun:Chest 1
+    400158: robot_idle_twohandedgun:FrontWheel
+    400160: robot_idle_twohandedgun:Head
+    400162: robot_idle_twohandedgun:Head_Bottom
+    400164: robot_idle_twohandedgun:Head_Top
+    400166: robot_idle_twohandedgun:Hip
+    400168: robot_idle_twohandedgun:Hip 1
+    400170: robot_idle_twohandedgun:ikHandle1
+    400172: robot_idle_twohandedgun:Knee
+    400174: robot_idle_twohandedgun:Knee 1
+    400176: robot_idle_twohandedgun:L_Clavicle_J
+    400178: robot_idle_twohandedgun:L_Elbow_J
+    400180: robot_idle_twohandedgun:L_Forearm_J
+    400182: robot_idle_twohandedgun:L_Shoulder_J
+    400184: robot_idle_twohandedgun:L_Wrist_J
+    400186: robot_idle_twohandedgun:L_WristEnd_J
+    400188: robot_idle_twohandedgun:LeftArm
+    400190: robot_idle_twohandedgun:LeftHand
+    400192: robot_idle_twohandedgun:Master
+    400194: robot_idle_twohandedgun:MiddleWheel
+    400196: robot_idle_twohandedgun:Neck
+    400198: robot_idle_twohandedgun:R_Clavicle_J
+    400200: robot_idle_twohandedgun:R_Elbow_J
+    400202: robot_idle_twohandedgun:R_Forearm_J
+    400204: robot_idle_twohandedgun:R_Shoulder_J
+    400206: robot_idle_twohandedgun:R_Wrist_J
+    400208: robot_idle_twohandedgun:R_WristEnd_J
+    400210: robot_idle_twohandedgun:RightArm
+    400212: robot_idle_twohandedgun:RightHand
+    400214: robot_idle_twohandedgun:Robot_Model
+    400216: robot_idle_twohandedgun:Robot_Rig
+    400218: robot_idle_twohandedgun:Spine_1
+    400220: robot_idle_twohandedgun:Spine_2
+    400222: Robot_Model
+    400224: Robot_Rig
+    400226: robot_shoot_onehandedgun:Ankle
+    400228: robot_shoot_onehandedgun:Ankle 1
+    400230: robot_shoot_onehandedgun:AnkleCTRL
+    400232: robot_shoot_onehandedgun:BackWheel
+    400234: robot_shoot_onehandedgun:Chest
+    400236: robot_shoot_onehandedgun:Chest 1
+    400238: robot_shoot_onehandedgun:FrontWheel
+    400240: robot_shoot_onehandedgun:Head
+    400242: robot_shoot_onehandedgun:Head_Bottom
+    400244: robot_shoot_onehandedgun:Head_Top
+    400246: robot_shoot_onehandedgun:Hip
+    400248: robot_shoot_onehandedgun:Hip 1
+    400250: robot_shoot_onehandedgun:ikHandle1
+    400252: robot_shoot_onehandedgun:Knee
+    400254: robot_shoot_onehandedgun:Knee 1
+    400256: robot_shoot_onehandedgun:L_Clavicle_J
+    400258: robot_shoot_onehandedgun:L_Elbow_J
+    400260: robot_shoot_onehandedgun:L_Forearm_J
+    400262: robot_shoot_onehandedgun:L_Shoulder_J
+    400264: robot_shoot_onehandedgun:L_Wrist_J
+    400266: robot_shoot_onehandedgun:L_WristEnd_J
+    400268: robot_shoot_onehandedgun:LeftArm
+    400270: robot_shoot_onehandedgun:LeftHand
+    400272: robot_shoot_onehandedgun:Master
+    400274: robot_shoot_onehandedgun:MiddleWheel
+    400276: robot_shoot_onehandedgun:Neck
+    400278: robot_shoot_onehandedgun:R_Clavicle_J
+    400280: robot_shoot_onehandedgun:R_Elbow_J
+    400282: robot_shoot_onehandedgun:R_Forearm_J
+    400284: robot_shoot_onehandedgun:R_Shoulder_J
+    400286: robot_shoot_onehandedgun:R_Wrist_J
+    400288: robot_shoot_onehandedgun:R_WristEnd_J
+    400290: robot_shoot_onehandedgun:RightArm
+    400292: robot_shoot_onehandedgun:RightHand
+    400294: robot_shoot_onehandedgun:Robot_Model
+    400296: robot_shoot_onehandedgun:Robot_Rig
+    400298: robot_shoot_onehandedgun:Spine_1
+    400300: robot_shoot_onehandedgun:Spine_2
+    400302: robot_shoot_twohandedgun:Ankle
+    400304: robot_shoot_twohandedgun:Ankle 1
+    400306: robot_shoot_twohandedgun:AnkleCTRL
+    400308: robot_shoot_twohandedgun:BackWheel
+    400310: robot_shoot_twohandedgun:Chest
+    400312: robot_shoot_twohandedgun:Chest 1
+    400314: robot_shoot_twohandedgun:FrontWheel
+    400316: robot_shoot_twohandedgun:Head
+    400318: robot_shoot_twohandedgun:Head_Bottom
+    400320: robot_shoot_twohandedgun:Head_Top
+    400322: robot_shoot_twohandedgun:Hip
+    400324: robot_shoot_twohandedgun:Hip 1
+    400326: robot_shoot_twohandedgun:ikHandle1
+    400328: robot_shoot_twohandedgun:Knee
+    400330: robot_shoot_twohandedgun:Knee 1
+    400332: robot_shoot_twohandedgun:L_Clavicle_J
+    400334: robot_shoot_twohandedgun:L_Elbow_J
+    400336: robot_shoot_twohandedgun:L_Forearm_J
+    400338: robot_shoot_twohandedgun:L_Shoulder_J
+    400340: robot_shoot_twohandedgun:L_Wrist_J
+    400342: robot_shoot_twohandedgun:L_WristEnd_J
+    400344: robot_shoot_twohandedgun:LeftArm
+    400346: robot_shoot_twohandedgun:LeftHand
+    400348: robot_shoot_twohandedgun:Master
+    400350: robot_shoot_twohandedgun:MiddleWheel
+    400352: robot_shoot_twohandedgun:Neck
+    400354: robot_shoot_twohandedgun:R_Clavicle_J
+    400356: robot_shoot_twohandedgun:R_Elbow_J
+    400358: robot_shoot_twohandedgun:R_Forearm_J
+    400360: robot_shoot_twohandedgun:R_Shoulder_J
+    400362: robot_shoot_twohandedgun:R_Wrist_J
+    400364: robot_shoot_twohandedgun:R_WristEnd_J
+    400366: robot_shoot_twohandedgun:RightArm
+    400368: robot_shoot_twohandedgun:RightHand
+    400370: robot_shoot_twohandedgun:Robot_Model
+    400372: robot_shoot_twohandedgun:Robot_Rig
+    400374: robot_shoot_twohandedgun:Spine_1
+    400376: robot_shoot_twohandedgun:Spine_2
+    400378: Spine_1
+    400380: Spine_2
+    2100000: lambert3
+    2100002: robot_idle_onehandedgun_lambert3
+    2100004: robot_idle_twohandedgun_lambert3
+    2100006: robot_shoot_onehandedgun_lambert3
+    2100008: robot_shoot_twohandedgun_lambert3
+    4300000: RightHand
+    4300002: Chest
+    4300004: Hip
+    4300006: BackWheel
+    4300008: MiddleWheel
+    4300010: FrontWheel
+    4300012: LeftArm
+    4300014: RightArm
+    4300016: Knee
+    4300018: Ankle
+    4300020: Head
+    4300022: LeftHand
+    4300024: robot_idle_onehandedgun:RightHand
+    4300026: robot_idle_onehandedgun:Chest
+    4300028: robot_idle_onehandedgun:Hip
+    4300030: robot_idle_onehandedgun:BackWheel
+    4300032: robot_idle_onehandedgun:MiddleWheel
+    4300034: robot_idle_onehandedgun:FrontWheel
+    4300036: robot_idle_onehandedgun:LeftArm
+    4300038: robot_idle_onehandedgun:RightArm
+    4300040: robot_idle_onehandedgun:Knee
+    4300042: robot_idle_onehandedgun:Ankle
+    4300044: robot_idle_onehandedgun:Head
+    4300046: robot_idle_onehandedgun:LeftHand
+    4300048: robot_idle_twohandedgun:RightHand
+    4300050: robot_idle_twohandedgun:Chest
+    4300052: robot_idle_twohandedgun:Hip
+    4300054: robot_idle_twohandedgun:BackWheel
+    4300056: robot_idle_twohandedgun:MiddleWheel
+    4300058: robot_idle_twohandedgun:FrontWheel
+    4300060: robot_idle_twohandedgun:LeftArm
+    4300062: robot_idle_twohandedgun:RightArm
+    4300064: robot_idle_twohandedgun:Knee
+    4300066: robot_idle_twohandedgun:Ankle
+    4300068: robot_idle_twohandedgun:Head
+    4300070: robot_idle_twohandedgun:LeftHand
+    4300072: robot_shoot_onehandedgun:RightHand
+    4300074: robot_shoot_onehandedgun:Chest
+    4300076: robot_shoot_onehandedgun:Hip
+    4300078: robot_shoot_onehandedgun:BackWheel
+    4300080: robot_shoot_onehandedgun:MiddleWheel
+    4300082: robot_shoot_onehandedgun:FrontWheel
+    4300084: robot_shoot_onehandedgun:LeftArm
+    4300086: robot_shoot_onehandedgun:RightArm
+    4300088: robot_shoot_onehandedgun:Knee
+    4300090: robot_shoot_onehandedgun:Ankle
+    4300092: robot_shoot_onehandedgun:Head
+    4300094: robot_shoot_onehandedgun:LeftHand
+    4300096: robot_shoot_twohandedgun:RightHand
+    4300098: robot_shoot_twohandedgun:Chest
+    4300100: robot_shoot_twohandedgun:Hip
+    4300102: robot_shoot_twohandedgun:BackWheel
+    4300104: robot_shoot_twohandedgun:MiddleWheel
+    4300106: robot_shoot_twohandedgun:FrontWheel
+    4300108: robot_shoot_twohandedgun:LeftArm
+    4300110: robot_shoot_twohandedgun:RightArm
+    4300112: robot_shoot_twohandedgun:Knee
+    4300114: robot_shoot_twohandedgun:Ankle
+    4300116: robot_shoot_twohandedgun:Head
+    4300118: robot_shoot_twohandedgun:LeftHand
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Ankle
+    13700002: BackWheel
+    13700004: Chest
+    13700006: FrontWheel
+    13700008: Head
+    13700010: Hip
+    13700012: Knee
+    13700014: LeftArm
+    13700016: LeftHand
+    13700018: MiddleWheel
+    13700020: RightArm
+    13700022: RightHand
+    13700024: robot_idle_onehandedgun:Ankle
+    13700026: robot_idle_onehandedgun:BackWheel
+    13700028: robot_idle_onehandedgun:Chest
+    13700030: robot_idle_onehandedgun:FrontWheel
+    13700032: robot_idle_onehandedgun:Head
+    13700034: robot_idle_onehandedgun:Hip
+    13700036: robot_idle_onehandedgun:Knee
+    13700038: robot_idle_onehandedgun:LeftArm
+    13700040: robot_idle_onehandedgun:LeftHand
+    13700042: robot_idle_onehandedgun:MiddleWheel
+    13700044: robot_idle_onehandedgun:RightArm
+    13700046: robot_idle_onehandedgun:RightHand
+    13700048: robot_idle_twohandedgun:Ankle
+    13700050: robot_idle_twohandedgun:BackWheel
+    13700052: robot_idle_twohandedgun:Chest
+    13700054: robot_idle_twohandedgun:FrontWheel
+    13700056: robot_idle_twohandedgun:Head
+    13700058: robot_idle_twohandedgun:Hip
+    13700060: robot_idle_twohandedgun:Knee
+    13700062: robot_idle_twohandedgun:LeftArm
+    13700064: robot_idle_twohandedgun:LeftHand
+    13700066: robot_idle_twohandedgun:MiddleWheel
+    13700068: robot_idle_twohandedgun:RightArm
+    13700070: robot_idle_twohandedgun:RightHand
+    13700072: robot_shoot_onehandedgun:Ankle
+    13700074: robot_shoot_onehandedgun:BackWheel
+    13700076: robot_shoot_onehandedgun:Chest
+    13700078: robot_shoot_onehandedgun:FrontWheel
+    13700080: robot_shoot_onehandedgun:Head
+    13700082: robot_shoot_onehandedgun:Hip
+    13700084: robot_shoot_onehandedgun:Knee
+    13700086: robot_shoot_onehandedgun:LeftArm
+    13700088: robot_shoot_onehandedgun:LeftHand
+    13700090: robot_shoot_onehandedgun:MiddleWheel
+    13700092: robot_shoot_onehandedgun:RightArm
+    13700094: robot_shoot_onehandedgun:RightHand
+    13700096: robot_shoot_twohandedgun:Ankle
+    13700098: robot_shoot_twohandedgun:BackWheel
+    13700100: robot_shoot_twohandedgun:Chest
+    13700102: robot_shoot_twohandedgun:FrontWheel
+    13700104: robot_shoot_twohandedgun:Head
+    13700106: robot_shoot_twohandedgun:Hip
+    13700108: robot_shoot_twohandedgun:Knee
+    13700110: robot_shoot_twohandedgun:LeftArm
+    13700112: robot_shoot_twohandedgun:LeftHand
+    13700114: robot_shoot_twohandedgun:MiddleWheel
+    13700116: robot_shoot_twohandedgun:RightArm
+    13700118: robot_shoot_twohandedgun:RightHand
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
