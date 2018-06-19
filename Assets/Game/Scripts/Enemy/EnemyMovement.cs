@@ -34,38 +34,41 @@ public class EnemyMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        m_DirectionToPlayer = (m_PlayerTransform.position - m_GuardTransform.position).normalized;
-        m_DirectionToWaypoint = (m_WayPoints[m_CurrentWaypoint].position - m_GuardTransform.position).normalized;
-        m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
-        if (Physics.Raycast(m_GuardTransform.position, m_DirectionToPlayer, out hit, m_SightRadius))
+        if (m_EnemyAnimations.m_AnimationState != AnimationState.Death)
         {
-            if (hit.transform.CompareTag("Player"))
+            m_DirectionToPlayer = (m_PlayerTransform.position - m_GuardTransform.position).normalized;
+            m_DirectionToWaypoint = (m_WayPoints[m_CurrentWaypoint].position - m_GuardTransform.position).normalized;
+            m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
+            if (Physics.Raycast(m_GuardTransform.position, m_DirectionToPlayer, out hit, m_SightRadius))
             {
-                Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.red);
-            }
-            else if (hit.transform.tag != "Player")
-            {
-                Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.grey);
-            }
+                if (hit.transform.CompareTag("Player"))
+                {
+                    Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.red);
+                }
+                else if (hit.transform.tag != "Player")
+                {
+                    Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.grey);
+                }
 
-            if (hit.transform.CompareTag("Player"))
-            {
-                m_NavMesh.SetDestination(m_PlayerTransform.position);
+                if (hit.transform.CompareTag("Player"))
+                {
+                    m_NavMesh.SetDestination(m_PlayerTransform.position);
+                }
+                else
+                {
+                    m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);
+                }
             }
             else
             {
+                Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.green);
+            }
+            Physics.Raycast(m_GuardTransform.position, m_DirectionToWaypoint, out hit);
+            if (hit.distance <= 5)
+            {
+                m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);
                 m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);
             }
-        }
-        else
-        {
-            Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.green);
-        }
-        Physics.Raycast(m_GuardTransform.position, m_DirectionToWaypoint, out hit);
-        if (hit.distance <= 5 )
-        {
-            m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);
-            m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);
         }
     }
 }

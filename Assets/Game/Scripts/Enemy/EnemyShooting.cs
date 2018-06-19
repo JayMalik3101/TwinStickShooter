@@ -24,16 +24,19 @@ public class EnemyShooting : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        m_Direction = (m_PlayerTransform.position - m_Origin.position).normalized;
-        m_FireRate -= Time.deltaTime;
-        if (Physics.Raycast(m_Origin.position, m_Direction, out hit, m_ShotRange))
+        if (m_EnemyAnimations.m_AnimationState != AnimationState.Death)
         {
-            if (hit.transform.CompareTag("Player") && m_FireRate <= 0)
+            m_Direction = (m_PlayerTransform.position - m_Origin.position).normalized;
+            m_FireRate -= Time.deltaTime;
+            if (Physics.Raycast(m_Origin.position, m_Direction, out hit, m_ShotRange))
             {
-                Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
-                enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);
-                enemyProjectile.GetComponent<Bullets>().m_Owner = m_EnemyName;
-                m_FireRate = m_OriginalFireRate;
+                if (hit.transform.CompareTag("Player") && m_FireRate <= 0)
+                {
+                    Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
+                    enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);
+                    enemyProjectile.GetComponent<Bullets>().m_Owner = m_EnemyName;
+                    m_FireRate = m_OriginalFireRate;
+                }
             }
         }
     }

@@ -22,13 +22,17 @@ public class EnemyHealth : MonoBehaviour {
         m_Health = m_Health - Damage;
         if (m_Health <= 0)
         {
-            GameObject BotDeath = Instantiate(m_BotDeath, transform.position, new Quaternion(0,0,0,0));
             int cashDrop = Random.Range(m_MinCashDrop, m_MaxCashDrop);
             StatManager.m_Data.m_CurrentMoney += cashDrop;
             StatManager.m_Data.m_TotalCashEarned += cashDrop;
             m_EnemyAnimations.SetAnimation(AnimationState.Death);
             StatManager.SaveStats();
-            Destroy(gameObject);
         }
+    }
+
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
+        GameObject BotDeath = Instantiate(m_BotDeath, transform.position, new Quaternion(0, 0, 0, 0));
     }
 }
