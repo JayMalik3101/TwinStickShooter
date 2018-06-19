@@ -91,7 +91,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 112000002, guid: ae61c51b91be5ce47b819d92ae2f5c76,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -33397,13 +33397,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1328392287}
-  m_LocalRotation: {x: -0.50112855, y: -0.5262184, z: 0.2284115, w: 0.6479141}
+  m_LocalRotation: {x: -0.6694366, y: -0.6580541, z: 0.30380738, w: -0.16285156}
   m_LocalPosition: {x: 7.02, y: 3, z: -8.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -24.141, y: -93.523, z: -655.537}
+  m_LocalEulerAnglesHint: {x: 38.162003, y: -165.83401, z: -624.095}
 --- !u!1001 &1330521785
 Prefab:
   m_ObjectHideFlags: 0
@@ -35273,6 +35273,11 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.startLifetime.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
       objectReference: {fileID: 0}
     - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
         type: 2}
@@ -46273,12 +46278,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1819304371}
   m_Layer: 0
-  m_Name: Light
+  m_Name: Liight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1819304371
 Transform:
   m_ObjectHideFlags: 0
