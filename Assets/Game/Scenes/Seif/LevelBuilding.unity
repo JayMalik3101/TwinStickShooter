@@ -932,7 +932,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4177904896309044, guid: 862c618832a88144f80c1ed55d96f7f6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -36.00466
+      value: -36.004654
       objectReference: {fileID: 0}
     - target: {fileID: 4177904896309044, guid: 862c618832a88144f80c1ed55d96f7f6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -960,7 +960,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4177904896309044, guid: 862c618832a88144f80c1ed55d96f7f6, type: 2}
       propertyPath: m_RootOrder
-      value: 143
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 23142648079620140, guid: 862c618832a88144f80c1ed55d96f7f6,
         type: 2}
@@ -2512,6 +2512,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4627480027899476, guid: ecb13681451cf454482a14e3b7f8747c, type: 2}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: -0.000033964
       objectReference: {fileID: 0}
@@ -2525,6 +2526,13 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 16.008999
 >>>>>>> Stashed changes
+=======
+      value: -0.0000076904
+      objectReference: {fileID: 0}
+    - target: {fileID: 4627480027899476, guid: ecb13681451cf454482a14e3b7f8747c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.51
+>>>>>>> parent of bd44893... UPDATED SOME PREFABS
       objectReference: {fileID: 0}
     - target: {fileID: 4627480027899476, guid: ecb13681451cf454482a14e3b7f8747c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9367,15 +9375,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4627480027899476, guid: ecb13681451cf454482a14e3b7f8747c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.000033964
+      value: -0.0000024043984
       objectReference: {fileID: 0}
     - target: {fileID: 4627480027899476, guid: ecb13681451cf454482a14e3b7f8747c, type: 2}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 16.009
 =======
       value: 16.008698
 >>>>>>> Stashed changes
+=======
+      value: 15.509699
+>>>>>>> parent of bd44893... UPDATED SOME PREFABS
       objectReference: {fileID: 0}
     - target: {fileID: 4627480027899476, guid: ecb13681451cf454482a14e3b7f8747c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9852,6 +9864,7 @@ Transform:
   - {fileID: 907164049}
   - {fileID: 1913332685}
   - {fileID: 1881843753}
+  - {fileID: 124580873}
   - {fileID: 1776269650}
   - {fileID: 1787570787}
   - {fileID: 953397195}
@@ -9991,7 +10004,6 @@ Transform:
   - {fileID: 2094754971}
   - {fileID: 247130960}
   - {fileID: 1931823742}
-  - {fileID: 124580873}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
