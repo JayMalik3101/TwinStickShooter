@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4091128896565968}
   - component: {fileID: 33211275798655926}
   - component: {fileID: 23563562405314044}
+  - component: {fileID: 65720946458001398}
+  - component: {fileID: 65619225634853686}
   m_Layer: 0
   m_Name: SM_InteriorDoor_03
   m_TagString: Untagged
@@ -35,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1594757149084022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +85,27 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1594757149084022}
   m_Mesh: {fileID: 4300000, guid: f53a53fc427daa94db10b9e4d59bab9c, type: 3}
+--- !u!65 &65619225634853686
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594757149084022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3843336, y: 2.0000331, z: 0.35997677}
+  m_Center: {x: -0.8079772, y: 1.0000151, z: 0.00059366226}
+--- !u!65 &65720946458001398
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594757149084022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.38234997, y: 2.0000331, z: 0.35997677}
+  m_Center: {x: 0.808969, y: 1.0000151, z: 0.00059366226}

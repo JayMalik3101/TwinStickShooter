@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4670234532542928}
   - component: {fileID: 33437698975246392}
   - component: {fileID: 23223691452619274}
+  - component: {fileID: 65019944843697936}
   m_Layer: 0
   m_Name: SM_ExteriorWall_04_Elevator
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1187145896201116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -23, y: 0, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1187145896201116}
   m_Mesh: {fileID: 4300000, guid: b3417094c601b0c4993a6759fadb00a7, type: 3}
+--- !u!65 &65019944843697936
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187145896201116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.000288, y: 2.0000331, z: 0.35997677}
+  m_Center: {x: 0, y: 1.0000151, z: 0.00059366226}
