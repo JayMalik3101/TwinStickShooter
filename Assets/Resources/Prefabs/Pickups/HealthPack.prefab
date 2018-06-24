@@ -36,8 +36,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1911391018794414}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.188, y: 0.143, z: -3.524}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.91, y: 0.103901975, z: 8.05}
   m_LocalScale: {x: 10.390199, y: 10.390198, z: 10.390198}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,9 +58,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 152dfe3ebddc8014e921cd25b2eb1d74, type: 3}
-  - {fileID: 2100002, guid: 152dfe3ebddc8014e921cd25b2eb1d74, type: 3}
-  - {fileID: 2100004, guid: 152dfe3ebddc8014e921cd25b2eb1d74, type: 3}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300ba9dab159e2a41ae4c1306ca69c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BobbingMinimum: 0
-  m_BobbingMaximum: 0
+  m_BobbingMinimum: 0.344
+  m_BobbingMaximum: 1
   m_IsShop: 0
   m_ItemCost: 0

@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114967784873246366}
   - component: {fileID: 114717835992090600}
   - component: {fileID: 195078506077269632}
+  - component: {fileID: 114203323743447184}
   m_Layer: 0
   m_Name: Green_Robot
   m_TagString: Enemy
@@ -170,8 +171,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215202232891498}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.229, y: 0.77, z: 0.664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1741138, y: -0.80362064, z: 1.2250862}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224800472827725404}
@@ -208,7 +209,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 1a9718e1939c1d846bf260bbd46adb8d, type: 2}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -316,6 +317,19 @@ MonoBehaviour:
   m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 3
+--- !u!114 &114203323743447184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215202232891498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311af50e16fc82844a62bb277ac6bcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsDead: 0
+  m_AnimationState: 0
 --- !u!114 &114221079275533994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -366,10 +380,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShotRange: 40
   m_OriginalFireRate: 0.3
-  m_Projectile: {fileID: 54939204040716320, guid: fd24fd939eb5f1e4ab1460278adfe302,
+  m_Projectile: {fileID: 54939204040716320, guid: 737a57cb9cd0b714d966de606278185e,
     type: 2}
-  m_InitialForce: 900000
+  m_InitialForce: 50
   m_PlayerTransform: {fileID: 0}
+  m_EnemyAnimations: {fileID: 0}
 --- !u!114 &114451234585698880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -450,6 +465,8 @@ MonoBehaviour:
   m_WayPoints:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   m_PlayerTransform: {fileID: 0}
   m_FOVAngle: 0
   m_SightRadius: 50
@@ -478,7 +495,7 @@ MonoBehaviour:
   m_BotDeath: {fileID: 1555381651907024, guid: ff54ff5590d57904381fb7ed0dca6e70, type: 2}
   m_MinCashDrop: 10
   m_MaxCashDrop: 50
-  m_MaxHealth: 100
+  m_MaxHealth: 50
   m_Health: 0
 --- !u!195 &195078506077269632
 NavMeshAgent:

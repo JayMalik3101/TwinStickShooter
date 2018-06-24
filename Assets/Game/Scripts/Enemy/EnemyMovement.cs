@@ -34,11 +34,11 @@ public class EnemyMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (m_EnemyAnimations.m_AnimationState != AnimationState.Death)
+        if (m_EnemyAnimations.m_IsDead == false || m_EnemyAnimations == null)
         {
             m_DirectionToPlayer = (m_PlayerTransform.position - m_GuardTransform.position).normalized;
             m_DirectionToWaypoint = (m_WayPoints[m_CurrentWaypoint].position - m_GuardTransform.position).normalized;
-            m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
+            //m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
             if (Physics.Raycast(m_GuardTransform.position, m_DirectionToPlayer, out hit, m_SightRadius))
             {
                 if (hit.transform.CompareTag("Player"))
@@ -64,6 +64,7 @@ public class EnemyMovement : MonoBehaviour {
                 Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.green);
             }
             Physics.Raycast(m_GuardTransform.position, m_DirectionToWaypoint, out hit);
+            Debug.DrawLine(m_GuardTransform.position, m_WayPoints[m_CurrentWaypoint].position, Color.grey);
             if (hit.distance <= 5)
             {
                 m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);

@@ -24,7 +24,7 @@ public class EnemyShooting : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (m_EnemyAnimations.m_AnimationState != AnimationState.Death)
+        if (m_EnemyAnimations.m_IsDead == false || m_EnemyAnimations == null)
         {
             m_Direction = (m_PlayerTransform.position - m_Origin.position).normalized;
             m_FireRate -= Time.deltaTime;
@@ -32,10 +32,15 @@ public class EnemyShooting : MonoBehaviour {
             {
                 if (hit.transform.CompareTag("Player") && m_FireRate <= 0)
                 {
+                    m_EnemyAnimations.SetAnimation(AnimationState.ShootTwoHanded);
                     Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
                     enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);
                     enemyProjectile.GetComponent<Bullets>().m_Owner = m_EnemyName;
                     m_FireRate = m_OriginalFireRate;
+                }
+                else
+                {
+                    m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
                 }
             }
         }

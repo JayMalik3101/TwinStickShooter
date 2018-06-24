@@ -27,6 +27,7 @@ public class EnemyHealth : MonoBehaviour {
             StatManager.m_Data.m_TotalCashEarned += cashDrop;
             m_EnemyAnimations.SetAnimation(AnimationState.Death);
             StatManager.SaveStats();
+            Destroy(gameObject);
         }
     }
 
