@@ -32,6 +32,7 @@ public class EnemyShooting : MonoBehaviour {
             {
                 if (hit.transform.CompareTag("Player") && m_FireRate <= 0)
                 {
+                    Debug.Log("aoowfjaklsdjflk");
                     m_EnemyAnimations.SetAnimation(AnimationState.ShootTwoHanded);
                     Rigidbody enemyProjectile = Instantiate(m_Projectile, m_Origin.position, m_Origin.rotation);
                     enemyProjectile.AddForce(m_Origin.forward * m_InitialForce, ForceMode.Impulse);

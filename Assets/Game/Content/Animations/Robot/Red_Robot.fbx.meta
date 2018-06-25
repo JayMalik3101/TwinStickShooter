@@ -94,9 +94,9 @@ ModelImporter:
     4300018: Ankle
     4300020: Head
     4300022: LeftHand
-    7400000: Take 001
-    7400002: Take 001 (1)
-    7400004: Take 001 (2)
+    7400000: Robot_Walking
+    7400002: Robot_Shooting
+    7400004: Robot_Death
     9500000: //RootNode
     13700000: Ankle
     13700002: BackWheel
@@ -139,7 +139,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Robot_Walking
       takeName: Take 001
       firstFrame: 0
       lastFrame: 30
@@ -167,7 +167,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Take 001 (1)
+      name: Robot_Shooting
       takeName: Take 001
       firstFrame: 30
       lastFrame: 60
@@ -195,7 +195,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Take 001 (2)
+      name: Robot_Death
       takeName: Take 001
       firstFrame: 60
       lastFrame: 90

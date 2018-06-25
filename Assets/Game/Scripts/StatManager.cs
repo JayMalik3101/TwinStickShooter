@@ -14,7 +14,7 @@ public class StatManager : MonoBehaviour {
         LoadStats();
     }
 
-    void Start () {
+    void Start (){
  
         if (m_Data.m_DamageModifier <= 1) m_Data.m_DamageModifier = 1;
         if (m_Data.m_SpeedModifier <= 1) m_Data.m_SpeedModifier = 1;
@@ -88,7 +88,7 @@ public class StatManager : MonoBehaviour {
         m_Data.m_SpeedLevel = 0;
         m_Data.m_CurrentMoney = 0;
         SaveStats();
-}
+    }
 }
 [Serializable]
 public class PlayerData
