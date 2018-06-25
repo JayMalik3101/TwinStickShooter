@@ -94,7 +94,7 @@ ModelImporter:
     4300018: Ankle
     4300020: Head
     4300022: LeftHand
-    7400000: Take 001
+    7400000: Death
     9500000: //RootNode
     13700000: Ankle
     13700002: BackWheel
@@ -137,7 +137,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Death
       takeName: Take 001
       firstFrame: 1
       lastFrame: 30
