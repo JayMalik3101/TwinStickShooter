@@ -14,6 +14,7 @@ public class EnemyAnimations : MonoBehaviour {
 
     private void Update()
     {
+        Debug.Log(m_Animator);
         m_Animator.SetInteger("State", (int)m_AnimationState);
     }
 }

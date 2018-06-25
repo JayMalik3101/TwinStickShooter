@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33770851625000274}
   - component: {fileID: 23524886614185592}
   - component: {fileID: 64768555594696220}
+  - component: {fileID: 65291112024625204}
   m_Layer: 0
   m_Name: Keycard
   m_TagString: Untagged
@@ -36,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1721870752771112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 150.02167, y: 568.5079, z: -775.8063}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.97, y: 0.83, z: -3.95}
+  m_LocalScale: {x: 32.120808, y: -2.7955005, z: 54.603622}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -57,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
+  - {fileID: 2100000, guid: fce2b41b901a844488f8bb7d28bdca38, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -98,3 +99,15 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 239707052e509f94fa0468d95a20dca3, type: 3}
+--- !u!65 &65291112024625204
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721870752771112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -0.14, y: 0.2, z: 0.11}
+  m_Center: {x: 0, y: 0, z: 0}
