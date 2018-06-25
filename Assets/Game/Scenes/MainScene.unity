@@ -35374,6 +35374,31 @@ Prefab:
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
       value: 5.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 709a6f37ced78564e957d472eb9d32ca, type: 2}
   m_IsPrefabParent: 0
@@ -45208,32 +45233,6 @@ Prefab:
       propertyPath: m_KilledByText
       value: 
       objectReference: {fileID: 1128609946}
-    - target: {fileID: 54897419277013040, guid: 7a115c4c2a22340449ac99996c5be317,
-        type: 2}
-      propertyPath: m_Mass
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224847881030256802, guid: 7a115c4c2a22340449ac99996c5be317,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.819
-      objectReference: {fileID: 0}
-    - target: {fileID: 54897419277013040, guid: 7a115c4c2a22340449ac99996c5be317,
-        type: 2}
-      propertyPath: m_Drag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54897419277013040, guid: 7a115c4c2a22340449ac99996c5be317,
-        type: 2}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114367345367164642, guid: 7a115c4c2a22340449ac99996c5be317,
-        type: 2}
-      propertyPath: m_Projectile
-      value: 
-      objectReference: {fileID: 54939204040716320, guid: 4eb130177866a274db14bb3f9ae47c5c,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a115c4c2a22340449ac99996c5be317, type: 2}
   m_IsPrefabParent: 0

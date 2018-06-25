@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.445373, g: 0.49502575, b: 0.57399577, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3167,6 +3167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd0cf608951bfd41aa9b666a3a1cee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ElevatorGoal: 0
+  m_DoorAnimator: {fileID: 0}
 --- !u!65 &126210542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21274,7 +21276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlayerPosition: {fileID: 1444255488}
-  m_ObjectPosition: {fileID: 909292181}
   m_AdjustableValues: {x: 0, y: 9.190001, z: -10.85}
 --- !u!81 &909292178
 AudioListener:
@@ -42334,6 +42335,12 @@ Prefab:
       propertyPath: m_KilledByText
       value: 
       objectReference: {fileID: 1128609946}
+    - target: {fileID: 114367345367164642, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 54604248382920454, guid: 96821b4aeee141d408124c55b2ce50b3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a115c4c2a22340449ac99996c5be317, type: 2}
   m_IsPrefabParent: 0
