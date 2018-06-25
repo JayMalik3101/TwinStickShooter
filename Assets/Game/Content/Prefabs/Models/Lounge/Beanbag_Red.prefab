@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4742932348535560}
   - component: {fileID: 33467853667472860}
   - component: {fileID: 23188568185746504}
+  - component: {fileID: 64030374168529578}
   m_Layer: 0
   m_Name: Beanbag_Red
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1839056964534844}
+  m_Mesh: {fileID: 4300000, guid: ad32ea28c5ac64f468a21a856cd27810, type: 3}
+--- !u!64 &64030374168529578
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1839056964534844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: ad32ea28c5ac64f468a21a856cd27810, type: 3}

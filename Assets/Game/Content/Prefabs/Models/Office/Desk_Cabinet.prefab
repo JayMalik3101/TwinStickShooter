@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4500683599945942}
   - component: {fileID: 33631534595242130}
   - component: {fileID: 23657768434634580}
+  - component: {fileID: 64573911981790490}
   m_Layer: 0
   m_Name: Desk_Cabinet
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1746224220673922}
+  m_Mesh: {fileID: 4300000, guid: 5414a1bf9ef3fdf459457d6ba3300aa7, type: 3}
+--- !u!64 &64573911981790490
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746224220673922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5414a1bf9ef3fdf459457d6ba3300aa7, type: 3}

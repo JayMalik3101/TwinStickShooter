@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4032143315662364}
   - component: {fileID: 33216096313199834}
   - component: {fileID: 23759278283278700}
+  - component: {fileID: 64313582838865932}
   m_Layer: 0
   m_Name: Bathroom_Stall_Half
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1338346771672756}
+  m_Mesh: {fileID: 4300000, guid: dd6691c45ed426c4fb5da313badaec51, type: 3}
+--- !u!64 &64313582838865932
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338346771672756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: dd6691c45ed426c4fb5da313badaec51, type: 3}

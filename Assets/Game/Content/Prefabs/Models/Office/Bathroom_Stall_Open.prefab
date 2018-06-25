@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4020745434814516}
   - component: {fileID: 33893504195767762}
   - component: {fileID: 23771255139655934}
+  - component: {fileID: 64532414537968624}
   m_Layer: 0
   m_Name: Bathroom_Stall_Open
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1969609236636170}
+  m_Mesh: {fileID: 4300000, guid: f0fb2818f92d43c48bbded47a6140427, type: 3}
+--- !u!64 &64532414537968624
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969609236636170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: f0fb2818f92d43c48bbded47a6140427, type: 3}

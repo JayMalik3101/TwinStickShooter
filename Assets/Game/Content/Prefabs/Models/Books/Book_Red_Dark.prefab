@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4894745219168048}
   - component: {fileID: 33324356264392758}
   - component: {fileID: 23543286563261284}
+  - component: {fileID: 64250681464622114}
   m_Layer: 0
   m_Name: Book_Red_Dark
   m_TagString: Untagged
@@ -54,6 +55,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 498b1cc0eac291d40b753fed4ba51b27, type: 2}
   m_StaticBatchInfo:
@@ -81,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1578379238759712}
+  m_Mesh: {fileID: 4300000, guid: ce0d80d07a9076e4386d9d6b99053c4e, type: 3}
+--- !u!64 &64250681464622114
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578379238759712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: ce0d80d07a9076e4386d9d6b99053c4e, type: 3}

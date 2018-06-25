@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4787069555336710}
   - component: {fileID: 33133135391499662}
   - component: {fileID: 23638865643861344}
+  - component: {fileID: 64014377179250842}
   m_Layer: 0
   m_Name: SM_Crate_01
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1281255802675096}
+  m_Mesh: {fileID: 4300000, guid: a029dcc2c3059e74d903289be5dcb9ea, type: 3}
+--- !u!64 &64014377179250842
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1281255802675096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: a029dcc2c3059e74d903289be5dcb9ea, type: 3}

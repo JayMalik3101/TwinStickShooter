@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4667513137293866}
   - component: {fileID: 33675481178526584}
   - component: {fileID: 23359877421453178}
+  - component: {fileID: 64211984048750620}
   m_Layer: 0
   m_Name: Wall_Cabinet
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1970553000405004}
+  m_Mesh: {fileID: 4300000, guid: 4290cf947ef26234eb484a94af559dbc, type: 3}
+--- !u!64 &64211984048750620
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970553000405004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 4290cf947ef26234eb484a94af559dbc, type: 3}

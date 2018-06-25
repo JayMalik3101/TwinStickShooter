@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4152396489950386}
   - component: {fileID: 33900414287656528}
   - component: {fileID: 23900692024038652}
+  - component: {fileID: 64692831109083520}
   m_Layer: 0
   m_Name: Desk_Cactus
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1931076691518144}
+  m_Mesh: {fileID: 4300000, guid: e73eea5d7cb662d4cb6344d96dc4c899, type: 3}
+--- !u!64 &64692831109083520
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931076691518144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: e73eea5d7cb662d4cb6344d96dc4c899, type: 3}
