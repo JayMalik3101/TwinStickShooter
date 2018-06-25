@@ -1478,7 +1478,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsDead: 0
-  m_AnimationState: 0
+  m_AnimationState: 2
+  m_Animator: {fileID: 95726835104470278}
 --- !u!114 &114405872893625096
 MonoBehaviour:
   m_ObjectHideFlags: 1

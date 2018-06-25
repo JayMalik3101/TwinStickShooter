@@ -192,6 +192,11 @@ Prefab:
       propertyPath: m_PlayerTransform
       value: 
       objectReference: {fileID: 1444255488}
+    - target: {fileID: 114405872893625096, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
+        type: 2}
+      propertyPath: m_PlayerTransform
+      value: 
+      objectReference: {fileID: 1444255488}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 50ab6bdf98d2ae74fafd666f6ef5edee, type: 2}
   m_IsPrefabParent: 0
@@ -15175,6 +15180,11 @@ Prefab:
       propertyPath: m_PlayerTransform
       value: 
       objectReference: {fileID: 1444255488}
+    - target: {fileID: 114405872893625096, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
+        type: 2}
+      propertyPath: m_PlayerTransform
+      value: 
+      objectReference: {fileID: 1444255488}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 50ab6bdf98d2ae74fafd666f6ef5edee, type: 2}
   m_IsPrefabParent: 0
@@ -15792,6 +15802,11 @@ Prefab:
       value: 
       objectReference: {fileID: 1492400388}
     - target: {fileID: 114937282401342896, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
+        type: 2}
+      propertyPath: m_PlayerTransform
+      value: 
+      objectReference: {fileID: 1444255488}
+    - target: {fileID: 114405872893625096, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
         type: 2}
       propertyPath: m_PlayerTransform
       value: 
@@ -19387,6 +19402,11 @@ Prefab:
       value: 
       objectReference: {fileID: 171940327}
     - target: {fileID: 114937282401342896, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
+        type: 2}
+      propertyPath: m_PlayerTransform
+      value: 
+      objectReference: {fileID: 1444255488}
+    - target: {fileID: 114405872893625096, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
         type: 2}
       propertyPath: m_PlayerTransform
       value: 
@@ -36006,6 +36026,41 @@ Prefab:
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
       value: 5.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198624838578303030, guid: 709a6f37ced78564e957d472eb9d32ca,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 5.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 709a6f37ced78564e957d472eb9d32ca, type: 2}
   m_IsPrefabParent: 0
@@ -50099,6 +50154,11 @@ Prefab:
       propertyPath: m_Name
       value: Red_Robot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114405872893625096, guid: 50ab6bdf98d2ae74fafd666f6ef5edee,
+        type: 2}
+      propertyPath: m_PlayerTransform
+      value: 
+      objectReference: {fileID: 1444255488}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 50ab6bdf98d2ae74fafd666f6ef5edee, type: 2}
   m_IsPrefabParent: 0

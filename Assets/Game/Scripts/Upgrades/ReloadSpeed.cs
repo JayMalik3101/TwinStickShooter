@@ -19,6 +19,7 @@ public class ReloadSpeed : MonoBehaviour {
             {
                 StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_ReloadLevel;
                 UpgradeEffect(other);
+                StatManager.SaveStats();
             }
             else if (m_UpgradeCost * StatManager.m_Data.m_ReloadLevel > StatManager.m_Data.m_CurrentMoney)
             {

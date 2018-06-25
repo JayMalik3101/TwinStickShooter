@@ -19,6 +19,7 @@ public class Damage : MonoBehaviour{
             {
                 StatManager.m_Data.m_CurrentMoney -= m_UpgradeCost * StatManager.m_Data.m_DamageLevel;
                 UpgradeEffect(other);
+                StatManager.SaveStats();
             }
             else if (m_UpgradeCost > StatManager.m_Data.m_CurrentMoney * StatManager.m_Data.m_DamageLevel)
             {

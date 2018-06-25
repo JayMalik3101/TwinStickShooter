@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyAnimations : MonoBehaviour {
     public bool m_IsDead;
     public AnimationState m_AnimationState;
-    private Animator m_Animator;
+    [SerializeField] private Animator m_Animator;
 
     public void SetAnimation(AnimationState animatestation)
     {
