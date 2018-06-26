@@ -1582,6 +1582,8 @@ MonoBehaviour:
   m_WayPoints:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   m_PlayerTransform: {fileID: 0}
   m_FOVAngle: 0
   m_SightRadius: 50
