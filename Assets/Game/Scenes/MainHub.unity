@@ -7292,6 +7292,26 @@ Prefab:
       value: 
       objectReference: {fileID: 54604248382920454, guid: 96821b4aeee141d408124c55b2ce50b3,
         type: 2}
+    - target: {fileID: 23964689719220614, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
+    - target: {fileID: 23347601973450582, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27b4ab321bf1f6b4780a13572d81f207, type: 2}
+    - target: {fileID: 23465716159434024, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27b4ab321bf1f6b4780a13572d81f207, type: 2}
+    - target: {fileID: 23721876738323444, guid: 7a115c4c2a22340449ac99996c5be317,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27b4ab321bf1f6b4780a13572d81f207, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a115c4c2a22340449ac99996c5be317, type: 2}
   m_IsPrefabParent: 0
@@ -8931,7 +8951,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 6fb98893172a1e5438a0415803e67c96, type: 3}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10601,7 +10621,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 81e7ab0844c37c64daf17b9ab948416a, type: 3}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14223,7 +14243,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 81e7ab0844c37c64daf17b9ab948416a, type: 3}
+  - {fileID: 2100000, guid: 26b4bd8f9329f90409557f2c2da59656, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
