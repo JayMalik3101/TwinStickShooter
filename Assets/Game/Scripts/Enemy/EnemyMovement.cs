@@ -38,9 +38,17 @@ public class EnemyMovement : MonoBehaviour {
         {
             m_DirectionToPlayer = (m_PlayerTransform.position - m_GuardTransform.position).normalized;
             m_DirectionToWaypoint = (m_WayPoints[m_CurrentWaypoint].position - m_GuardTransform.position).normalized;
-            //m_EnemyAnimations.SetAnimation(AnimationState.MoveTwoHanded);
+
+            Physics.Raycast(m_GuardTransform.position, m_DirectionToWaypoint, out hit);
+            Debug.DrawLine(m_GuardTransform.position, m_WayPoints[m_CurrentWaypoint].position, Color.grey);
+            if (hit.distance <= 1)
+            {
+                m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);
+                m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);
+            }
             if (Physics.Raycast(m_GuardTransform.position, m_DirectionToPlayer, out hit, m_SightRadius))
             {
+                Debug.Log(hit.transform.tag);
                 if (hit.transform.CompareTag("Player"))
                 {
                     Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.red);
@@ -63,13 +71,7 @@ public class EnemyMovement : MonoBehaviour {
             {
                 Debug.DrawLine(m_GuardTransform.position, m_PlayerTransform.position, Color.green);
             }
-            Physics.Raycast(m_GuardTransform.position, m_DirectionToWaypoint, out hit);
-            Debug.DrawLine(m_GuardTransform.position, m_WayPoints[m_CurrentWaypoint].position, Color.grey);
-            if (hit.distance <= 5)
-            {
-                m_CurrentWaypoint = Random.Range(0, m_WayPoints.Count);
-                m_NavMesh.SetDestination(m_WayPoints[m_CurrentWaypoint].position);
-            }
+            
         }
     }
 }
