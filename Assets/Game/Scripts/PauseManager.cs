@@ -20,37 +20,7 @@ public class PauseManager : MonoBehaviour
         m_Rigidbodies = new List<Rigidbody>();
         m_RigidbodyData = new List<RigidbodyData>();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                   
-                                                             
+                                                          
 
     public void Add(Rigidbody _rigidbody)
     {
